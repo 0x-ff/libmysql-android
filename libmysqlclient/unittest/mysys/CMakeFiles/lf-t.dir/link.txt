@@ -1,0 +1,1 @@
+/media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3   -Wall -O3 -DNDEBUG -DDBUG_OFF    CMakeFiles/lf-t.dir/lf-t.c.o  -o lf-t -rdynamic ../mytap/libmytap.a ../../mysys/libmysys.a ../../strings/libstrings.a ../../extlib/dbug/libdbug.a -lm 

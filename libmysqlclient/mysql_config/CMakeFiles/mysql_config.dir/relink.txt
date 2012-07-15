@@ -1,0 +1,1 @@
+/usr/bin/gcc    -Wall -fno-rtti -fno-exceptions -O3 -DNDEBUG -DDBUG_OFF   CMakeFiles/mysql_config.dir/mysql_config.c.o  -o CMakeFiles/CMakeRelink.dir/mysql_config -rdynamic ../libmysql/libmysqlclient.a -lpthread -lm 

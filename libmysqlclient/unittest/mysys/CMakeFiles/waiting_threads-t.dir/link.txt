@@ -1,0 +1,1 @@
+/media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3   -Wall -O3 -DNDEBUG -DDBUG_OFF    CMakeFiles/waiting_threads-t.dir/waiting_threads-t.c.o  -o waiting_threads-t -rdynamic ../mytap/libmytap.a ../../mysys/libmysys.a ../../strings/libstrings.a ../../extlib/dbug/libdbug.a -lm 

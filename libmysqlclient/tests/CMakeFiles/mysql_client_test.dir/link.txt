@@ -1,0 +1,1 @@
+/media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3    -Wall -fno-rtti -fno-exceptions -O3 -DNDEBUG -DDBUG_OFF    CMakeFiles/mysql_client_test.dir/mysql_client_test.c.o CMakeFiles/mysql_client_test.dir/__/mysys/my_memmem.c.o  -o mysql_client_test -rdynamic ../libmysql/libmysqlclient.a -lm 

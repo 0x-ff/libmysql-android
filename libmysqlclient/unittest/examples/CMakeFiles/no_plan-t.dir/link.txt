@@ -1,0 +1,1 @@
+/media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3   -Wall -O3 -DNDEBUG -DDBUG_OFF    CMakeFiles/no_plan-t.dir/no_plan-t.c.o  -o no_plan-t -rdynamic ../mytap/libmytap.a 

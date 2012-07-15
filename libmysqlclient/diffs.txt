@@ -1,0 +1,67 @@
+18c18
+< CMAKE_AR:FILEPATH=/tmp/my-android-toolchain/bin/arm-linux-androideabi-ar
+---
+> CMAKE_AR:FILEPATH=/usr/bin/ar
+82,83c82,83
+< //Install path prefix, prepended onto install directories.
+< CMAKE_INSTALL_PREFIX:PATH=/media/pavel/projects/libmysql-android/libmysqlclient/install
+---
+> //Connector/C install prefix
+> CMAKE_INSTALL_PREFIX:PATH=/usr/local/mysql
+86c86
+< CMAKE_LINKER:FILEPATH=/tmp/my-android-toolchain/bin/arm-linux-androideabi-ld
+---
+> CMAKE_LINKER:FILEPATH=/usr/bin/ld
+107c107
+< CMAKE_NM:FILEPATH=/tmp/my-android-toolchain/bin/arm-linux-androideabi-nm
+---
+> CMAKE_NM:FILEPATH=/usr/bin/nm
+110c110
+< CMAKE_OBJCOPY:FILEPATH=/tmp/my-android-toolchain/bin/arm-linux-androideabi-objcopy
+---
+> CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
+113c113
+< CMAKE_OBJDUMP:FILEPATH=/tmp/my-android-toolchain/bin/arm-linux-androideabi-objdump
+---
+> CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
+119c119
+< CMAKE_RANLIB:FILEPATH=/tmp/my-android-toolchain/bin/arm-linux-androideabi-ranlib
+---
+> CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
+140,143c140
+< CMAKE_STRIP:FILEPATH=/tmp/my-android-toolchain/bin/arm-linux-androideabi-strip
+< 
+< //The CMake toolchain file
+< CMAKE_TOOLCHAIN_FILE:FILEPATH=/media/pavel/projects/libmysql-android/libmysqlclient/android.cmake
+---
+> CMAKE_STRIP:FILEPATH=/usr/bin/strip
+153a151,159
+> //Enable to build TBZ2 source packages
+> CPACK_SOURCE_TBZ2:BOOL=ON
+> 
+> //Enable to build TGZ source packages
+> CPACK_SOURCE_TGZ:BOOL=ON
+> 
+> //Enable to build TZ source packages
+> CPACK_SOURCE_TZ:BOOL=ON
+> 
+155c161,167
+< CPACK_SOURCE_ZIP:BOOL=ON
+---
+> CPACK_SOURCE_ZIP:BOOL=OFF
+> 
+> //Path to a library.
+> MATH_LIBRARY:FILEPATH=MATH_LIBRARY-NOTFOUND
+> 
+> //Path to a library.
+> SOCKET_LIBRARY:FILEPATH=SOCKET_LIBRARY-NOTFOUND
+279a292,293
+> //Install .so files without execute permission.
+> CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
+327a342,347
+> //ADVANCED property for variable: CPACK_SOURCE_TBZ2
+> CPACK_SOURCE_TBZ2-ADVANCED:INTERNAL=1
+> //ADVANCED property for variable: CPACK_SOURCE_TGZ
+> CPACK_SOURCE_TGZ-ADVANCED:INTERNAL=1
+> //ADVANCED property for variable: CPACK_SOURCE_TZ
+> CPACK_SOURCE_TZ-ADVANCED:INTERNAL=1
