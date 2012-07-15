@@ -35,7 +35,7 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c"
   "CMakeLists.txt"
   "CMakePlatformTests.txt"
-  "android.cmake"
+  "android9arm.cmake"
   "extlib/dbug/CMakeLists.txt"
   "extlib/regex/CMakeLists.txt"
   "extlib/yassl/CMakeLists.txt"

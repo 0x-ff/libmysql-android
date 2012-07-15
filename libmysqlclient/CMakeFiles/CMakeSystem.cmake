@@ -1,4 +1,4 @@
-INCLUDE("/media/pavel/projects/libmysql-android/libmysqlclient/android.cmake")
+INCLUDE("/media/pavel/projects/libmysql-android/libmysqlclient/android9arm.cmake")
 
 SET(CMAKE_SYSTEM "Linux-3.0.0-21-generic")
 SET(CMAKE_SYSTEM_NAME "Linux")

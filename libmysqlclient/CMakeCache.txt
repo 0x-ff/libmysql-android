@@ -80,7 +80,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=/media/pavel/android/standalone-toolchains/android-9/arm/bin
+CMAKE_INSTALL_PREFIX:PATH=/media/pavel/projects/libmysql-android/libmysqlclient/install
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/media/pavel/android/standalone-toolchains/android-9/arm/arm-linux-androideabi/bin/ld
@@ -140,7 +140,7 @@ CMAKE_SKIP_RPATH:BOOL=NO
 CMAKE_STRIP:FILEPATH=/media/pavel/android/standalone-toolchains/android-9/arm/arm-linux-androideabi/bin/strip
 
 //The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/media/pavel/projects/libmysql-android/libmysqlclient/android.cmake
+CMAKE_TOOLCHAIN_FILE:FILEPATH=/media/pavel/projects/libmysql-android/libmysqlclient/android9arm.cmake
 
 //If true, cmake will use relative paths in makefiles and projects.
 CMAKE_USE_RELATIVE_PATHS:BOOL=OFF

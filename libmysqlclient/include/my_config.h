@@ -16,7 +16,7 @@ typedef unsigned short ushort;
 #define HAVE_GRP_H 1 
 /* #undef HAVE_IEEEFP_H */ 
 #define HAVE_LIMITS_H 1 
-#define HAVE_MALLOC_H 1
+#define HAVE_MALLOC_H 1 
 #define HAVE_MEMORY_H 1 
 #define HAVE_NETINET_IN_H 1 
 #define HAVE_PATHS_H 1  

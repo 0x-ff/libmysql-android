@@ -288,8 +288,8 @@
 
 #define STACK_DIRECTION -1
 
-#define SHAREDIR "/media/pavel/android/standalone-toolchains/android-9/arm/bin/share/mysql"
+#define SHAREDIR "/media/pavel/projects/libmysql-android/libmysqlclient/install/share/mysql"
 #define THREAD 1
 #define THREAD_SAFE_CLIENT 1
 
-#define DEFAULT_CHARSET_HOME "/media/pavel/android/standalone-toolchains/android-9/arm/bin"
+#define DEFAULT_CHARSET_HOME "/media/pavel/projects/libmysql-android/libmysqlclient/install"

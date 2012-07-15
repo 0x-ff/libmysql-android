@@ -1546,6 +1546,9 @@ inline void  operator delete[](void*, void*) { /* Do nothing */ }
 #endif
 
 /* Provide __func__ macro definition for platforms that miss it. */
+
+#ifndef __func__
+
 #if __STDC_VERSION__ < 199901L
 #  if __GNUC__ >= 2
 #    define __func__ __FUNCTION__
@@ -1562,6 +1565,8 @@ inline void  operator delete[](void*, void*) { /* Do nothing */ }
 #  define __func__ __FUNC__
 #else
 #  define __func__ "<unknown>"
+#endif
+
 #endif
 
 #ifndef HAVE_RINT
