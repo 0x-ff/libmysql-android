@@ -142,9 +142,9 @@ vio_verify_callback(int ok, X509_STORE_CTX *ctx)
     int err, depth;
     err= X509_STORE_CTX_get_error(ctx);
     depth= X509_STORE_CTX_get_error_depth(ctx);
-
-    DBUG_PRINT("error",("verify error: %d  '%s'",err,
-			X509_verify_cert_error_string(err)));
+    
+    err = err;
+    DBUG_PRINT("error",("verify error: %d  '%s'",err, X509_verify_cert_error_string(err)));
     /*
       Approve cert if depth is greater then "verify_depth", currently
       verify_depth is always 0 and there is no way to increase it.

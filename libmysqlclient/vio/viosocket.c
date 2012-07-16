@@ -444,11 +444,11 @@ void vio_timeout(Vio *vio, uint which, uint timeout)
 
   }
 
-#ifndef DBUG_OFF
-  if (r != 0)
-    DBUG_PRINT("error", ("setsockopt failed: %d, errno: %d", r, socket_errno));
-#endif
-
+if (r != 0) {
+	#ifndef DBUG_OFF 
+		DBUG_PRINT("error", ("setsockopt failed: %d, errno: %d", r, socket_errno));
+	#endif
+}
   DBUG_VOID_RETURN;
 #else
 /*
