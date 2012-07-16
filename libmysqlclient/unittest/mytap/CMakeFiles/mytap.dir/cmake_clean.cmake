@@ -2,7 +2,6 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/mytap.dir/tap.c.o"
   "libmytap.pdb"
   "libmytap.a"
-  "libmytap.so"
 )
 
 # Per-language clean rules from dependency scanning.

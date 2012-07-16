@@ -2,9 +2,8 @@
 # Source directory: /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql
 # Build directory: /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql
 # 
-# This file replicates the SUBDIRS() and ADD_TEST() commands from the source
-# tree CMakeLists.txt file, skipping any SUBDIRS() or ADD_TEST() commands
-# that are excluded by CMake control structures, i.e. IF() commands.
+# This file includes the relevent testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
 ADD_TEST(basic-t "/basic-t")
 SET_TESTS_PROPERTIES(basic-t PROPERTIES  TIMEOUT "120")
 ADD_TEST(fetch "/fetch")

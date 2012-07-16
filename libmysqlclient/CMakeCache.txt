@@ -62,7 +62,7 @@ CMAKE_C_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g
 
 //Flags used by the linker.
-CMAKE_EXE_LINKER_FLAGS:STRING=
+CMAKE_EXE_LINKER_FLAGS:STRING=' '
 
 //Flags used by the linker during debug builds.
 CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=
@@ -76,6 +76,9 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during Release with Debug Info builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
+//Enable/Disable output of compile commands during generation.
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
+
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=/media/pavel/projects/libmysql-android/libmysqlclient/install
 
@@ -83,10 +86,10 @@ CMAKE_INSTALL_PREFIX:PATH=/media/pavel/projects/libmysql-android/libmysqlclient/
 CMAKE_LINKER:FILEPATH=/media/pavel/android/standalone-toolchains/android-9/arm/arm-linux-androideabi/bin/ld
 
 //Path to a program.
-CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake
+CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make
 
 //Flags used by the linker during the creation of modules.
-CMAKE_MODULE_LINKER_FLAGS:STRING=
+CMAKE_MODULE_LINKER_FLAGS:STRING=' '
 
 //Flags used by the linker during debug builds.
 CMAKE_MODULE_LINKER_FLAGS_DEBUG:STRING=
@@ -109,11 +112,14 @@ CMAKE_OBJCOPY:FILEPATH=/media/pavel/android/standalone-toolchains/android-9/arm/
 //Path to a program.
 CMAKE_OBJDUMP:FILEPATH=/media/pavel/android/standalone-toolchains/android-9/arm/arm-linux-androideabi/bin/objdump
 
+//Value Computed by CMake
+CMAKE_PROJECT_NAME:STATIC=libmysql
+
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/media/pavel/android/standalone-toolchains/android-9/arm/arm-linux-androideabi/bin/ranlib
 
 //Flags used by the linker during the creation of dll's.
-CMAKE_SHARED_LINKER_FLAGS:STRING=
+CMAKE_SHARED_LINKER_FLAGS:STRING=' '
 
 //Flags used by the linker during debug builds.
 CMAKE_SHARED_LINKER_FLAGS_DEBUG:STRING=
@@ -134,7 +140,7 @@ CMAKE_SKIP_RPATH:BOOL=NO
 CMAKE_STRIP:FILEPATH=/media/pavel/android/standalone-toolchains/android-9/arm/arm-linux-androideabi/bin/strip
 
 //The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/media/pavel/projects/libmysql-android/libmysqlclient/android9arm.cmake.2.6
+CMAKE_TOOLCHAIN_FILE:FILEPATH=/media/pavel/projects/libmysql-android/libmysqlclient/android9arm.cmake
 
 //If true, cmake will use relative paths in makefiles and projects.
 CMAKE_USE_RELATIVE_PATHS:BOOL=OFF
@@ -207,21 +213,21 @@ zlib_LIB_DEPENDS:STATIC=
 # INTERNAL cache entries
 ########################
 
-//Advanced flag for variable: CMAKE_AR
+//ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_BUILD_TOOL
+//ADVANCED property for variable: CMAKE_BUILD_TOOL
 CMAKE_BUILD_TOOL-ADVANCED:INTERNAL=1
 //What is the target build tool cmake is generating for.
-CMAKE_BUILD_TOOL:INTERNAL=/usr/bin/gmake
-//This is the directory where this CMakeCahe.txt was created
+CMAKE_BUILD_TOOL:INTERNAL=/usr/bin/make
+//This is the directory where this CMakeCache.txt was created
 CMAKE_CACHEFILE_DIR:INTERNAL=/media/pavel/projects/libmysql-android/libmysqlclient
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=2
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=6
-//Major version of cmake used to create the current loaded cache
-CMAKE_CACHE_RELEASE_VERSION:INTERNAL=patch 4
-//Advanced flag for variable: CMAKE_COLOR_MAKEFILE
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=8
+//Patch version of cmake used to create the current loaded cache
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=5
+//ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
 CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.
 CMAKE_COMMAND:INTERNAL=/usr/bin/cmake
@@ -229,52 +235,52 @@ CMAKE_COMMAND:INTERNAL=/usr/bin/cmake
 CMAKE_CPACK_COMMAND:INTERNAL=/usr/bin/cpack
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/usr/bin/ctest
-//Advanced flag for variable: CMAKE_CXX_COMPILER
+//ADVANCED property for variable: CMAKE_CXX_COMPILER
 CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
 //C++ Compiler
 CMAKE_CXX_COMPILER:INTERNAL=/media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3
 CMAKE_CXX_COMPILER_WORKS:INTERNAL=1
-//Advanced flag for variable: CMAKE_CXX_FLAGS
+//ADVANCED property for variable: CMAKE_CXX_FLAGS
 CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_CXX_FLAGS_DEBUG
+//ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG
 CMAKE_CXX_FLAGS_DEBUG-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_CXX_FLAGS_MINSIZEREL
+//ADVANCED property for variable: CMAKE_CXX_FLAGS_MINSIZEREL
 CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_CXX_FLAGS_RELEASE
+//ADVANCED property for variable: CMAKE_CXX_FLAGS_RELEASE
 CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
+//ADVANCED property for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_C_COMPILER
+//ADVANCED property for variable: CMAKE_C_COMPILER
 CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
 CMAKE_C_COMPILER_WORKS:INTERNAL=1
-//Advanced flag for variable: CMAKE_C_FLAGS
+//ADVANCED property for variable: CMAKE_C_FLAGS
 CMAKE_C_FLAGS-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_C_FLAGS_DEBUG
+//ADVANCED property for variable: CMAKE_C_FLAGS_DEBUG
 CMAKE_C_FLAGS_DEBUG-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_C_FLAGS_MINSIZEREL
+//ADVANCED property for variable: CMAKE_C_FLAGS_MINSIZEREL
 CMAKE_C_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_C_FLAGS_RELEASE
+//ADVANCED property for variable: CMAKE_C_FLAGS_RELEASE
 CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_C_FLAGS_RELWITHDEBINFO
+//ADVANCED property for variable: CMAKE_C_FLAGS_RELWITHDEBINFO
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //Result of TRY_COMPILE
 CMAKE_DETERMINE_CXX_ABI_COMPILED:INTERNAL=TRUE
 //Result of TRY_COMPILE
 CMAKE_DETERMINE_C_ABI_COMPILED:INTERNAL=TRUE
-//Path to cache edit program executable.
-CMAKE_EDIT_COMMAND:INTERNAL=/usr/bin/ccmake
 //Executable file format
 CMAKE_EXECUTABLE_FORMAT:INTERNAL=ELF
-//Advanced flag for variable: CMAKE_EXE_LINKER_FLAGS
+//ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
 CMAKE_EXE_LINKER_FLAGS-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_EXE_LINKER_FLAGS_DEBUG
+//ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_DEBUG
 CMAKE_EXE_LINKER_FLAGS_DEBUG-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_EXE_LINKER_FLAGS_MINSIZEREL
+//ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_MINSIZEREL
 CMAKE_EXE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_EXE_LINKER_FLAGS_RELEASE
+//ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELEASE
 CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO
+//ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
+CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of generator.
 CMAKE_GENERATOR:INTERNAL=Unix Makefiles
 //Have library pthreads
@@ -287,62 +293,62 @@ CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/media/pavel/projects/libmysql-android/libmysqlclient
 //Install .so files without execute permission.
-CMAKE_INSTALL_SO_NO_EXE:INTERNAL=0
-//Advanced flag for variable: CMAKE_LINKER
+CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
+//ADVANCED property for variable: CMAKE_LINKER
 CMAKE_LINKER-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_MAKE_PROGRAM
+//ADVANCED property for variable: CMAKE_MAKE_PROGRAM
 CMAKE_MAKE_PROGRAM-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_MODULE_LINKER_FLAGS
+//ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS
 CMAKE_MODULE_LINKER_FLAGS-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_MODULE_LINKER_FLAGS_DEBUG
+//ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_DEBUG
 CMAKE_MODULE_LINKER_FLAGS_DEBUG-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL
+//ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL
 CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_MODULE_LINKER_FLAGS_RELEASE
+//ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_RELEASE
 CMAKE_MODULE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO
+//ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_NM
+//ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
 CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=16
-//Advanced flag for variable: CMAKE_OBJCOPY
+//ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_OBJDUMP
+//ADVANCED property for variable: CMAKE_OBJDUMP
 CMAKE_OBJDUMP-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_RANLIB
+//ADVANCED property for variable: CMAKE_RANLIB
 CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //Path to CMake installation.
-CMAKE_ROOT:INTERNAL=/usr/share/cmake
-//Advanced flag for variable: CMAKE_SHARED_LINKER_FLAGS
+CMAKE_ROOT:INTERNAL=/usr/share/cmake-2.8
+//ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG
+//ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG
 CMAKE_SHARED_LINKER_FLAGS_DEBUG-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL
+//ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL
 CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_SHARED_LINKER_FLAGS_RELEASE
+//ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_RELEASE
 CMAKE_SHARED_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO
+//ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: sizeof(unsigned short)
 CMAKE_SIZEOF_UNSIGNED_SHORT:INTERNAL=2
-//Advanced flag for variable: CMAKE_SKIP_RPATH
+//ADVANCED property for variable: CMAKE_SKIP_RPATH
 CMAKE_SKIP_RPATH-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_STRIP
+//ADVANCED property for variable: CMAKE_STRIP
 CMAKE_STRIP-ADVANCED:INTERNAL=1
 //uname command
 CMAKE_UNAME:INTERNAL=/bin/uname
-//Advanced flag for variable: CMAKE_USE_RELATIVE_PATHS
+//ADVANCED property for variable: CMAKE_USE_RELATIVE_PATHS
 CMAKE_USE_RELATIVE_PATHS-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CMAKE_VERBOSE_MAKEFILE
+//ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CPACK_SOURCE_TBZ2
+//ADVANCED property for variable: CPACK_SOURCE_TBZ2
 CPACK_SOURCE_TBZ2-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CPACK_SOURCE_TGZ
+//ADVANCED property for variable: CPACK_SOURCE_TGZ
 CPACK_SOURCE_TGZ-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CPACK_SOURCE_TZ
+//ADVANCED property for variable: CPACK_SOURCE_TZ
 CPACK_SOURCE_TZ-ADVANCED:INTERNAL=1
-//Advanced flag for variable: CPACK_SOURCE_ZIP
+//ADVANCED property for variable: CPACK_SOURCE_ZIP
 CPACK_SOURCE_ZIP-ADVANCED:INTERNAL=1
 //Test C_HAS_inline
 C_HAS_inline:INTERNAL=1
@@ -698,49 +704,49 @@ HAVE_WORDS_BIGENDIAN:INTERNAL=TRUE
 QSORT_TYPE_IS_VOID:INTERNAL=1
 //Test SIGNAL_RETURN_TYPE_IS_VOID
 SIGNAL_RETURN_TYPE_IS_VOID:INTERNAL=1
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: sizeof(char)
 SIZEOF_CHAR:INTERNAL=1
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: sizeof(char *)
 SIZEOF_CHARP:INTERNAL=4
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: sizeof(int)
 SIZEOF_INT:INTERNAL=4
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: int16 unknown
 SIZEOF_INT16:INTERNAL=
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: int32 unknown
 SIZEOF_INT32:INTERNAL=
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: int64 unknown
 SIZEOF_INT64:INTERNAL=
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: int8 unknown
 SIZEOF_INT8:INTERNAL=
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: sizeof(long)
 SIZEOF_LONG:INTERNAL=4
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: sizeof(long long)
 SIZEOF_LONG_LONG:INTERNAL=8
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: sizeof(off_t)
 SIZEOF_OFF_T:INTERNAL=4
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: sizeof(short)
 SIZEOF_SHORT:INTERNAL=2
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: sizeof(sigset_t)
 SIZEOF_SIGSET_T:INTERNAL=4
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: sizeof(size_t)
 SIZEOF_SIZE_T:INTERNAL=4
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: sizeof(socklen_t)
 SIZEOF_SOCKLEN_T:INTERNAL=4
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: uchar unknown
 SIZEOF_UCHAR:INTERNAL=
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: sizeof(uint)
 SIZEOF_UINT:INTERNAL=4
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: uint16 unknown
 SIZEOF_UINT16:INTERNAL=
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: uint32 unknown
 SIZEOF_UINT32:INTERNAL=
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: uint64 unknown
 SIZEOF_UINT64:INTERNAL=
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: uint8 unknown
 SIZEOF_UINT8:INTERNAL=
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: sizeof(u_int32_t)
 SIZEOF_UINT_32_T:INTERNAL=4
-//Result of CHECK_TYPE_SIZE
+//CHECK_TYPE_SIZE: ulong unknown
 SIZEOF_ULONG:INTERNAL=
 //Result of TRY_COMPILE
 THREADS_HAVE_PTHREAD_ARG:INTERNAL=FALSE

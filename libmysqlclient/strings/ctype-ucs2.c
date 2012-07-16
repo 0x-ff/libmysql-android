@@ -2494,7 +2494,7 @@ void my_fill_utf32(CHARSET_INFO *cs,
   DBUG_ASSERT(buflen == 4);
   while (s < e)
   {
-    memcpy(s, buf, 4);
+    memcpy(s, buf, buflen);
     s+= 4;
   }
 }
@@ -2649,16 +2649,20 @@ my_strnncollsp_utf32_bin(CHARSET_INFO *cs __attribute__((unused)),
 
 my_bool
 my_like_range_utf32(CHARSET_INFO *cs,
-                    const char *ptr, size_t ptr_length,
+                    const char *sptr, size_t ptr_length,
                     pbool escape, pbool w_one, pbool w_many,
                     size_t res_length,
-                    char *min_str,char *max_str,
+                    char *smin_str,char *smax_str,
                     size_t *min_length,size_t *max_length)
 {
-  const char *end= ptr + ptr_length;
-  char *min_org= min_str;
-  char *min_end= min_str + res_length;
-  char *max_end= max_str + res_length;
+  const uchar *ptr = (const uchar*) sptr;
+  const uchar *end= ptr + ptr_length;
+  uchar *min_str = (uchar*) smin_str;
+  uchar *max_str = (uchar*) smax_str;
+  
+  uchar *min_org= min_str;
+  uchar *min_end= min_str + res_length;
+  uchar *max_end= max_str + res_length;
   size_t charlen= res_length / cs->mbmaxlen;
   
   DBUG_ASSERT((res_length % 4) == 0);
@@ -2669,8 +2673,8 @@ my_like_range_utf32(CHARSET_INFO *cs,
     int res;
     if ((res= my_utf32_uni(cs, &wc, ptr, end)) < 0)
     {
-      my_fill_utf32(cs, min_str, min_end - min_str, cs->min_sort_char);
-      my_fill_utf32(cs, max_str, min_end - min_str, cs->max_sort_char);
+      my_fill_utf32(cs, (char*) min_str, min_end - min_str, cs->min_sort_char);
+      my_fill_utf32(cs, (char*) max_str, min_end - min_str, cs->max_sort_char);
       /* min_length and max_legnth are not important */
       return TRUE;
     }
@@ -2680,8 +2684,8 @@ my_like_range_utf32(CHARSET_INFO *cs,
       ptr+= 4;                                  /* Skip escape */
       if ((res= my_utf32_uni(cs, &wc, ptr, end)) < 0)
       {
-        my_fill_utf32(cs, min_str, min_end - min_str, cs->min_sort_char);
-        my_fill_utf32(cs, max_str, max_end - min_str, cs->max_sort_char);
+        my_fill_utf32(cs, (char*) min_str, min_end - min_str, cs->min_sort_char);
+        my_fill_utf32(cs, (char*) max_str, max_end - min_str, cs->max_sort_char);
         /* min_length and max_length are not important */
         return TRUE;
       }
@@ -2729,8 +2733,8 @@ pad_set_lengths:
   *min_length= *max_length= (size_t) (min_str - min_org);
 
 pad_min_max:
-  my_fill_utf32(cs, min_str, min_end - min_str, cs->min_sort_char);
-  my_fill_utf32(cs, max_str, max_end - max_str, cs->max_sort_char);
+  my_fill_utf32(cs, (char*) min_str, min_end - min_str, cs->min_sort_char);
+  my_fill_utf32(cs, (char*) max_str, max_end - max_str, cs->max_sort_char);
   return FALSE;
 }
 
@@ -2747,7 +2751,7 @@ my_scan_utf32(CHARSET_INFO *cs,
     for ( ; str < end; )
     {
       my_wc_t wc;
-      int res= my_utf32_uni(cs, &wc, str, end);
+      int res= my_utf32_uni(cs, &wc, (uchar*) str, (uchar*) end);
       if (res < 0 || wc != ' ')
         break;
       str+= res;

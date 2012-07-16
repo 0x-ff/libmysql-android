@@ -4,7 +4,6 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/dbug.dir/sanity.c.o"
   "libdbug.pdb"
   "libdbug.a"
-  "libdbug.so"
 )
 
 # Per-language clean rules from dependency scanning.

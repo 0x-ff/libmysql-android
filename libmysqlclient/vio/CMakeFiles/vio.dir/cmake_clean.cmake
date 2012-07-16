@@ -5,7 +5,6 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/vio.dir/viosslfactories.c.o"
   "libvio.pdb"
   "libvio.a"
-  "libvio.so"
 )
 
 # Per-language clean rules from dependency scanning.

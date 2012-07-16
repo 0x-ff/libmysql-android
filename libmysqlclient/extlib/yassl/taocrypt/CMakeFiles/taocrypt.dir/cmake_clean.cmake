@@ -21,7 +21,6 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/taocrypt.dir/src/sha.cpp.o"
   "libtaocrypt.pdb"
   "libtaocrypt.a"
-  "libtaocrypt.so"
 )
 
 # Per-language clean rules from dependency scanning.

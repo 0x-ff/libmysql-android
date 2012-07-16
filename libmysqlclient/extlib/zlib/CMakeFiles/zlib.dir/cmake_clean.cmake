@@ -13,7 +13,6 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/zlib.dir/zutil.c.o"
   "libzlib.pdb"
   "libzlib.a"
-  "libzlib.so"
 )
 
 # Per-language clean rules from dependency scanning.
