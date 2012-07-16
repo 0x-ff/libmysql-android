@@ -41,8 +41,8 @@ android-14 для Android4.0
 Изменяем генератор заголовков include/my_config.h.in добавляем в него следующие строчки
 
 typedef unsigned short ushort;
-#define S_IREAD 0400
-#define HAVE_RINT 0
+define S_IREAD 0400
+define HAVE_RINT 0
 
 4.
 Создаем Makefile
