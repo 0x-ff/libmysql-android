@@ -161,11 +161,11 @@ struct wordvalue
 
 static struct wordvalue doubles[]=
 {
-  { "ch", (const uchar*) "\x8B\x20\x03\x63" },
-  { "Ch", (const uchar*) "\x8B\x20\x04\x43" },
-  { "CH", (const uchar*) "\x8B\x20\x05\x43" },
-  { "c",  (const uchar*) "\x84\x20\x03\x63" },
-  { "C",  (const uchar*) "\x84\x20\x05\x43" },
+  { (const uchar*) "ch", (const uchar*) "\x8B\x20\x03\x63" },
+  { (const uchar*) "Ch", (const uchar*) "\x8B\x20\x04\x43" },
+  { (const uchar*) "CH", (const uchar*) "\x8B\x20\x05\x43" },
+  { (const uchar*) "c",  (const uchar*) "\x84\x20\x03\x63" },
+  { (const uchar*) "C",  (const uchar*) "\x84\x20\x05\x43" },
 };
 
 
@@ -176,7 +176,7 @@ static struct wordvalue doubles[]=
   "Auto" space character is lower than a real space
   character on the third level.
 */
-static const uchar *virtual_space= "\x47\x20\x02\x20";
+static const uchar *virtual_space= (const uchar*) "\x47\x20\x02\x20";
 
 /*
         Original comments from the contributor:
@@ -339,7 +339,7 @@ while (1)						\
     int i;						\
     for (i= 0; i < (int) array_elements(doubles); i++)  \
     {							\
-      const char * pattern = doubles[i].word;		\
+      const char * pattern = (const char *) doubles[i].word;		\
       const char * q = (const char *) p;		\
       int j = 0;					\
       while (pattern[j])				\
