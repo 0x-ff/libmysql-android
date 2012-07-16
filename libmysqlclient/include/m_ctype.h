@@ -22,6 +22,7 @@
 #define _m_ctype_h
 
 #include <my_attribute.h>
+#include <ctype.h>
 
 #ifdef	__cplusplus
 extern "C" {
