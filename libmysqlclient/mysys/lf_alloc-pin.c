@@ -238,10 +238,12 @@ void _lf_pinbox_put_pins(LF_PINS *pins)
   return;
 }
 
+#ifdef HAVE_ALLOCA
 static int ptr_cmp(void **a, void **b)
 {
   return *a < *b ? -1 : *a == *b ? 0 : 1;
 }
+#endif
 
 #define add_to_purgatory(PINS, ADDR)                                    \
   do                                                                    \
@@ -275,6 +277,7 @@ struct st_harvester {
   callback for _lf_dynarray_iterate:
   scan all pins of all threads and accumulate all pins
 */
+#ifdef HAVE_ALLOCA
 static int harvest_pins(LF_PINS *el, struct st_harvester *hv)
 {
   int i;
@@ -297,6 +300,7 @@ static int harvest_pins(LF_PINS *el, struct st_harvester *hv)
   hv->npins-= LF_DYNARRAY_LEVEL_LENGTH;
   return 0;
 }
+#endif 
 
 /*
   callback for _lf_dynarray_iterate:
@@ -327,7 +331,7 @@ static int match_pins(LF_PINS *el, void *addr)
 */
 static void _lf_pinbox_real_free(LF_PINS *pins)
 {
-  int npins, alloca_size;
+  int npins;
   void *list, **addr;
   void *first, *last= NULL;
   LF_PINBOX *pinbox= pins->pinbox;
@@ -338,7 +342,7 @@ static void _lf_pinbox_real_free(LF_PINS *pins)
   npins= pinbox->pins_in_array+1;
 
 #ifdef HAVE_ALLOCA
-  alloca_size= sizeof(void *)*LF_PINBOX_PINS*npins;
+  int alloca_size= sizeof(void *)*LF_PINBOX_PINS*npins;
   /* create a sorted list of pinned addresses, to speed up searches */
   if (available_stack_size(&pinbox, *pins->stack_ends_here) > alloca_size)
   {

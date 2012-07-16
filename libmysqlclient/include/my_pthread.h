@@ -241,6 +241,7 @@ int sigwait(sigset_t *setp, int *sigp);		/* Use our implemention */
                             l_s.sa_mask   = l_set;                          \
                             l_s.sa_flags   = 0;                             \
                             l_rc= sigaction((A), &l_s, (struct sigaction *) NULL);\
+                            l_rc = l_rc;\
                             DBUG_ASSERT(l_rc == 0);                         \
                           } while (0)
 #elif defined(HAVE_SIGSET) && !defined(my_sigset)
