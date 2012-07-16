@@ -2,8 +2,9 @@
 # Source directory: /media/pavel/projects/libmysql-android/libmysqlclient
 # Build directory: /media/pavel/projects/libmysql-android/libmysqlclient
 # 
-# This file includes the relevent testing commands required for 
-# testing this directory and lists subdirectories to be tested as well.
+# This file replicates the SUBDIRS() and ADD_TEST() commands from the source
+# tree CMakeLists.txt file, skipping any SUBDIRS() or ADD_TEST() commands
+# that are excluded by CMake control structures, i.e. IF() commands.
 SUBDIRS(vio)
 SUBDIRS(extlib/dbug)
 SUBDIRS(strings)

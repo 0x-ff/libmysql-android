@@ -8,6 +8,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/regex.dir/split.c.o"
   "libregex.pdb"
   "libregex.a"
+  "libregex.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -235,9 +235,10 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/libmysql.dir/__/vio/viossl.c.o"
   "CMakeFiles/libmysql.dir/__/vio/viosslfactories.c.o"
   "libmysql.pdb"
-  "libmysql.so"
+  "libmysql.a"
   "libmysql.so.16.0.0"
   "libmysql.so.16"
+  "libmysql.so"
 )
 
 # Per-language clean rules from dependency scanning.

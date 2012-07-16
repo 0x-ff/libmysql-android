@@ -236,6 +236,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/mysqlclient.dir/__/vio/viosslfactories.c.o"
   "libmysqlclient.pdb"
   "libmysqlclient.a"
+  "libmysqlclient.so"
 )
 
 # Per-language clean rules from dependency scanning.

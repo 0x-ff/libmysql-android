@@ -123,6 +123,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/mysys.dir/my_port.c.o"
   "libmysys.pdb"
   "libmysys.a"
+  "libmysys.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,1 +1,1 @@
-/media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3   -Wall -O3 -DNDEBUG -DDBUG_OFF    CMakeFiles/skip_all-t.dir/skip_all-t.c.o  -o skip_all-t -rdynamic ../mytap/libmytap.a 
+/media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3   -Wall -O3 -DNDEBUG -DDBUG_OFF  -fPIC CMakeFiles/skip_all-t.dir/skip_all-t.c.o  -o skip_all-t -rdynamic ../mytap/libmytap.a 

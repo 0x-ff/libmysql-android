@@ -55,6 +55,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/strings.dir/strappend.c.o"
   "libstrings.pdb"
   "libstrings.a"
+  "libstrings.so"
 )
 
 # Per-language clean rules from dependency scanning.

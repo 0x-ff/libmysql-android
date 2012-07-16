@@ -5,21 +5,21 @@ typedef unsigned short ushort;
 
 /* Headers we may want to use. */
 #define HAVE_ALLOCA_H 1
-#define HAVE_ARPA_INET_H 1 
+#define HAVE_ARPA_INET_H 1
 /* #undef HAVE_CRYPT_H */
 #define HAVE_DIRENT_H 1
-/* #undef HAVE_EXECINFO_H */  
-#define HAVE_FCNTL_H 1 
-/* #undef HAVE_FENV_H */  
+/* #undef HAVE_EXECINFO_H */
+#define HAVE_FCNTL_H 1
+/* #undef HAVE_FENV_H */
 #define HAVE_FLOAT_H 1
-/* #undef HAVE_FPU_CONTROL_H */ 
-#define HAVE_GRP_H 1 
-/* #undef HAVE_IEEEFP_H */ 
-#define HAVE_LIMITS_H 1 
-#define HAVE_MALLOC_H 1 
-#define HAVE_MEMORY_H 1 
-#define HAVE_NETINET_IN_H 1 
-#define HAVE_PATHS_H 1  
+/* #undef HAVE_FPU_CONTROL_H */
+#define HAVE_GRP_H 1
+/* #undef HAVE_IEEEFP_H */
+#define HAVE_LIMITS_H 1
+#define HAVE_MALLOC_H 1
+#define HAVE_MEMORY_H 1
+#define HAVE_NETINET_IN_H 1
+#define HAVE_PATHS_H 1
 #define HAVE_PWD_H 1
 #define HAVE_SCHED_H 1
 /* #undef HAVE_SELECT_H */
@@ -128,7 +128,7 @@ typedef unsigned short ushort;
 #define HAVE_READLINK 1
 #define HAVE_REALPATH 1
 #define HAVE_RENAME 1
-/* #undef HAVE_RINT */
+#define HAVE_RINT 0
 #define HAVE_SCHED_YIELD 1
 #define HAVE_SELECT 1
 /* #undef HAVE_SETFD */

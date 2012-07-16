@@ -13,6 +13,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/yassl.dir/src/yassl_int.cpp.o"
   "libyassl.pdb"
   "libyassl.a"
+  "libyassl.so"
 )
 
 # Per-language clean rules from dependency scanning.

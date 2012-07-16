@@ -1,4 +1,8 @@
 
+typedef unsigned short ushort;
+#define S_IREAD 0400
+#define HAVE_RINT 0
+
 /* Headers we may want to use. */
 #cmakedefine HAVE_ALLOCA_H 1
 #cmakedefine HAVE_ARPA_INET_H 1

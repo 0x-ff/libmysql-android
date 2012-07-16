@@ -1,0 +1,7 @@
+
+
+cmake 2.6
+    cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX=`pwd`/install -DCMAKE_TOOLCHAIN_FILE=<api level><arch>.cmake.2.6
+
+cmake 2.8
+    cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX=`pwd`/install -C<api level><arch>.cmake
