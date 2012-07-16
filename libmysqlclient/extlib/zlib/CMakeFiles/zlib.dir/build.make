@@ -50,15 +50,15 @@ extlib/zlib/CMakeFiles/zlib.dir/adler32.c.o: extlib/zlib/CMakeFiles/zlib.dir/fla
 extlib/zlib/CMakeFiles/zlib.dir/adler32.c.o: extlib/zlib/adler32.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object extlib/zlib/CMakeFiles/zlib.dir/adler32.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/adler32.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/adler32.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/adler32.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/adler32.c
 
 extlib/zlib/CMakeFiles/zlib.dir/adler32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/adler32.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/adler32.c > CMakeFiles/zlib.dir/adler32.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/adler32.c > CMakeFiles/zlib.dir/adler32.c.i
 
 extlib/zlib/CMakeFiles/zlib.dir/adler32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/adler32.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/adler32.c -o CMakeFiles/zlib.dir/adler32.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/adler32.c -o CMakeFiles/zlib.dir/adler32.c.s
 
 extlib/zlib/CMakeFiles/zlib.dir/adler32.c.o.requires:
 .PHONY : extlib/zlib/CMakeFiles/zlib.dir/adler32.c.o.requires
@@ -73,15 +73,15 @@ extlib/zlib/CMakeFiles/zlib.dir/compress.c.o: extlib/zlib/CMakeFiles/zlib.dir/fl
 extlib/zlib/CMakeFiles/zlib.dir/compress.c.o: extlib/zlib/compress.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object extlib/zlib/CMakeFiles/zlib.dir/compress.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/compress.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/compress.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/compress.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/compress.c
 
 extlib/zlib/CMakeFiles/zlib.dir/compress.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/compress.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/compress.c > CMakeFiles/zlib.dir/compress.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/compress.c > CMakeFiles/zlib.dir/compress.c.i
 
 extlib/zlib/CMakeFiles/zlib.dir/compress.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/compress.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/compress.c -o CMakeFiles/zlib.dir/compress.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/compress.c -o CMakeFiles/zlib.dir/compress.c.s
 
 extlib/zlib/CMakeFiles/zlib.dir/compress.c.o.requires:
 .PHONY : extlib/zlib/CMakeFiles/zlib.dir/compress.c.o.requires
@@ -96,15 +96,15 @@ extlib/zlib/CMakeFiles/zlib.dir/crc32.c.o: extlib/zlib/CMakeFiles/zlib.dir/flags
 extlib/zlib/CMakeFiles/zlib.dir/crc32.c.o: extlib/zlib/crc32.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object extlib/zlib/CMakeFiles/zlib.dir/crc32.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/crc32.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/crc32.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/crc32.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/crc32.c
 
 extlib/zlib/CMakeFiles/zlib.dir/crc32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/crc32.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/crc32.c > CMakeFiles/zlib.dir/crc32.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/crc32.c > CMakeFiles/zlib.dir/crc32.c.i
 
 extlib/zlib/CMakeFiles/zlib.dir/crc32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/crc32.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/crc32.c -o CMakeFiles/zlib.dir/crc32.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/crc32.c -o CMakeFiles/zlib.dir/crc32.c.s
 
 extlib/zlib/CMakeFiles/zlib.dir/crc32.c.o.requires:
 .PHONY : extlib/zlib/CMakeFiles/zlib.dir/crc32.c.o.requires
@@ -119,15 +119,15 @@ extlib/zlib/CMakeFiles/zlib.dir/deflate.c.o: extlib/zlib/CMakeFiles/zlib.dir/fla
 extlib/zlib/CMakeFiles/zlib.dir/deflate.c.o: extlib/zlib/deflate.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object extlib/zlib/CMakeFiles/zlib.dir/deflate.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/deflate.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/deflate.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/deflate.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/deflate.c
 
 extlib/zlib/CMakeFiles/zlib.dir/deflate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/deflate.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/deflate.c > CMakeFiles/zlib.dir/deflate.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/deflate.c > CMakeFiles/zlib.dir/deflate.c.i
 
 extlib/zlib/CMakeFiles/zlib.dir/deflate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/deflate.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/deflate.c -o CMakeFiles/zlib.dir/deflate.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/deflate.c -o CMakeFiles/zlib.dir/deflate.c.s
 
 extlib/zlib/CMakeFiles/zlib.dir/deflate.c.o.requires:
 .PHONY : extlib/zlib/CMakeFiles/zlib.dir/deflate.c.o.requires
@@ -142,15 +142,15 @@ extlib/zlib/CMakeFiles/zlib.dir/gzio.c.o: extlib/zlib/CMakeFiles/zlib.dir/flags.
 extlib/zlib/CMakeFiles/zlib.dir/gzio.c.o: extlib/zlib/gzio.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object extlib/zlib/CMakeFiles/zlib.dir/gzio.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/gzio.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/gzio.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/gzio.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/gzio.c
 
 extlib/zlib/CMakeFiles/zlib.dir/gzio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/gzio.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/gzio.c > CMakeFiles/zlib.dir/gzio.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/gzio.c > CMakeFiles/zlib.dir/gzio.c.i
 
 extlib/zlib/CMakeFiles/zlib.dir/gzio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/gzio.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/gzio.c -o CMakeFiles/zlib.dir/gzio.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/gzio.c -o CMakeFiles/zlib.dir/gzio.c.s
 
 extlib/zlib/CMakeFiles/zlib.dir/gzio.c.o.requires:
 .PHONY : extlib/zlib/CMakeFiles/zlib.dir/gzio.c.o.requires
@@ -165,15 +165,15 @@ extlib/zlib/CMakeFiles/zlib.dir/infback.c.o: extlib/zlib/CMakeFiles/zlib.dir/fla
 extlib/zlib/CMakeFiles/zlib.dir/infback.c.o: extlib/zlib/infback.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object extlib/zlib/CMakeFiles/zlib.dir/infback.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/infback.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/infback.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/infback.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/infback.c
 
 extlib/zlib/CMakeFiles/zlib.dir/infback.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/infback.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/infback.c > CMakeFiles/zlib.dir/infback.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/infback.c > CMakeFiles/zlib.dir/infback.c.i
 
 extlib/zlib/CMakeFiles/zlib.dir/infback.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/infback.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/infback.c -o CMakeFiles/zlib.dir/infback.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/infback.c -o CMakeFiles/zlib.dir/infback.c.s
 
 extlib/zlib/CMakeFiles/zlib.dir/infback.c.o.requires:
 .PHONY : extlib/zlib/CMakeFiles/zlib.dir/infback.c.o.requires
@@ -188,15 +188,15 @@ extlib/zlib/CMakeFiles/zlib.dir/inffast.c.o: extlib/zlib/CMakeFiles/zlib.dir/fla
 extlib/zlib/CMakeFiles/zlib.dir/inffast.c.o: extlib/zlib/inffast.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object extlib/zlib/CMakeFiles/zlib.dir/inffast.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/inffast.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/inffast.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/inffast.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/inffast.c
 
 extlib/zlib/CMakeFiles/zlib.dir/inffast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/inffast.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/inffast.c > CMakeFiles/zlib.dir/inffast.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/inffast.c > CMakeFiles/zlib.dir/inffast.c.i
 
 extlib/zlib/CMakeFiles/zlib.dir/inffast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/inffast.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/inffast.c -o CMakeFiles/zlib.dir/inffast.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/inffast.c -o CMakeFiles/zlib.dir/inffast.c.s
 
 extlib/zlib/CMakeFiles/zlib.dir/inffast.c.o.requires:
 .PHONY : extlib/zlib/CMakeFiles/zlib.dir/inffast.c.o.requires
@@ -211,15 +211,15 @@ extlib/zlib/CMakeFiles/zlib.dir/inflate.c.o: extlib/zlib/CMakeFiles/zlib.dir/fla
 extlib/zlib/CMakeFiles/zlib.dir/inflate.c.o: extlib/zlib/inflate.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object extlib/zlib/CMakeFiles/zlib.dir/inflate.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/inflate.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/inflate.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/inflate.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/inflate.c
 
 extlib/zlib/CMakeFiles/zlib.dir/inflate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/inflate.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/inflate.c > CMakeFiles/zlib.dir/inflate.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/inflate.c > CMakeFiles/zlib.dir/inflate.c.i
 
 extlib/zlib/CMakeFiles/zlib.dir/inflate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/inflate.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/inflate.c -o CMakeFiles/zlib.dir/inflate.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/inflate.c -o CMakeFiles/zlib.dir/inflate.c.s
 
 extlib/zlib/CMakeFiles/zlib.dir/inflate.c.o.requires:
 .PHONY : extlib/zlib/CMakeFiles/zlib.dir/inflate.c.o.requires
@@ -234,15 +234,15 @@ extlib/zlib/CMakeFiles/zlib.dir/inftrees.c.o: extlib/zlib/CMakeFiles/zlib.dir/fl
 extlib/zlib/CMakeFiles/zlib.dir/inftrees.c.o: extlib/zlib/inftrees.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object extlib/zlib/CMakeFiles/zlib.dir/inftrees.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/inftrees.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/inftrees.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/inftrees.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/inftrees.c
 
 extlib/zlib/CMakeFiles/zlib.dir/inftrees.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/inftrees.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/inftrees.c > CMakeFiles/zlib.dir/inftrees.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/inftrees.c > CMakeFiles/zlib.dir/inftrees.c.i
 
 extlib/zlib/CMakeFiles/zlib.dir/inftrees.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/inftrees.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/inftrees.c -o CMakeFiles/zlib.dir/inftrees.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/inftrees.c -o CMakeFiles/zlib.dir/inftrees.c.s
 
 extlib/zlib/CMakeFiles/zlib.dir/inftrees.c.o.requires:
 .PHONY : extlib/zlib/CMakeFiles/zlib.dir/inftrees.c.o.requires
@@ -257,15 +257,15 @@ extlib/zlib/CMakeFiles/zlib.dir/trees.c.o: extlib/zlib/CMakeFiles/zlib.dir/flags
 extlib/zlib/CMakeFiles/zlib.dir/trees.c.o: extlib/zlib/trees.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object extlib/zlib/CMakeFiles/zlib.dir/trees.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/trees.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/trees.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/trees.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/trees.c
 
 extlib/zlib/CMakeFiles/zlib.dir/trees.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/trees.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/trees.c > CMakeFiles/zlib.dir/trees.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/trees.c > CMakeFiles/zlib.dir/trees.c.i
 
 extlib/zlib/CMakeFiles/zlib.dir/trees.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/trees.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/trees.c -o CMakeFiles/zlib.dir/trees.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/trees.c -o CMakeFiles/zlib.dir/trees.c.s
 
 extlib/zlib/CMakeFiles/zlib.dir/trees.c.o.requires:
 .PHONY : extlib/zlib/CMakeFiles/zlib.dir/trees.c.o.requires
@@ -280,15 +280,15 @@ extlib/zlib/CMakeFiles/zlib.dir/uncompr.c.o: extlib/zlib/CMakeFiles/zlib.dir/fla
 extlib/zlib/CMakeFiles/zlib.dir/uncompr.c.o: extlib/zlib/uncompr.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object extlib/zlib/CMakeFiles/zlib.dir/uncompr.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/uncompr.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/uncompr.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/uncompr.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/uncompr.c
 
 extlib/zlib/CMakeFiles/zlib.dir/uncompr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/uncompr.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/uncompr.c > CMakeFiles/zlib.dir/uncompr.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/uncompr.c > CMakeFiles/zlib.dir/uncompr.c.i
 
 extlib/zlib/CMakeFiles/zlib.dir/uncompr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/uncompr.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/uncompr.c -o CMakeFiles/zlib.dir/uncompr.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/uncompr.c -o CMakeFiles/zlib.dir/uncompr.c.s
 
 extlib/zlib/CMakeFiles/zlib.dir/uncompr.c.o.requires:
 .PHONY : extlib/zlib/CMakeFiles/zlib.dir/uncompr.c.o.requires
@@ -303,15 +303,15 @@ extlib/zlib/CMakeFiles/zlib.dir/zutil.c.o: extlib/zlib/CMakeFiles/zlib.dir/flags
 extlib/zlib/CMakeFiles/zlib.dir/zutil.c.o: extlib/zlib/zutil.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object extlib/zlib/CMakeFiles/zlib.dir/zutil.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/zutil.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/zutil.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/zlib.dir/zutil.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/zutil.c
 
 extlib/zlib/CMakeFiles/zlib.dir/zutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/zutil.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/zutil.c > CMakeFiles/zlib.dir/zutil.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/zutil.c > CMakeFiles/zlib.dir/zutil.c.i
 
 extlib/zlib/CMakeFiles/zlib.dir/zutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/zutil.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/zutil.c -o CMakeFiles/zlib.dir/zutil.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/zlib/zutil.c -o CMakeFiles/zlib.dir/zutil.c.s
 
 extlib/zlib/CMakeFiles/zlib.dir/zutil.c.o.requires:
 .PHONY : extlib/zlib/CMakeFiles/zlib.dir/zutil.c.o.requires

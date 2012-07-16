@@ -50,15 +50,15 @@ unittest/mysys/CMakeFiles/lf-t.dir/lf-t.c.o: unittest/mysys/CMakeFiles/lf-t.dir/
 unittest/mysys/CMakeFiles/lf-t.dir/lf-t.c.o: unittest/mysys/lf-t.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object unittest/mysys/CMakeFiles/lf-t.dir/lf-t.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/lf-t.dir/lf-t.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/lf-t.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/lf-t.dir/lf-t.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/lf-t.c
 
 unittest/mysys/CMakeFiles/lf-t.dir/lf-t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lf-t.dir/lf-t.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/lf-t.c > CMakeFiles/lf-t.dir/lf-t.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/lf-t.c > CMakeFiles/lf-t.dir/lf-t.c.i
 
 unittest/mysys/CMakeFiles/lf-t.dir/lf-t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lf-t.dir/lf-t.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/lf-t.c -o CMakeFiles/lf-t.dir/lf-t.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/lf-t.c -o CMakeFiles/lf-t.dir/lf-t.c.s
 
 unittest/mysys/CMakeFiles/lf-t.dir/lf-t.c.o.requires:
 .PHONY : unittest/mysys/CMakeFiles/lf-t.dir/lf-t.c.o.requires
@@ -81,7 +81,7 @@ unittest/mysys/lf-t: unittest/mytap/libmytap.a
 unittest/mysys/lf-t: mysys/libmysys.a
 unittest/mysys/lf-t: strings/libstrings.a
 unittest/mysys/lf-t: extlib/dbug/libdbug.a
-unittest/mysys/lf-t: /media/pavel/android/standalone-toolchains/android-9/arm/sysroot/usr/lib/libm.so
+unittest/mysys/lf-t: /media/pavel/android/standalone-toolchains/android-14/arm/sysroot/usr/lib/libm.so
 unittest/mysys/lf-t: unittest/mysys/CMakeFiles/lf-t.dir/build.make
 unittest/mysys/lf-t: unittest/mysys/CMakeFiles/lf-t.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable lf-t"

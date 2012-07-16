@@ -1,1 +1,1 @@
-/media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3   -Wall -O3 -DNDEBUG -DDBUG_OFF    CMakeFiles/simple-t.dir/simple-t.c.o  -o simple-t -rdynamic ../mytap/libmytap.a 
+/media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3   -Wall -O3 -DNDEBUG -DDBUG_OFF    CMakeFiles/simple-t.dir/simple-t.c.o  -o simple-t -rdynamic ../mytap/libmytap.a 

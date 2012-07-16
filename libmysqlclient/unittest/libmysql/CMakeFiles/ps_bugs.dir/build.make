@@ -50,15 +50,15 @@ unittest/libmysql/CMakeFiles/ps_bugs.dir/ps_bugs.c.o: unittest/libmysql/CMakeFil
 unittest/libmysql/CMakeFiles/ps_bugs.dir/ps_bugs.c.o: unittest/libmysql/ps_bugs.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object unittest/libmysql/CMakeFiles/ps_bugs.dir/ps_bugs.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ps_bugs.dir/ps_bugs.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/ps_bugs.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ps_bugs.dir/ps_bugs.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/ps_bugs.c
 
 unittest/libmysql/CMakeFiles/ps_bugs.dir/ps_bugs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ps_bugs.dir/ps_bugs.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/ps_bugs.c > CMakeFiles/ps_bugs.dir/ps_bugs.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/ps_bugs.c > CMakeFiles/ps_bugs.dir/ps_bugs.c.i
 
 unittest/libmysql/CMakeFiles/ps_bugs.dir/ps_bugs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ps_bugs.dir/ps_bugs.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/ps_bugs.c -o CMakeFiles/ps_bugs.dir/ps_bugs.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/ps_bugs.c -o CMakeFiles/ps_bugs.dir/ps_bugs.c.s
 
 unittest/libmysql/CMakeFiles/ps_bugs.dir/ps_bugs.c.o.requires:
 .PHONY : unittest/libmysql/CMakeFiles/ps_bugs.dir/ps_bugs.c.o.requires
@@ -79,7 +79,7 @@ ps_bugs_EXTERNAL_OBJECTS =
 unittest/libmysql/ps_bugs: unittest/libmysql/CMakeFiles/ps_bugs.dir/ps_bugs.c.o
 unittest/libmysql/ps_bugs: unittest/mytap/libmytap.a
 unittest/libmysql/ps_bugs: libmysql/libmysqlclient.a
-unittest/libmysql/ps_bugs: /media/pavel/android/standalone-toolchains/android-9/arm/sysroot/usr/lib/libm.so
+unittest/libmysql/ps_bugs: /media/pavel/android/standalone-toolchains/android-14/arm/sysroot/usr/lib/libm.so
 unittest/libmysql/ps_bugs: unittest/libmysql/CMakeFiles/ps_bugs.dir/build.make
 unittest/libmysql/ps_bugs: unittest/libmysql/CMakeFiles/ps_bugs.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ps_bugs"

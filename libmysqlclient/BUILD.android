@@ -1,7 +1,34 @@
 
 
-cmake 2.6
+1. 
+	$NDK/build/tools/make-standalone-toolchain.sh --arch=<arch> --platform=<api level> --install-dir=$YOUR_STANDALONE_TOOLCHAINS_ROOT/<api level>/<arch> --ndk-dir=$NDK
+
+2.
+	make symbolic link at:
+		$YOUR_STANDALONE_TOOLCHAINS_ROOT/<api level>/<arch>/sysroot/usr/include/net
+	
+	ln -s if_ether.h ethernet.h
+
+3.
+	change mysql headers at top of file include/my_config.h.in add:
+
+	typedef unsigned short ushort;
+	#define S_IREAD 0400
+	#define HAVE_RINT 0
+
+4.
+
+cmake 2.6.x
     cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX=`pwd`/install -DCMAKE_TOOLCHAIN_FILE=<api level><arch>.cmake.2.6
 
-cmake 2.8
+cmake 2.8.x
     cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX=`pwd`/install -DCMAKE_TOOLCHAIN_FILE=<api level><arch>.cmake
+
+5.
+
+make libmysql
+make mysqlclient
+
+6.
+
+take a look at libmysql/ folder

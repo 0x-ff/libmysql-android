@@ -50,15 +50,15 @@ unittest/examples/CMakeFiles/no_plan-t.dir/no_plan-t.c.o: unittest/examples/CMak
 unittest/examples/CMakeFiles/no_plan-t.dir/no_plan-t.c.o: unittest/examples/no_plan-t.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object unittest/examples/CMakeFiles/no_plan-t.dir/no_plan-t.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/examples && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/no_plan-t.dir/no_plan-t.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/examples/no_plan-t.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/examples && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/no_plan-t.dir/no_plan-t.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/examples/no_plan-t.c
 
 unittest/examples/CMakeFiles/no_plan-t.dir/no_plan-t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/no_plan-t.dir/no_plan-t.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/examples && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/examples/no_plan-t.c > CMakeFiles/no_plan-t.dir/no_plan-t.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/examples && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/examples/no_plan-t.c > CMakeFiles/no_plan-t.dir/no_plan-t.c.i
 
 unittest/examples/CMakeFiles/no_plan-t.dir/no_plan-t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/no_plan-t.dir/no_plan-t.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/examples && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/examples/no_plan-t.c -o CMakeFiles/no_plan-t.dir/no_plan-t.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/examples && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/examples/no_plan-t.c -o CMakeFiles/no_plan-t.dir/no_plan-t.c.s
 
 unittest/examples/CMakeFiles/no_plan-t.dir/no_plan-t.c.o.requires:
 .PHONY : unittest/examples/CMakeFiles/no_plan-t.dir/no_plan-t.c.o.requires

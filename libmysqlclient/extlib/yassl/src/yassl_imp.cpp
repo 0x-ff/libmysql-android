@@ -891,16 +891,18 @@ void Alert::Process(input_buffer& input, SSL& ssl)
 
         if (ssl.getSecurity().get_parms().cipher_type_ == block) {
             int    ivExtra = 0;
-        opaque fill;
+			opaque fill;
 
-            if (ssl.isTLSv1_1())
-                ivExtra = ssl.getCrypto().get_cipher().get_blockSize();
-            int padSz = ssl.getSecurity().get_parms().encrypt_size_ - ivExtra -
-                        aSz - digestSz;
-        for (int i = 0; i < padSz; i++) 
-            fill = input[AUTO];
+				if (ssl.isTLSv1_1())
+					ivExtra = ssl.getCrypto().get_cipher().get_blockSize();
+				int padSz = ssl.getSecurity().get_parms().encrypt_size_ - ivExtra -
+							aSz - digestSz;
+			for (int i = 0; i < padSz; i++) {
+				fill = input[AUTO];
+			}
+			fill = fill;
         }
-
+		
         // verify
         if (memcmp(mac, verify, digestSz)) {
             ssl.SetError(verify_error);
@@ -1029,6 +1031,7 @@ void Data::Process(input_buffer& input, SSL& ssl)
     if (padByte)
         fill = input[AUTO];    
 
+	fill = fill;
     // verify
     if (dataSz) {
         if (memcmp(mac, verify, digestSz)) {
@@ -1299,12 +1302,12 @@ void ServerHello::Process(input_buffer&, SSL& ssl)
     }
     ssl.set_pending(cipher_suite_[1]);
     ssl.set_random(random_, server_end);
-    if (id_len_)
-    ssl.set_sessionID(session_id_);
-    else
+    if (id_len_) {
+		ssl.set_sessionID(session_id_);
+    } else {
         ssl.useSecurity().use_connection().sessionID_Set_ = false;
-
-    if (ssl.getSecurity().get_resuming())
+	}
+    if (ssl.getSecurity().get_resuming()) {
         if (memcmp(session_id_, ssl.getSecurity().get_resume().GetID(),
                    ID_LEN) == 0) {
             ssl.set_masterSecret(ssl.getSecurity().get_resume().GetSecret());
@@ -1319,7 +1322,7 @@ void ServerHello::Process(input_buffer&, SSL& ssl)
             ssl.useSecurity().set_resuming(false);
             ssl.useLog().Trace("server denied resumption");
         }
-
+	}
     if (ssl.CompressionOn() && !compression_method_)
         ssl.UnSetCompression(); // server isn't supporting yaSSL zlib request
 
@@ -2077,6 +2080,7 @@ void Finished::Process(input_buffer& input, SSL& ssl)
     for (int i = 0; i < padSz; i++) 
         fill = input[AUTO];
 
+	fill = fill;
     // verify mac
     if (memcmp(mac, verifyMAC, digestSz)) {
         ssl.SetError(verify_error);

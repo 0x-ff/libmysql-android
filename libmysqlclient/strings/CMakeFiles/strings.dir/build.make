@@ -50,15 +50,15 @@ strings/CMakeFiles/strings.dir/bchange.c.o: strings/CMakeFiles/strings.dir/flags
 strings/CMakeFiles/strings.dir/bchange.c.o: strings/bchange.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/bchange.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/bchange.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/bchange.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/bchange.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/bchange.c
 
 strings/CMakeFiles/strings.dir/bchange.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/bchange.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/bchange.c > CMakeFiles/strings.dir/bchange.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/bchange.c > CMakeFiles/strings.dir/bchange.c.i
 
 strings/CMakeFiles/strings.dir/bchange.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/bchange.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/bchange.c -o CMakeFiles/strings.dir/bchange.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/bchange.c -o CMakeFiles/strings.dir/bchange.c.s
 
 strings/CMakeFiles/strings.dir/bchange.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/bchange.c.o.requires
@@ -73,15 +73,15 @@ strings/CMakeFiles/strings.dir/bcmp.c.o: strings/CMakeFiles/strings.dir/flags.ma
 strings/CMakeFiles/strings.dir/bcmp.c.o: strings/bcmp.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/bcmp.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/bcmp.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/bcmp.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/bcmp.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/bcmp.c
 
 strings/CMakeFiles/strings.dir/bcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/bcmp.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/bcmp.c > CMakeFiles/strings.dir/bcmp.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/bcmp.c > CMakeFiles/strings.dir/bcmp.c.i
 
 strings/CMakeFiles/strings.dir/bcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/bcmp.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/bcmp.c -o CMakeFiles/strings.dir/bcmp.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/bcmp.c -o CMakeFiles/strings.dir/bcmp.c.s
 
 strings/CMakeFiles/strings.dir/bcmp.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/bcmp.c.o.requires
@@ -96,15 +96,15 @@ strings/CMakeFiles/strings.dir/bfill.c.o: strings/CMakeFiles/strings.dir/flags.m
 strings/CMakeFiles/strings.dir/bfill.c.o: strings/bfill.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/bfill.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/bfill.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/bfill.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/bfill.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/bfill.c
 
 strings/CMakeFiles/strings.dir/bfill.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/bfill.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/bfill.c > CMakeFiles/strings.dir/bfill.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/bfill.c > CMakeFiles/strings.dir/bfill.c.i
 
 strings/CMakeFiles/strings.dir/bfill.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/bfill.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/bfill.c -o CMakeFiles/strings.dir/bfill.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/bfill.c -o CMakeFiles/strings.dir/bfill.c.s
 
 strings/CMakeFiles/strings.dir/bfill.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/bfill.c.o.requires
@@ -119,15 +119,15 @@ strings/CMakeFiles/strings.dir/bmove512.c.o: strings/CMakeFiles/strings.dir/flag
 strings/CMakeFiles/strings.dir/bmove512.c.o: strings/bmove512.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/bmove512.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/bmove512.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/bmove512.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/bmove512.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/bmove512.c
 
 strings/CMakeFiles/strings.dir/bmove512.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/bmove512.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/bmove512.c > CMakeFiles/strings.dir/bmove512.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/bmove512.c > CMakeFiles/strings.dir/bmove512.c.i
 
 strings/CMakeFiles/strings.dir/bmove512.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/bmove512.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/bmove512.c -o CMakeFiles/strings.dir/bmove512.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/bmove512.c -o CMakeFiles/strings.dir/bmove512.c.s
 
 strings/CMakeFiles/strings.dir/bmove512.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/bmove512.c.o.requires
@@ -142,15 +142,15 @@ strings/CMakeFiles/strings.dir/bmove_upp.c.o: strings/CMakeFiles/strings.dir/fla
 strings/CMakeFiles/strings.dir/bmove_upp.c.o: strings/bmove_upp.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/bmove_upp.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/bmove_upp.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/bmove_upp.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/bmove_upp.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/bmove_upp.c
 
 strings/CMakeFiles/strings.dir/bmove_upp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/bmove_upp.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/bmove_upp.c > CMakeFiles/strings.dir/bmove_upp.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/bmove_upp.c > CMakeFiles/strings.dir/bmove_upp.c.i
 
 strings/CMakeFiles/strings.dir/bmove_upp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/bmove_upp.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/bmove_upp.c -o CMakeFiles/strings.dir/bmove_upp.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/bmove_upp.c -o CMakeFiles/strings.dir/bmove_upp.c.s
 
 strings/CMakeFiles/strings.dir/bmove_upp.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/bmove_upp.c.o.requires
@@ -165,15 +165,15 @@ strings/CMakeFiles/strings.dir/ctype-big5.c.o: strings/CMakeFiles/strings.dir/fl
 strings/CMakeFiles/strings.dir/ctype-big5.c.o: strings/ctype-big5.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/ctype-big5.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-big5.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-big5.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-big5.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-big5.c
 
 strings/CMakeFiles/strings.dir/ctype-big5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/ctype-big5.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-big5.c > CMakeFiles/strings.dir/ctype-big5.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-big5.c > CMakeFiles/strings.dir/ctype-big5.c.i
 
 strings/CMakeFiles/strings.dir/ctype-big5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/ctype-big5.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-big5.c -o CMakeFiles/strings.dir/ctype-big5.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-big5.c -o CMakeFiles/strings.dir/ctype-big5.c.s
 
 strings/CMakeFiles/strings.dir/ctype-big5.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/ctype-big5.c.o.requires
@@ -188,15 +188,15 @@ strings/CMakeFiles/strings.dir/ctype-bin.c.o: strings/CMakeFiles/strings.dir/fla
 strings/CMakeFiles/strings.dir/ctype-bin.c.o: strings/ctype-bin.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/ctype-bin.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-bin.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-bin.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-bin.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-bin.c
 
 strings/CMakeFiles/strings.dir/ctype-bin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/ctype-bin.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-bin.c > CMakeFiles/strings.dir/ctype-bin.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-bin.c > CMakeFiles/strings.dir/ctype-bin.c.i
 
 strings/CMakeFiles/strings.dir/ctype-bin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/ctype-bin.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-bin.c -o CMakeFiles/strings.dir/ctype-bin.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-bin.c -o CMakeFiles/strings.dir/ctype-bin.c.s
 
 strings/CMakeFiles/strings.dir/ctype-bin.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/ctype-bin.c.o.requires
@@ -211,15 +211,15 @@ strings/CMakeFiles/strings.dir/ctype-cp932.c.o: strings/CMakeFiles/strings.dir/f
 strings/CMakeFiles/strings.dir/ctype-cp932.c.o: strings/ctype-cp932.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/ctype-cp932.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-cp932.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-cp932.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-cp932.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-cp932.c
 
 strings/CMakeFiles/strings.dir/ctype-cp932.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/ctype-cp932.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-cp932.c > CMakeFiles/strings.dir/ctype-cp932.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-cp932.c > CMakeFiles/strings.dir/ctype-cp932.c.i
 
 strings/CMakeFiles/strings.dir/ctype-cp932.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/ctype-cp932.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-cp932.c -o CMakeFiles/strings.dir/ctype-cp932.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-cp932.c -o CMakeFiles/strings.dir/ctype-cp932.c.s
 
 strings/CMakeFiles/strings.dir/ctype-cp932.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/ctype-cp932.c.o.requires
@@ -234,15 +234,15 @@ strings/CMakeFiles/strings.dir/ctype-czech.c.o: strings/CMakeFiles/strings.dir/f
 strings/CMakeFiles/strings.dir/ctype-czech.c.o: strings/ctype-czech.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/ctype-czech.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-czech.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-czech.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-czech.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-czech.c
 
 strings/CMakeFiles/strings.dir/ctype-czech.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/ctype-czech.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-czech.c > CMakeFiles/strings.dir/ctype-czech.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-czech.c > CMakeFiles/strings.dir/ctype-czech.c.i
 
 strings/CMakeFiles/strings.dir/ctype-czech.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/ctype-czech.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-czech.c -o CMakeFiles/strings.dir/ctype-czech.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-czech.c -o CMakeFiles/strings.dir/ctype-czech.c.s
 
 strings/CMakeFiles/strings.dir/ctype-czech.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/ctype-czech.c.o.requires
@@ -257,15 +257,15 @@ strings/CMakeFiles/strings.dir/ctype-euc_kr.c.o: strings/CMakeFiles/strings.dir/
 strings/CMakeFiles/strings.dir/ctype-euc_kr.c.o: strings/ctype-euc_kr.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/ctype-euc_kr.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-euc_kr.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-euc_kr.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-euc_kr.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-euc_kr.c
 
 strings/CMakeFiles/strings.dir/ctype-euc_kr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/ctype-euc_kr.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-euc_kr.c > CMakeFiles/strings.dir/ctype-euc_kr.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-euc_kr.c > CMakeFiles/strings.dir/ctype-euc_kr.c.i
 
 strings/CMakeFiles/strings.dir/ctype-euc_kr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/ctype-euc_kr.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-euc_kr.c -o CMakeFiles/strings.dir/ctype-euc_kr.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-euc_kr.c -o CMakeFiles/strings.dir/ctype-euc_kr.c.s
 
 strings/CMakeFiles/strings.dir/ctype-euc_kr.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/ctype-euc_kr.c.o.requires
@@ -280,15 +280,15 @@ strings/CMakeFiles/strings.dir/ctype-eucjpms.c.o: strings/CMakeFiles/strings.dir
 strings/CMakeFiles/strings.dir/ctype-eucjpms.c.o: strings/ctype-eucjpms.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/ctype-eucjpms.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-eucjpms.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-eucjpms.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-eucjpms.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-eucjpms.c
 
 strings/CMakeFiles/strings.dir/ctype-eucjpms.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/ctype-eucjpms.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-eucjpms.c > CMakeFiles/strings.dir/ctype-eucjpms.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-eucjpms.c > CMakeFiles/strings.dir/ctype-eucjpms.c.i
 
 strings/CMakeFiles/strings.dir/ctype-eucjpms.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/ctype-eucjpms.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-eucjpms.c -o CMakeFiles/strings.dir/ctype-eucjpms.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-eucjpms.c -o CMakeFiles/strings.dir/ctype-eucjpms.c.s
 
 strings/CMakeFiles/strings.dir/ctype-eucjpms.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/ctype-eucjpms.c.o.requires
@@ -303,15 +303,15 @@ strings/CMakeFiles/strings.dir/ctype-extra.c.o: strings/CMakeFiles/strings.dir/f
 strings/CMakeFiles/strings.dir/ctype-extra.c.o: strings/ctype-extra.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/ctype-extra.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-extra.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-extra.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-extra.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-extra.c
 
 strings/CMakeFiles/strings.dir/ctype-extra.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/ctype-extra.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-extra.c > CMakeFiles/strings.dir/ctype-extra.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-extra.c > CMakeFiles/strings.dir/ctype-extra.c.i
 
 strings/CMakeFiles/strings.dir/ctype-extra.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/ctype-extra.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-extra.c -o CMakeFiles/strings.dir/ctype-extra.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-extra.c -o CMakeFiles/strings.dir/ctype-extra.c.s
 
 strings/CMakeFiles/strings.dir/ctype-extra.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/ctype-extra.c.o.requires
@@ -326,15 +326,15 @@ strings/CMakeFiles/strings.dir/ctype-gb2312.c.o: strings/CMakeFiles/strings.dir/
 strings/CMakeFiles/strings.dir/ctype-gb2312.c.o: strings/ctype-gb2312.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/ctype-gb2312.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-gb2312.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-gb2312.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-gb2312.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-gb2312.c
 
 strings/CMakeFiles/strings.dir/ctype-gb2312.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/ctype-gb2312.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-gb2312.c > CMakeFiles/strings.dir/ctype-gb2312.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-gb2312.c > CMakeFiles/strings.dir/ctype-gb2312.c.i
 
 strings/CMakeFiles/strings.dir/ctype-gb2312.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/ctype-gb2312.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-gb2312.c -o CMakeFiles/strings.dir/ctype-gb2312.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-gb2312.c -o CMakeFiles/strings.dir/ctype-gb2312.c.s
 
 strings/CMakeFiles/strings.dir/ctype-gb2312.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/ctype-gb2312.c.o.requires
@@ -349,15 +349,15 @@ strings/CMakeFiles/strings.dir/ctype-gbk.c.o: strings/CMakeFiles/strings.dir/fla
 strings/CMakeFiles/strings.dir/ctype-gbk.c.o: strings/ctype-gbk.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/ctype-gbk.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-gbk.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-gbk.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-gbk.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-gbk.c
 
 strings/CMakeFiles/strings.dir/ctype-gbk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/ctype-gbk.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-gbk.c > CMakeFiles/strings.dir/ctype-gbk.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-gbk.c > CMakeFiles/strings.dir/ctype-gbk.c.i
 
 strings/CMakeFiles/strings.dir/ctype-gbk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/ctype-gbk.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-gbk.c -o CMakeFiles/strings.dir/ctype-gbk.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-gbk.c -o CMakeFiles/strings.dir/ctype-gbk.c.s
 
 strings/CMakeFiles/strings.dir/ctype-gbk.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/ctype-gbk.c.o.requires
@@ -372,15 +372,15 @@ strings/CMakeFiles/strings.dir/ctype-latin1.c.o: strings/CMakeFiles/strings.dir/
 strings/CMakeFiles/strings.dir/ctype-latin1.c.o: strings/ctype-latin1.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/ctype-latin1.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-latin1.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-latin1.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-latin1.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-latin1.c
 
 strings/CMakeFiles/strings.dir/ctype-latin1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/ctype-latin1.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-latin1.c > CMakeFiles/strings.dir/ctype-latin1.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-latin1.c > CMakeFiles/strings.dir/ctype-latin1.c.i
 
 strings/CMakeFiles/strings.dir/ctype-latin1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/ctype-latin1.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-latin1.c -o CMakeFiles/strings.dir/ctype-latin1.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-latin1.c -o CMakeFiles/strings.dir/ctype-latin1.c.s
 
 strings/CMakeFiles/strings.dir/ctype-latin1.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/ctype-latin1.c.o.requires
@@ -395,15 +395,15 @@ strings/CMakeFiles/strings.dir/ctype-mb.c.o: strings/CMakeFiles/strings.dir/flag
 strings/CMakeFiles/strings.dir/ctype-mb.c.o: strings/ctype-mb.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/ctype-mb.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-mb.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-mb.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-mb.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-mb.c
 
 strings/CMakeFiles/strings.dir/ctype-mb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/ctype-mb.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-mb.c > CMakeFiles/strings.dir/ctype-mb.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-mb.c > CMakeFiles/strings.dir/ctype-mb.c.i
 
 strings/CMakeFiles/strings.dir/ctype-mb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/ctype-mb.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-mb.c -o CMakeFiles/strings.dir/ctype-mb.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-mb.c -o CMakeFiles/strings.dir/ctype-mb.c.s
 
 strings/CMakeFiles/strings.dir/ctype-mb.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/ctype-mb.c.o.requires
@@ -418,15 +418,15 @@ strings/CMakeFiles/strings.dir/ctype-simple.c.o: strings/CMakeFiles/strings.dir/
 strings/CMakeFiles/strings.dir/ctype-simple.c.o: strings/ctype-simple.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/ctype-simple.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-simple.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-simple.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-simple.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-simple.c
 
 strings/CMakeFiles/strings.dir/ctype-simple.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/ctype-simple.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-simple.c > CMakeFiles/strings.dir/ctype-simple.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-simple.c > CMakeFiles/strings.dir/ctype-simple.c.i
 
 strings/CMakeFiles/strings.dir/ctype-simple.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/ctype-simple.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-simple.c -o CMakeFiles/strings.dir/ctype-simple.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-simple.c -o CMakeFiles/strings.dir/ctype-simple.c.s
 
 strings/CMakeFiles/strings.dir/ctype-simple.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/ctype-simple.c.o.requires
@@ -441,15 +441,15 @@ strings/CMakeFiles/strings.dir/ctype-sjis.c.o: strings/CMakeFiles/strings.dir/fl
 strings/CMakeFiles/strings.dir/ctype-sjis.c.o: strings/ctype-sjis.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/ctype-sjis.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-sjis.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-sjis.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-sjis.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-sjis.c
 
 strings/CMakeFiles/strings.dir/ctype-sjis.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/ctype-sjis.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-sjis.c > CMakeFiles/strings.dir/ctype-sjis.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-sjis.c > CMakeFiles/strings.dir/ctype-sjis.c.i
 
 strings/CMakeFiles/strings.dir/ctype-sjis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/ctype-sjis.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-sjis.c -o CMakeFiles/strings.dir/ctype-sjis.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-sjis.c -o CMakeFiles/strings.dir/ctype-sjis.c.s
 
 strings/CMakeFiles/strings.dir/ctype-sjis.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/ctype-sjis.c.o.requires
@@ -464,15 +464,15 @@ strings/CMakeFiles/strings.dir/ctype-tis620.c.o: strings/CMakeFiles/strings.dir/
 strings/CMakeFiles/strings.dir/ctype-tis620.c.o: strings/ctype-tis620.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/ctype-tis620.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-tis620.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-tis620.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-tis620.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-tis620.c
 
 strings/CMakeFiles/strings.dir/ctype-tis620.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/ctype-tis620.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-tis620.c > CMakeFiles/strings.dir/ctype-tis620.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-tis620.c > CMakeFiles/strings.dir/ctype-tis620.c.i
 
 strings/CMakeFiles/strings.dir/ctype-tis620.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/ctype-tis620.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-tis620.c -o CMakeFiles/strings.dir/ctype-tis620.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-tis620.c -o CMakeFiles/strings.dir/ctype-tis620.c.s
 
 strings/CMakeFiles/strings.dir/ctype-tis620.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/ctype-tis620.c.o.requires
@@ -487,15 +487,15 @@ strings/CMakeFiles/strings.dir/ctype-uca.c.o: strings/CMakeFiles/strings.dir/fla
 strings/CMakeFiles/strings.dir/ctype-uca.c.o: strings/ctype-uca.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/ctype-uca.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-uca.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-uca.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-uca.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-uca.c
 
 strings/CMakeFiles/strings.dir/ctype-uca.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/ctype-uca.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-uca.c > CMakeFiles/strings.dir/ctype-uca.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-uca.c > CMakeFiles/strings.dir/ctype-uca.c.i
 
 strings/CMakeFiles/strings.dir/ctype-uca.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/ctype-uca.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-uca.c -o CMakeFiles/strings.dir/ctype-uca.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-uca.c -o CMakeFiles/strings.dir/ctype-uca.c.s
 
 strings/CMakeFiles/strings.dir/ctype-uca.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/ctype-uca.c.o.requires
@@ -510,15 +510,15 @@ strings/CMakeFiles/strings.dir/ctype-ucs2.c.o: strings/CMakeFiles/strings.dir/fl
 strings/CMakeFiles/strings.dir/ctype-ucs2.c.o: strings/ctype-ucs2.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/ctype-ucs2.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-ucs2.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-ucs2.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-ucs2.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-ucs2.c
 
 strings/CMakeFiles/strings.dir/ctype-ucs2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/ctype-ucs2.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-ucs2.c > CMakeFiles/strings.dir/ctype-ucs2.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-ucs2.c > CMakeFiles/strings.dir/ctype-ucs2.c.i
 
 strings/CMakeFiles/strings.dir/ctype-ucs2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/ctype-ucs2.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-ucs2.c -o CMakeFiles/strings.dir/ctype-ucs2.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-ucs2.c -o CMakeFiles/strings.dir/ctype-ucs2.c.s
 
 strings/CMakeFiles/strings.dir/ctype-ucs2.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/ctype-ucs2.c.o.requires
@@ -533,15 +533,15 @@ strings/CMakeFiles/strings.dir/ctype-ujis.c.o: strings/CMakeFiles/strings.dir/fl
 strings/CMakeFiles/strings.dir/ctype-ujis.c.o: strings/ctype-ujis.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/ctype-ujis.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-ujis.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-ujis.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-ujis.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-ujis.c
 
 strings/CMakeFiles/strings.dir/ctype-ujis.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/ctype-ujis.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-ujis.c > CMakeFiles/strings.dir/ctype-ujis.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-ujis.c > CMakeFiles/strings.dir/ctype-ujis.c.i
 
 strings/CMakeFiles/strings.dir/ctype-ujis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/ctype-ujis.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-ujis.c -o CMakeFiles/strings.dir/ctype-ujis.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-ujis.c -o CMakeFiles/strings.dir/ctype-ujis.c.s
 
 strings/CMakeFiles/strings.dir/ctype-ujis.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/ctype-ujis.c.o.requires
@@ -556,15 +556,15 @@ strings/CMakeFiles/strings.dir/ctype-utf8.c.o: strings/CMakeFiles/strings.dir/fl
 strings/CMakeFiles/strings.dir/ctype-utf8.c.o: strings/ctype-utf8.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/ctype-utf8.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-utf8.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-utf8.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-utf8.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-utf8.c
 
 strings/CMakeFiles/strings.dir/ctype-utf8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/ctype-utf8.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-utf8.c > CMakeFiles/strings.dir/ctype-utf8.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-utf8.c > CMakeFiles/strings.dir/ctype-utf8.c.i
 
 strings/CMakeFiles/strings.dir/ctype-utf8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/ctype-utf8.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-utf8.c -o CMakeFiles/strings.dir/ctype-utf8.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-utf8.c -o CMakeFiles/strings.dir/ctype-utf8.c.s
 
 strings/CMakeFiles/strings.dir/ctype-utf8.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/ctype-utf8.c.o.requires
@@ -579,15 +579,15 @@ strings/CMakeFiles/strings.dir/ctype-win1250ch.c.o: strings/CMakeFiles/strings.d
 strings/CMakeFiles/strings.dir/ctype-win1250ch.c.o: strings/ctype-win1250ch.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/ctype-win1250ch.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-win1250ch.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-win1250ch.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype-win1250ch.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-win1250ch.c
 
 strings/CMakeFiles/strings.dir/ctype-win1250ch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/ctype-win1250ch.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-win1250ch.c > CMakeFiles/strings.dir/ctype-win1250ch.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-win1250ch.c > CMakeFiles/strings.dir/ctype-win1250ch.c.i
 
 strings/CMakeFiles/strings.dir/ctype-win1250ch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/ctype-win1250ch.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-win1250ch.c -o CMakeFiles/strings.dir/ctype-win1250ch.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype-win1250ch.c -o CMakeFiles/strings.dir/ctype-win1250ch.c.s
 
 strings/CMakeFiles/strings.dir/ctype-win1250ch.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/ctype-win1250ch.c.o.requires
@@ -602,15 +602,15 @@ strings/CMakeFiles/strings.dir/ctype.c.o: strings/CMakeFiles/strings.dir/flags.m
 strings/CMakeFiles/strings.dir/ctype.c.o: strings/ctype.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/ctype.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/ctype.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype.c
 
 strings/CMakeFiles/strings.dir/ctype.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/ctype.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype.c > CMakeFiles/strings.dir/ctype.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype.c > CMakeFiles/strings.dir/ctype.c.i
 
 strings/CMakeFiles/strings.dir/ctype.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/ctype.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype.c -o CMakeFiles/strings.dir/ctype.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/ctype.c -o CMakeFiles/strings.dir/ctype.c.s
 
 strings/CMakeFiles/strings.dir/ctype.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/ctype.c.o.requires
@@ -625,15 +625,15 @@ strings/CMakeFiles/strings.dir/decimal.c.o: strings/CMakeFiles/strings.dir/flags
 strings/CMakeFiles/strings.dir/decimal.c.o: strings/decimal.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/decimal.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/decimal.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/decimal.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/decimal.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/decimal.c
 
 strings/CMakeFiles/strings.dir/decimal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/decimal.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/decimal.c > CMakeFiles/strings.dir/decimal.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/decimal.c > CMakeFiles/strings.dir/decimal.c.i
 
 strings/CMakeFiles/strings.dir/decimal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/decimal.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/decimal.c -o CMakeFiles/strings.dir/decimal.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/decimal.c -o CMakeFiles/strings.dir/decimal.c.s
 
 strings/CMakeFiles/strings.dir/decimal.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/decimal.c.o.requires
@@ -648,15 +648,15 @@ strings/CMakeFiles/strings.dir/dtoa.c.o: strings/CMakeFiles/strings.dir/flags.ma
 strings/CMakeFiles/strings.dir/dtoa.c.o: strings/dtoa.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/dtoa.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/dtoa.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/dtoa.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/dtoa.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/dtoa.c
 
 strings/CMakeFiles/strings.dir/dtoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/dtoa.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/dtoa.c > CMakeFiles/strings.dir/dtoa.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/dtoa.c > CMakeFiles/strings.dir/dtoa.c.i
 
 strings/CMakeFiles/strings.dir/dtoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/dtoa.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/dtoa.c -o CMakeFiles/strings.dir/dtoa.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/dtoa.c -o CMakeFiles/strings.dir/dtoa.c.s
 
 strings/CMakeFiles/strings.dir/dtoa.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/dtoa.c.o.requires
@@ -671,15 +671,15 @@ strings/CMakeFiles/strings.dir/int2str.c.o: strings/CMakeFiles/strings.dir/flags
 strings/CMakeFiles/strings.dir/int2str.c.o: strings/int2str.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/int2str.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/int2str.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/int2str.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/int2str.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/int2str.c
 
 strings/CMakeFiles/strings.dir/int2str.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/int2str.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/int2str.c > CMakeFiles/strings.dir/int2str.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/int2str.c > CMakeFiles/strings.dir/int2str.c.i
 
 strings/CMakeFiles/strings.dir/int2str.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/int2str.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/int2str.c -o CMakeFiles/strings.dir/int2str.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/int2str.c -o CMakeFiles/strings.dir/int2str.c.s
 
 strings/CMakeFiles/strings.dir/int2str.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/int2str.c.o.requires
@@ -694,15 +694,15 @@ strings/CMakeFiles/strings.dir/is_prefix.c.o: strings/CMakeFiles/strings.dir/fla
 strings/CMakeFiles/strings.dir/is_prefix.c.o: strings/is_prefix.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/is_prefix.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/is_prefix.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/is_prefix.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/is_prefix.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/is_prefix.c
 
 strings/CMakeFiles/strings.dir/is_prefix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/is_prefix.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/is_prefix.c > CMakeFiles/strings.dir/is_prefix.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/is_prefix.c > CMakeFiles/strings.dir/is_prefix.c.i
 
 strings/CMakeFiles/strings.dir/is_prefix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/is_prefix.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/is_prefix.c -o CMakeFiles/strings.dir/is_prefix.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/is_prefix.c -o CMakeFiles/strings.dir/is_prefix.c.s
 
 strings/CMakeFiles/strings.dir/is_prefix.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/is_prefix.c.o.requires
@@ -717,15 +717,15 @@ strings/CMakeFiles/strings.dir/llstr.c.o: strings/CMakeFiles/strings.dir/flags.m
 strings/CMakeFiles/strings.dir/llstr.c.o: strings/llstr.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/llstr.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/llstr.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/llstr.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/llstr.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/llstr.c
 
 strings/CMakeFiles/strings.dir/llstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/llstr.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/llstr.c > CMakeFiles/strings.dir/llstr.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/llstr.c > CMakeFiles/strings.dir/llstr.c.i
 
 strings/CMakeFiles/strings.dir/llstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/llstr.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/llstr.c -o CMakeFiles/strings.dir/llstr.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/llstr.c -o CMakeFiles/strings.dir/llstr.c.s
 
 strings/CMakeFiles/strings.dir/llstr.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/llstr.c.o.requires
@@ -740,15 +740,15 @@ strings/CMakeFiles/strings.dir/longlong2str.c.o: strings/CMakeFiles/strings.dir/
 strings/CMakeFiles/strings.dir/longlong2str.c.o: strings/longlong2str.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/longlong2str.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/longlong2str.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/longlong2str.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/longlong2str.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/longlong2str.c
 
 strings/CMakeFiles/strings.dir/longlong2str.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/longlong2str.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/longlong2str.c > CMakeFiles/strings.dir/longlong2str.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/longlong2str.c > CMakeFiles/strings.dir/longlong2str.c.i
 
 strings/CMakeFiles/strings.dir/longlong2str.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/longlong2str.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/longlong2str.c -o CMakeFiles/strings.dir/longlong2str.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/longlong2str.c -o CMakeFiles/strings.dir/longlong2str.c.s
 
 strings/CMakeFiles/strings.dir/longlong2str.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/longlong2str.c.o.requires
@@ -763,15 +763,15 @@ strings/CMakeFiles/strings.dir/my_strtoll10.c.o: strings/CMakeFiles/strings.dir/
 strings/CMakeFiles/strings.dir/my_strtoll10.c.o: strings/my_strtoll10.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/my_strtoll10.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/my_strtoll10.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/my_strtoll10.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/my_strtoll10.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/my_strtoll10.c
 
 strings/CMakeFiles/strings.dir/my_strtoll10.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/my_strtoll10.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/my_strtoll10.c > CMakeFiles/strings.dir/my_strtoll10.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/my_strtoll10.c > CMakeFiles/strings.dir/my_strtoll10.c.i
 
 strings/CMakeFiles/strings.dir/my_strtoll10.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/my_strtoll10.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/my_strtoll10.c -o CMakeFiles/strings.dir/my_strtoll10.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/my_strtoll10.c -o CMakeFiles/strings.dir/my_strtoll10.c.s
 
 strings/CMakeFiles/strings.dir/my_strtoll10.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/my_strtoll10.c.o.requires
@@ -786,15 +786,15 @@ strings/CMakeFiles/strings.dir/my_vsnprintf.c.o: strings/CMakeFiles/strings.dir/
 strings/CMakeFiles/strings.dir/my_vsnprintf.c.o: strings/my_vsnprintf.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/my_vsnprintf.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/my_vsnprintf.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/my_vsnprintf.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/my_vsnprintf.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/my_vsnprintf.c
 
 strings/CMakeFiles/strings.dir/my_vsnprintf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/my_vsnprintf.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/my_vsnprintf.c > CMakeFiles/strings.dir/my_vsnprintf.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/my_vsnprintf.c > CMakeFiles/strings.dir/my_vsnprintf.c.i
 
 strings/CMakeFiles/strings.dir/my_vsnprintf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/my_vsnprintf.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/my_vsnprintf.c -o CMakeFiles/strings.dir/my_vsnprintf.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/my_vsnprintf.c -o CMakeFiles/strings.dir/my_vsnprintf.c.s
 
 strings/CMakeFiles/strings.dir/my_vsnprintf.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/my_vsnprintf.c.o.requires
@@ -809,15 +809,15 @@ strings/CMakeFiles/strings.dir/r_strinstr.c.o: strings/CMakeFiles/strings.dir/fl
 strings/CMakeFiles/strings.dir/r_strinstr.c.o: strings/r_strinstr.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/r_strinstr.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/r_strinstr.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/r_strinstr.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/r_strinstr.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/r_strinstr.c
 
 strings/CMakeFiles/strings.dir/r_strinstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/r_strinstr.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/r_strinstr.c > CMakeFiles/strings.dir/r_strinstr.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/r_strinstr.c > CMakeFiles/strings.dir/r_strinstr.c.i
 
 strings/CMakeFiles/strings.dir/r_strinstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/r_strinstr.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/r_strinstr.c -o CMakeFiles/strings.dir/r_strinstr.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/r_strinstr.c -o CMakeFiles/strings.dir/r_strinstr.c.s
 
 strings/CMakeFiles/strings.dir/r_strinstr.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/r_strinstr.c.o.requires
@@ -832,15 +832,15 @@ strings/CMakeFiles/strings.dir/str2int.c.o: strings/CMakeFiles/strings.dir/flags
 strings/CMakeFiles/strings.dir/str2int.c.o: strings/str2int.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/str2int.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/str2int.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/str2int.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/str2int.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/str2int.c
 
 strings/CMakeFiles/strings.dir/str2int.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/str2int.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/str2int.c > CMakeFiles/strings.dir/str2int.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/str2int.c > CMakeFiles/strings.dir/str2int.c.i
 
 strings/CMakeFiles/strings.dir/str2int.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/str2int.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/str2int.c -o CMakeFiles/strings.dir/str2int.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/str2int.c -o CMakeFiles/strings.dir/str2int.c.s
 
 strings/CMakeFiles/strings.dir/str2int.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/str2int.c.o.requires
@@ -855,15 +855,15 @@ strings/CMakeFiles/strings.dir/str_alloc.c.o: strings/CMakeFiles/strings.dir/fla
 strings/CMakeFiles/strings.dir/str_alloc.c.o: strings/str_alloc.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/str_alloc.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/str_alloc.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/str_alloc.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/str_alloc.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/str_alloc.c
 
 strings/CMakeFiles/strings.dir/str_alloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/str_alloc.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/str_alloc.c > CMakeFiles/strings.dir/str_alloc.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/str_alloc.c > CMakeFiles/strings.dir/str_alloc.c.i
 
 strings/CMakeFiles/strings.dir/str_alloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/str_alloc.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/str_alloc.c -o CMakeFiles/strings.dir/str_alloc.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/str_alloc.c -o CMakeFiles/strings.dir/str_alloc.c.s
 
 strings/CMakeFiles/strings.dir/str_alloc.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/str_alloc.c.o.requires
@@ -878,15 +878,15 @@ strings/CMakeFiles/strings.dir/strcend.c.o: strings/CMakeFiles/strings.dir/flags
 strings/CMakeFiles/strings.dir/strcend.c.o: strings/strcend.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/strcend.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strcend.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strcend.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strcend.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strcend.c
 
 strings/CMakeFiles/strings.dir/strcend.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/strcend.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strcend.c > CMakeFiles/strings.dir/strcend.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strcend.c > CMakeFiles/strings.dir/strcend.c.i
 
 strings/CMakeFiles/strings.dir/strcend.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/strcend.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strcend.c -o CMakeFiles/strings.dir/strcend.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strcend.c -o CMakeFiles/strings.dir/strcend.c.s
 
 strings/CMakeFiles/strings.dir/strcend.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/strcend.c.o.requires
@@ -901,15 +901,15 @@ strings/CMakeFiles/strings.dir/strend.c.o: strings/CMakeFiles/strings.dir/flags.
 strings/CMakeFiles/strings.dir/strend.c.o: strings/strend.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/strend.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strend.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strend.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strend.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strend.c
 
 strings/CMakeFiles/strings.dir/strend.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/strend.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strend.c > CMakeFiles/strings.dir/strend.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strend.c > CMakeFiles/strings.dir/strend.c.i
 
 strings/CMakeFiles/strings.dir/strend.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/strend.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strend.c -o CMakeFiles/strings.dir/strend.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strend.c -o CMakeFiles/strings.dir/strend.c.s
 
 strings/CMakeFiles/strings.dir/strend.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/strend.c.o.requires
@@ -924,15 +924,15 @@ strings/CMakeFiles/strings.dir/strfill.c.o: strings/CMakeFiles/strings.dir/flags
 strings/CMakeFiles/strings.dir/strfill.c.o: strings/strfill.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/strfill.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strfill.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strfill.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strfill.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strfill.c
 
 strings/CMakeFiles/strings.dir/strfill.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/strfill.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strfill.c > CMakeFiles/strings.dir/strfill.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strfill.c > CMakeFiles/strings.dir/strfill.c.i
 
 strings/CMakeFiles/strings.dir/strfill.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/strfill.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strfill.c -o CMakeFiles/strings.dir/strfill.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strfill.c -o CMakeFiles/strings.dir/strfill.c.s
 
 strings/CMakeFiles/strings.dir/strfill.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/strfill.c.o.requires
@@ -947,15 +947,15 @@ strings/CMakeFiles/strings.dir/strmake.c.o: strings/CMakeFiles/strings.dir/flags
 strings/CMakeFiles/strings.dir/strmake.c.o: strings/strmake.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/strmake.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strmake.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strmake.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strmake.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strmake.c
 
 strings/CMakeFiles/strings.dir/strmake.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/strmake.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strmake.c > CMakeFiles/strings.dir/strmake.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strmake.c > CMakeFiles/strings.dir/strmake.c.i
 
 strings/CMakeFiles/strings.dir/strmake.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/strmake.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strmake.c -o CMakeFiles/strings.dir/strmake.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strmake.c -o CMakeFiles/strings.dir/strmake.c.s
 
 strings/CMakeFiles/strings.dir/strmake.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/strmake.c.o.requires
@@ -970,15 +970,15 @@ strings/CMakeFiles/strings.dir/strmov.c.o: strings/CMakeFiles/strings.dir/flags.
 strings/CMakeFiles/strings.dir/strmov.c.o: strings/strmov.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/strmov.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strmov.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strmov.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strmov.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strmov.c
 
 strings/CMakeFiles/strings.dir/strmov.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/strmov.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strmov.c > CMakeFiles/strings.dir/strmov.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strmov.c > CMakeFiles/strings.dir/strmov.c.i
 
 strings/CMakeFiles/strings.dir/strmov.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/strmov.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strmov.c -o CMakeFiles/strings.dir/strmov.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strmov.c -o CMakeFiles/strings.dir/strmov.c.s
 
 strings/CMakeFiles/strings.dir/strmov.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/strmov.c.o.requires
@@ -993,15 +993,15 @@ strings/CMakeFiles/strings.dir/strnmov.c.o: strings/CMakeFiles/strings.dir/flags
 strings/CMakeFiles/strings.dir/strnmov.c.o: strings/strnmov.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/strnmov.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strnmov.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strnmov.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strnmov.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strnmov.c
 
 strings/CMakeFiles/strings.dir/strnmov.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/strnmov.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strnmov.c > CMakeFiles/strings.dir/strnmov.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strnmov.c > CMakeFiles/strings.dir/strnmov.c.i
 
 strings/CMakeFiles/strings.dir/strnmov.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/strnmov.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strnmov.c -o CMakeFiles/strings.dir/strnmov.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strnmov.c -o CMakeFiles/strings.dir/strnmov.c.s
 
 strings/CMakeFiles/strings.dir/strnmov.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/strnmov.c.o.requires
@@ -1016,15 +1016,15 @@ strings/CMakeFiles/strings.dir/strtol.c.o: strings/CMakeFiles/strings.dir/flags.
 strings/CMakeFiles/strings.dir/strtol.c.o: strings/strtol.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/strtol.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strtol.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtol.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strtol.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtol.c
 
 strings/CMakeFiles/strings.dir/strtol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/strtol.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtol.c > CMakeFiles/strings.dir/strtol.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtol.c > CMakeFiles/strings.dir/strtol.c.i
 
 strings/CMakeFiles/strings.dir/strtol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/strtol.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtol.c -o CMakeFiles/strings.dir/strtol.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtol.c -o CMakeFiles/strings.dir/strtol.c.s
 
 strings/CMakeFiles/strings.dir/strtol.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/strtol.c.o.requires
@@ -1039,15 +1039,15 @@ strings/CMakeFiles/strings.dir/strtoll.c.o: strings/CMakeFiles/strings.dir/flags
 strings/CMakeFiles/strings.dir/strtoll.c.o: strings/strtoll.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/strtoll.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strtoll.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtoll.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strtoll.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtoll.c
 
 strings/CMakeFiles/strings.dir/strtoll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/strtoll.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtoll.c > CMakeFiles/strings.dir/strtoll.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtoll.c > CMakeFiles/strings.dir/strtoll.c.i
 
 strings/CMakeFiles/strings.dir/strtoll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/strtoll.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtoll.c -o CMakeFiles/strings.dir/strtoll.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtoll.c -o CMakeFiles/strings.dir/strtoll.c.s
 
 strings/CMakeFiles/strings.dir/strtoll.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/strtoll.c.o.requires
@@ -1062,15 +1062,15 @@ strings/CMakeFiles/strings.dir/strtoul.c.o: strings/CMakeFiles/strings.dir/flags
 strings/CMakeFiles/strings.dir/strtoul.c.o: strings/strtoul.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/strtoul.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strtoul.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtoul.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strtoul.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtoul.c
 
 strings/CMakeFiles/strings.dir/strtoul.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/strtoul.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtoul.c > CMakeFiles/strings.dir/strtoul.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtoul.c > CMakeFiles/strings.dir/strtoul.c.i
 
 strings/CMakeFiles/strings.dir/strtoul.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/strtoul.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtoul.c -o CMakeFiles/strings.dir/strtoul.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtoul.c -o CMakeFiles/strings.dir/strtoul.c.s
 
 strings/CMakeFiles/strings.dir/strtoul.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/strtoul.c.o.requires
@@ -1085,15 +1085,15 @@ strings/CMakeFiles/strings.dir/strtoull.c.o: strings/CMakeFiles/strings.dir/flag
 strings/CMakeFiles/strings.dir/strtoull.c.o: strings/strtoull.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/strtoull.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strtoull.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtoull.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strtoull.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtoull.c
 
 strings/CMakeFiles/strings.dir/strtoull.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/strtoull.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtoull.c > CMakeFiles/strings.dir/strtoull.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtoull.c > CMakeFiles/strings.dir/strtoull.c.i
 
 strings/CMakeFiles/strings.dir/strtoull.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/strtoull.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtoull.c -o CMakeFiles/strings.dir/strtoull.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strtoull.c -o CMakeFiles/strings.dir/strtoull.c.s
 
 strings/CMakeFiles/strings.dir/strtoull.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/strtoull.c.o.requires
@@ -1108,15 +1108,15 @@ strings/CMakeFiles/strings.dir/strxmov.c.o: strings/CMakeFiles/strings.dir/flags
 strings/CMakeFiles/strings.dir/strxmov.c.o: strings/strxmov.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/strxmov.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strxmov.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strxmov.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strxmov.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strxmov.c
 
 strings/CMakeFiles/strings.dir/strxmov.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/strxmov.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strxmov.c > CMakeFiles/strings.dir/strxmov.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strxmov.c > CMakeFiles/strings.dir/strxmov.c.i
 
 strings/CMakeFiles/strings.dir/strxmov.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/strxmov.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strxmov.c -o CMakeFiles/strings.dir/strxmov.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strxmov.c -o CMakeFiles/strings.dir/strxmov.c.s
 
 strings/CMakeFiles/strings.dir/strxmov.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/strxmov.c.o.requires
@@ -1131,15 +1131,15 @@ strings/CMakeFiles/strings.dir/strxnmov.c.o: strings/CMakeFiles/strings.dir/flag
 strings/CMakeFiles/strings.dir/strxnmov.c.o: strings/strxnmov.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/strxnmov.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strxnmov.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strxnmov.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strxnmov.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strxnmov.c
 
 strings/CMakeFiles/strings.dir/strxnmov.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/strxnmov.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strxnmov.c > CMakeFiles/strings.dir/strxnmov.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strxnmov.c > CMakeFiles/strings.dir/strxnmov.c.i
 
 strings/CMakeFiles/strings.dir/strxnmov.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/strxnmov.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strxnmov.c -o CMakeFiles/strings.dir/strxnmov.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strxnmov.c -o CMakeFiles/strings.dir/strxnmov.c.s
 
 strings/CMakeFiles/strings.dir/strxnmov.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/strxnmov.c.o.requires
@@ -1154,15 +1154,15 @@ strings/CMakeFiles/strings.dir/xml.c.o: strings/CMakeFiles/strings.dir/flags.mak
 strings/CMakeFiles/strings.dir/xml.c.o: strings/xml.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/xml.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/xml.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/xml.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/xml.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/xml.c
 
 strings/CMakeFiles/strings.dir/xml.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/xml.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/xml.c > CMakeFiles/strings.dir/xml.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/xml.c > CMakeFiles/strings.dir/xml.c.i
 
 strings/CMakeFiles/strings.dir/xml.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/xml.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/xml.c -o CMakeFiles/strings.dir/xml.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/xml.c -o CMakeFiles/strings.dir/xml.c.s
 
 strings/CMakeFiles/strings.dir/xml.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/xml.c.o.requires
@@ -1177,15 +1177,15 @@ strings/CMakeFiles/strings.dir/my_strchr.c.o: strings/CMakeFiles/strings.dir/fla
 strings/CMakeFiles/strings.dir/my_strchr.c.o: strings/my_strchr.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/my_strchr.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/my_strchr.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/my_strchr.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/my_strchr.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/my_strchr.c
 
 strings/CMakeFiles/strings.dir/my_strchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/my_strchr.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/my_strchr.c > CMakeFiles/strings.dir/my_strchr.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/my_strchr.c > CMakeFiles/strings.dir/my_strchr.c.i
 
 strings/CMakeFiles/strings.dir/my_strchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/my_strchr.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/my_strchr.c -o CMakeFiles/strings.dir/my_strchr.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/my_strchr.c -o CMakeFiles/strings.dir/my_strchr.c.s
 
 strings/CMakeFiles/strings.dir/my_strchr.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/my_strchr.c.o.requires
@@ -1200,15 +1200,15 @@ strings/CMakeFiles/strings.dir/strcont.c.o: strings/CMakeFiles/strings.dir/flags
 strings/CMakeFiles/strings.dir/strcont.c.o: strings/strcont.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/strcont.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strcont.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strcont.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strcont.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strcont.c
 
 strings/CMakeFiles/strings.dir/strcont.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/strcont.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strcont.c > CMakeFiles/strings.dir/strcont.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strcont.c > CMakeFiles/strings.dir/strcont.c.i
 
 strings/CMakeFiles/strings.dir/strcont.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/strcont.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strcont.c -o CMakeFiles/strings.dir/strcont.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strcont.c -o CMakeFiles/strings.dir/strcont.c.s
 
 strings/CMakeFiles/strings.dir/strcont.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/strcont.c.o.requires
@@ -1223,15 +1223,15 @@ strings/CMakeFiles/strings.dir/strinstr.c.o: strings/CMakeFiles/strings.dir/flag
 strings/CMakeFiles/strings.dir/strinstr.c.o: strings/strinstr.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/strinstr.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strinstr.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strinstr.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strinstr.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strinstr.c
 
 strings/CMakeFiles/strings.dir/strinstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/strinstr.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strinstr.c > CMakeFiles/strings.dir/strinstr.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strinstr.c > CMakeFiles/strings.dir/strinstr.c.i
 
 strings/CMakeFiles/strings.dir/strinstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/strinstr.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strinstr.c -o CMakeFiles/strings.dir/strinstr.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strinstr.c -o CMakeFiles/strings.dir/strinstr.c.s
 
 strings/CMakeFiles/strings.dir/strinstr.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/strinstr.c.o.requires
@@ -1246,15 +1246,15 @@ strings/CMakeFiles/strings.dir/strnlen.c.o: strings/CMakeFiles/strings.dir/flags
 strings/CMakeFiles/strings.dir/strnlen.c.o: strings/strnlen.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/strnlen.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strnlen.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strnlen.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strnlen.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strnlen.c
 
 strings/CMakeFiles/strings.dir/strnlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/strnlen.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strnlen.c > CMakeFiles/strings.dir/strnlen.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strnlen.c > CMakeFiles/strings.dir/strnlen.c.i
 
 strings/CMakeFiles/strings.dir/strnlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/strnlen.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strnlen.c -o CMakeFiles/strings.dir/strnlen.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strnlen.c -o CMakeFiles/strings.dir/strnlen.c.s
 
 strings/CMakeFiles/strings.dir/strnlen.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/strnlen.c.o.requires
@@ -1269,15 +1269,15 @@ strings/CMakeFiles/strings.dir/strappend.c.o: strings/CMakeFiles/strings.dir/fla
 strings/CMakeFiles/strings.dir/strappend.c.o: strings/strappend.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object strings/CMakeFiles/strings.dir/strappend.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strappend.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strappend.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/strings.dir/strappend.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/strings/strappend.c
 
 strings/CMakeFiles/strings.dir/strappend.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/strings.dir/strappend.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strappend.c > CMakeFiles/strings.dir/strappend.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/strings/strappend.c > CMakeFiles/strings.dir/strappend.c.i
 
 strings/CMakeFiles/strings.dir/strappend.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/strings.dir/strappend.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strappend.c -o CMakeFiles/strings.dir/strappend.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/strings && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/strings/strappend.c -o CMakeFiles/strings.dir/strappend.c.s
 
 strings/CMakeFiles/strings.dir/strappend.c.o.requires:
 .PHONY : strings/CMakeFiles/strings.dir/strappend.c.o.requires

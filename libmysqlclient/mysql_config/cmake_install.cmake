@@ -43,7 +43,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/mysql_config" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/mysql_config")
     IF(CMAKE_INSTALL_DO_STRIP)
-      EXECUTE_PROCESS(COMMAND "/media/pavel/android/standalone-toolchains/android-9/arm/arm-linux-androideabi/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/mysql_config")
+      EXECUTE_PROCESS(COMMAND "/media/pavel/android/standalone-toolchains/android-14/arm/arm-linux-androideabi/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/mysql_config")
     ENDIF(CMAKE_INSTALL_DO_STRIP)
   ENDIF()
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")

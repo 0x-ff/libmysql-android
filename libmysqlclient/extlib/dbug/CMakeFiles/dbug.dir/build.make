@@ -50,15 +50,15 @@ extlib/dbug/CMakeFiles/dbug.dir/dbug.c.o: extlib/dbug/CMakeFiles/dbug.dir/flags.
 extlib/dbug/CMakeFiles/dbug.dir/dbug.c.o: extlib/dbug/dbug.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object extlib/dbug/CMakeFiles/dbug.dir/dbug.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/dbug.dir/dbug.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug/dbug.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/dbug.dir/dbug.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug/dbug.c
 
 extlib/dbug/CMakeFiles/dbug.dir/dbug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dbug.dir/dbug.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug/dbug.c > CMakeFiles/dbug.dir/dbug.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug/dbug.c > CMakeFiles/dbug.dir/dbug.c.i
 
 extlib/dbug/CMakeFiles/dbug.dir/dbug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dbug.dir/dbug.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug/dbug.c -o CMakeFiles/dbug.dir/dbug.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug/dbug.c -o CMakeFiles/dbug.dir/dbug.c.s
 
 extlib/dbug/CMakeFiles/dbug.dir/dbug.c.o.requires:
 .PHONY : extlib/dbug/CMakeFiles/dbug.dir/dbug.c.o.requires
@@ -73,15 +73,15 @@ extlib/dbug/CMakeFiles/dbug.dir/factorial.c.o: extlib/dbug/CMakeFiles/dbug.dir/f
 extlib/dbug/CMakeFiles/dbug.dir/factorial.c.o: extlib/dbug/factorial.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object extlib/dbug/CMakeFiles/dbug.dir/factorial.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/dbug.dir/factorial.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug/factorial.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/dbug.dir/factorial.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug/factorial.c
 
 extlib/dbug/CMakeFiles/dbug.dir/factorial.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dbug.dir/factorial.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug/factorial.c > CMakeFiles/dbug.dir/factorial.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug/factorial.c > CMakeFiles/dbug.dir/factorial.c.i
 
 extlib/dbug/CMakeFiles/dbug.dir/factorial.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dbug.dir/factorial.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug/factorial.c -o CMakeFiles/dbug.dir/factorial.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug/factorial.c -o CMakeFiles/dbug.dir/factorial.c.s
 
 extlib/dbug/CMakeFiles/dbug.dir/factorial.c.o.requires:
 .PHONY : extlib/dbug/CMakeFiles/dbug.dir/factorial.c.o.requires
@@ -96,15 +96,15 @@ extlib/dbug/CMakeFiles/dbug.dir/sanity.c.o: extlib/dbug/CMakeFiles/dbug.dir/flag
 extlib/dbug/CMakeFiles/dbug.dir/sanity.c.o: extlib/dbug/sanity.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object extlib/dbug/CMakeFiles/dbug.dir/sanity.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/dbug.dir/sanity.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug/sanity.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/dbug.dir/sanity.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug/sanity.c
 
 extlib/dbug/CMakeFiles/dbug.dir/sanity.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dbug.dir/sanity.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug/sanity.c > CMakeFiles/dbug.dir/sanity.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug/sanity.c > CMakeFiles/dbug.dir/sanity.c.i
 
 extlib/dbug/CMakeFiles/dbug.dir/sanity.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dbug.dir/sanity.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug/sanity.c -o CMakeFiles/dbug.dir/sanity.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/dbug/sanity.c -o CMakeFiles/dbug.dir/sanity.c.s
 
 extlib/dbug/CMakeFiles/dbug.dir/sanity.c.o.requires:
 .PHONY : extlib/dbug/CMakeFiles/dbug.dir/sanity.c.o.requires

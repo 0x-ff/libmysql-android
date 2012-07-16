@@ -58,7 +58,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     IF(EXISTS "${file}" AND
        NOT IS_SYMLINK "${file}")
       IF(CMAKE_INSTALL_DO_STRIP)
-        EXECUTE_PROCESS(COMMAND "/media/pavel/android/standalone-toolchains/android-9/arm/arm-linux-androideabi/bin/strip" "${file}")
+        EXECUTE_PROCESS(COMMAND "/media/pavel/android/standalone-toolchains/android-14/arm/arm-linux-androideabi/bin/strip" "${file}")
       ENDIF(CMAKE_INSTALL_DO_STRIP)
     ENDIF()
   ENDFOREACH()

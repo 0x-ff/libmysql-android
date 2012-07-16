@@ -951,8 +951,8 @@ unittest/libmysql/preinstall:
 # Target rules for target unittest/libmysql/CMakeFiles/basic-t.dir
 
 # All Build rule for target.
-unittest/libmysql/CMakeFiles/basic-t.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 unittest/libmysql/CMakeFiles/basic-t.dir/all: unittest/mytap/CMakeFiles/mytap.dir/all
+unittest/libmysql/CMakeFiles/basic-t.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 	$(MAKE) -f unittest/libmysql/CMakeFiles/basic-t.dir/build.make unittest/libmysql/CMakeFiles/basic-t.dir/depend
 	$(MAKE) -f unittest/libmysql/CMakeFiles/basic-t.dir/build.make unittest/libmysql/CMakeFiles/basic-t.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles 
@@ -987,8 +987,8 @@ clean: unittest/libmysql/CMakeFiles/basic-t.dir/clean
 # Target rules for target unittest/libmysql/CMakeFiles/charset.dir
 
 # All Build rule for target.
-unittest/libmysql/CMakeFiles/charset.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 unittest/libmysql/CMakeFiles/charset.dir/all: unittest/mytap/CMakeFiles/mytap.dir/all
+unittest/libmysql/CMakeFiles/charset.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 	$(MAKE) -f unittest/libmysql/CMakeFiles/charset.dir/build.make unittest/libmysql/CMakeFiles/charset.dir/depend
 	$(MAKE) -f unittest/libmysql/CMakeFiles/charset.dir/build.make unittest/libmysql/CMakeFiles/charset.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles 
@@ -1023,8 +1023,8 @@ clean: unittest/libmysql/CMakeFiles/charset.dir/clean
 # Target rules for target unittest/libmysql/CMakeFiles/connection.dir
 
 # All Build rule for target.
-unittest/libmysql/CMakeFiles/connection.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 unittest/libmysql/CMakeFiles/connection.dir/all: unittest/mytap/CMakeFiles/mytap.dir/all
+unittest/libmysql/CMakeFiles/connection.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 	$(MAKE) -f unittest/libmysql/CMakeFiles/connection.dir/build.make unittest/libmysql/CMakeFiles/connection.dir/depend
 	$(MAKE) -f unittest/libmysql/CMakeFiles/connection.dir/build.make unittest/libmysql/CMakeFiles/connection.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles 
@@ -1059,8 +1059,8 @@ clean: unittest/libmysql/CMakeFiles/connection.dir/clean
 # Target rules for target unittest/libmysql/CMakeFiles/cursor.dir
 
 # All Build rule for target.
-unittest/libmysql/CMakeFiles/cursor.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 unittest/libmysql/CMakeFiles/cursor.dir/all: unittest/mytap/CMakeFiles/mytap.dir/all
+unittest/libmysql/CMakeFiles/cursor.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 	$(MAKE) -f unittest/libmysql/CMakeFiles/cursor.dir/build.make unittest/libmysql/CMakeFiles/cursor.dir/depend
 	$(MAKE) -f unittest/libmysql/CMakeFiles/cursor.dir/build.make unittest/libmysql/CMakeFiles/cursor.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles  1
@@ -1095,8 +1095,8 @@ clean: unittest/libmysql/CMakeFiles/cursor.dir/clean
 # Target rules for target unittest/libmysql/CMakeFiles/errors.dir
 
 # All Build rule for target.
-unittest/libmysql/CMakeFiles/errors.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 unittest/libmysql/CMakeFiles/errors.dir/all: unittest/mytap/CMakeFiles/mytap.dir/all
+unittest/libmysql/CMakeFiles/errors.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 	$(MAKE) -f unittest/libmysql/CMakeFiles/errors.dir/build.make unittest/libmysql/CMakeFiles/errors.dir/depend
 	$(MAKE) -f unittest/libmysql/CMakeFiles/errors.dir/build.make unittest/libmysql/CMakeFiles/errors.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles 
@@ -1131,8 +1131,8 @@ clean: unittest/libmysql/CMakeFiles/errors.dir/clean
 # Target rules for target unittest/libmysql/CMakeFiles/fetch.dir
 
 # All Build rule for target.
-unittest/libmysql/CMakeFiles/fetch.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 unittest/libmysql/CMakeFiles/fetch.dir/all: unittest/mytap/CMakeFiles/mytap.dir/all
+unittest/libmysql/CMakeFiles/fetch.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 	$(MAKE) -f unittest/libmysql/CMakeFiles/fetch.dir/build.make unittest/libmysql/CMakeFiles/fetch.dir/depend
 	$(MAKE) -f unittest/libmysql/CMakeFiles/fetch.dir/build.make unittest/libmysql/CMakeFiles/fetch.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles 
@@ -1167,8 +1167,8 @@ clean: unittest/libmysql/CMakeFiles/fetch.dir/clean
 # Target rules for target unittest/libmysql/CMakeFiles/logs.dir
 
 # All Build rule for target.
-unittest/libmysql/CMakeFiles/logs.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 unittest/libmysql/CMakeFiles/logs.dir/all: unittest/mytap/CMakeFiles/mytap.dir/all
+unittest/libmysql/CMakeFiles/logs.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 	$(MAKE) -f unittest/libmysql/CMakeFiles/logs.dir/build.make unittest/libmysql/CMakeFiles/logs.dir/depend
 	$(MAKE) -f unittest/libmysql/CMakeFiles/logs.dir/build.make unittest/libmysql/CMakeFiles/logs.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles  34
@@ -1203,8 +1203,8 @@ clean: unittest/libmysql/CMakeFiles/logs.dir/clean
 # Target rules for target unittest/libmysql/CMakeFiles/misc.dir
 
 # All Build rule for target.
-unittest/libmysql/CMakeFiles/misc.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 unittest/libmysql/CMakeFiles/misc.dir/all: unittest/mytap/CMakeFiles/mytap.dir/all
+unittest/libmysql/CMakeFiles/misc.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 	$(MAKE) -f unittest/libmysql/CMakeFiles/misc.dir/build.make unittest/libmysql/CMakeFiles/misc.dir/depend
 	$(MAKE) -f unittest/libmysql/CMakeFiles/misc.dir/build.make unittest/libmysql/CMakeFiles/misc.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles 
@@ -1239,8 +1239,8 @@ clean: unittest/libmysql/CMakeFiles/misc.dir/clean
 # Target rules for target unittest/libmysql/CMakeFiles/ps.dir
 
 # All Build rule for target.
-unittest/libmysql/CMakeFiles/ps.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 unittest/libmysql/CMakeFiles/ps.dir/all: unittest/mytap/CMakeFiles/mytap.dir/all
+unittest/libmysql/CMakeFiles/ps.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 	$(MAKE) -f unittest/libmysql/CMakeFiles/ps.dir/build.make unittest/libmysql/CMakeFiles/ps.dir/depend
 	$(MAKE) -f unittest/libmysql/CMakeFiles/ps.dir/build.make unittest/libmysql/CMakeFiles/ps.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles 
@@ -1275,8 +1275,8 @@ clean: unittest/libmysql/CMakeFiles/ps.dir/clean
 # Target rules for target unittest/libmysql/CMakeFiles/ps_bugs.dir
 
 # All Build rule for target.
-unittest/libmysql/CMakeFiles/ps_bugs.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 unittest/libmysql/CMakeFiles/ps_bugs.dir/all: unittest/mytap/CMakeFiles/mytap.dir/all
+unittest/libmysql/CMakeFiles/ps_bugs.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 	$(MAKE) -f unittest/libmysql/CMakeFiles/ps_bugs.dir/build.make unittest/libmysql/CMakeFiles/ps_bugs.dir/depend
 	$(MAKE) -f unittest/libmysql/CMakeFiles/ps_bugs.dir/build.make unittest/libmysql/CMakeFiles/ps_bugs.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles  84
@@ -1311,8 +1311,8 @@ clean: unittest/libmysql/CMakeFiles/ps_bugs.dir/clean
 # Target rules for target unittest/libmysql/CMakeFiles/result.dir
 
 # All Build rule for target.
-unittest/libmysql/CMakeFiles/result.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 unittest/libmysql/CMakeFiles/result.dir/all: unittest/mytap/CMakeFiles/mytap.dir/all
+unittest/libmysql/CMakeFiles/result.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 	$(MAKE) -f unittest/libmysql/CMakeFiles/result.dir/build.make unittest/libmysql/CMakeFiles/result.dir/depend
 	$(MAKE) -f unittest/libmysql/CMakeFiles/result.dir/build.make unittest/libmysql/CMakeFiles/result.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles  85
@@ -1347,8 +1347,8 @@ clean: unittest/libmysql/CMakeFiles/result.dir/clean
 # Target rules for target unittest/libmysql/CMakeFiles/sp.dir
 
 # All Build rule for target.
-unittest/libmysql/CMakeFiles/sp.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 unittest/libmysql/CMakeFiles/sp.dir/all: unittest/mytap/CMakeFiles/mytap.dir/all
+unittest/libmysql/CMakeFiles/sp.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 	$(MAKE) -f unittest/libmysql/CMakeFiles/sp.dir/build.make unittest/libmysql/CMakeFiles/sp.dir/depend
 	$(MAKE) -f unittest/libmysql/CMakeFiles/sp.dir/build.make unittest/libmysql/CMakeFiles/sp.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles 
@@ -1383,8 +1383,8 @@ clean: unittest/libmysql/CMakeFiles/sp.dir/clean
 # Target rules for target unittest/libmysql/CMakeFiles/view.dir
 
 # All Build rule for target.
-unittest/libmysql/CMakeFiles/view.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 unittest/libmysql/CMakeFiles/view.dir/all: unittest/mytap/CMakeFiles/mytap.dir/all
+unittest/libmysql/CMakeFiles/view.dir/all: libmysql/CMakeFiles/mysqlclient.dir/all
 	$(MAKE) -f unittest/libmysql/CMakeFiles/view.dir/build.make unittest/libmysql/CMakeFiles/view.dir/depend
 	$(MAKE) -f unittest/libmysql/CMakeFiles/view.dir/build.make unittest/libmysql/CMakeFiles/view.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles  96
@@ -1442,10 +1442,10 @@ unittest/mysys/preinstall:
 # Target rules for target unittest/mysys/CMakeFiles/base64-t.dir
 
 # All Build rule for target.
-unittest/mysys/CMakeFiles/base64-t.dir/all: mysys/CMakeFiles/mysys.dir/all
-unittest/mysys/CMakeFiles/base64-t.dir/all: extlib/dbug/CMakeFiles/dbug.dir/all
-unittest/mysys/CMakeFiles/base64-t.dir/all: strings/CMakeFiles/strings.dir/all
 unittest/mysys/CMakeFiles/base64-t.dir/all: unittest/mytap/CMakeFiles/mytap.dir/all
+unittest/mysys/CMakeFiles/base64-t.dir/all: extlib/dbug/CMakeFiles/dbug.dir/all
+unittest/mysys/CMakeFiles/base64-t.dir/all: mysys/CMakeFiles/mysys.dir/all
+unittest/mysys/CMakeFiles/base64-t.dir/all: strings/CMakeFiles/strings.dir/all
 	$(MAKE) -f unittest/mysys/CMakeFiles/base64-t.dir/build.make unittest/mysys/CMakeFiles/base64-t.dir/depend
 	$(MAKE) -f unittest/mysys/CMakeFiles/base64-t.dir/build.make unittest/mysys/CMakeFiles/base64-t.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles 
@@ -1480,10 +1480,10 @@ clean: unittest/mysys/CMakeFiles/base64-t.dir/clean
 # Target rules for target unittest/mysys/CMakeFiles/bitmap-t.dir
 
 # All Build rule for target.
-unittest/mysys/CMakeFiles/bitmap-t.dir/all: mysys/CMakeFiles/mysys.dir/all
-unittest/mysys/CMakeFiles/bitmap-t.dir/all: extlib/dbug/CMakeFiles/dbug.dir/all
-unittest/mysys/CMakeFiles/bitmap-t.dir/all: strings/CMakeFiles/strings.dir/all
 unittest/mysys/CMakeFiles/bitmap-t.dir/all: unittest/mytap/CMakeFiles/mytap.dir/all
+unittest/mysys/CMakeFiles/bitmap-t.dir/all: extlib/dbug/CMakeFiles/dbug.dir/all
+unittest/mysys/CMakeFiles/bitmap-t.dir/all: mysys/CMakeFiles/mysys.dir/all
+unittest/mysys/CMakeFiles/bitmap-t.dir/all: strings/CMakeFiles/strings.dir/all
 	$(MAKE) -f unittest/mysys/CMakeFiles/bitmap-t.dir/build.make unittest/mysys/CMakeFiles/bitmap-t.dir/depend
 	$(MAKE) -f unittest/mysys/CMakeFiles/bitmap-t.dir/build.make unittest/mysys/CMakeFiles/bitmap-t.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles 
@@ -1518,10 +1518,10 @@ clean: unittest/mysys/CMakeFiles/bitmap-t.dir/clean
 # Target rules for target unittest/mysys/CMakeFiles/lf-t.dir
 
 # All Build rule for target.
-unittest/mysys/CMakeFiles/lf-t.dir/all: mysys/CMakeFiles/mysys.dir/all
-unittest/mysys/CMakeFiles/lf-t.dir/all: extlib/dbug/CMakeFiles/dbug.dir/all
-unittest/mysys/CMakeFiles/lf-t.dir/all: strings/CMakeFiles/strings.dir/all
 unittest/mysys/CMakeFiles/lf-t.dir/all: unittest/mytap/CMakeFiles/mytap.dir/all
+unittest/mysys/CMakeFiles/lf-t.dir/all: extlib/dbug/CMakeFiles/dbug.dir/all
+unittest/mysys/CMakeFiles/lf-t.dir/all: mysys/CMakeFiles/mysys.dir/all
+unittest/mysys/CMakeFiles/lf-t.dir/all: strings/CMakeFiles/strings.dir/all
 	$(MAKE) -f unittest/mysys/CMakeFiles/lf-t.dir/build.make unittest/mysys/CMakeFiles/lf-t.dir/depend
 	$(MAKE) -f unittest/mysys/CMakeFiles/lf-t.dir/build.make unittest/mysys/CMakeFiles/lf-t.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles 
@@ -1556,10 +1556,10 @@ clean: unittest/mysys/CMakeFiles/lf-t.dir/clean
 # Target rules for target unittest/mysys/CMakeFiles/my_atomic-t.dir
 
 # All Build rule for target.
-unittest/mysys/CMakeFiles/my_atomic-t.dir/all: mysys/CMakeFiles/mysys.dir/all
-unittest/mysys/CMakeFiles/my_atomic-t.dir/all: extlib/dbug/CMakeFiles/dbug.dir/all
-unittest/mysys/CMakeFiles/my_atomic-t.dir/all: strings/CMakeFiles/strings.dir/all
 unittest/mysys/CMakeFiles/my_atomic-t.dir/all: unittest/mytap/CMakeFiles/mytap.dir/all
+unittest/mysys/CMakeFiles/my_atomic-t.dir/all: extlib/dbug/CMakeFiles/dbug.dir/all
+unittest/mysys/CMakeFiles/my_atomic-t.dir/all: mysys/CMakeFiles/mysys.dir/all
+unittest/mysys/CMakeFiles/my_atomic-t.dir/all: strings/CMakeFiles/strings.dir/all
 	$(MAKE) -f unittest/mysys/CMakeFiles/my_atomic-t.dir/build.make unittest/mysys/CMakeFiles/my_atomic-t.dir/depend
 	$(MAKE) -f unittest/mysys/CMakeFiles/my_atomic-t.dir/build.make unittest/mysys/CMakeFiles/my_atomic-t.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles 
@@ -1594,10 +1594,10 @@ clean: unittest/mysys/CMakeFiles/my_atomic-t.dir/clean
 # Target rules for target unittest/mysys/CMakeFiles/waiting_threads-t.dir
 
 # All Build rule for target.
-unittest/mysys/CMakeFiles/waiting_threads-t.dir/all: mysys/CMakeFiles/mysys.dir/all
-unittest/mysys/CMakeFiles/waiting_threads-t.dir/all: extlib/dbug/CMakeFiles/dbug.dir/all
-unittest/mysys/CMakeFiles/waiting_threads-t.dir/all: strings/CMakeFiles/strings.dir/all
 unittest/mysys/CMakeFiles/waiting_threads-t.dir/all: unittest/mytap/CMakeFiles/mytap.dir/all
+unittest/mysys/CMakeFiles/waiting_threads-t.dir/all: extlib/dbug/CMakeFiles/dbug.dir/all
+unittest/mysys/CMakeFiles/waiting_threads-t.dir/all: mysys/CMakeFiles/mysys.dir/all
+unittest/mysys/CMakeFiles/waiting_threads-t.dir/all: strings/CMakeFiles/strings.dir/all
 	$(MAKE) -f unittest/mysys/CMakeFiles/waiting_threads-t.dir/build.make unittest/mysys/CMakeFiles/waiting_threads-t.dir/depend
 	$(MAKE) -f unittest/mysys/CMakeFiles/waiting_threads-t.dir/build.make unittest/mysys/CMakeFiles/waiting_threads-t.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles 

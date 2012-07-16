@@ -50,15 +50,15 @@ unittest/libmysql/CMakeFiles/connection.dir/connection.c.o: unittest/libmysql/CM
 unittest/libmysql/CMakeFiles/connection.dir/connection.c.o: unittest/libmysql/connection.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object unittest/libmysql/CMakeFiles/connection.dir/connection.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/connection.dir/connection.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/connection.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/connection.dir/connection.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/connection.c
 
 unittest/libmysql/CMakeFiles/connection.dir/connection.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/connection.dir/connection.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/connection.c > CMakeFiles/connection.dir/connection.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/connection.c > CMakeFiles/connection.dir/connection.c.i
 
 unittest/libmysql/CMakeFiles/connection.dir/connection.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/connection.dir/connection.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-9/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/connection.c -o CMakeFiles/connection.dir/connection.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/connection.c -o CMakeFiles/connection.dir/connection.c.s
 
 unittest/libmysql/CMakeFiles/connection.dir/connection.c.o.requires:
 .PHONY : unittest/libmysql/CMakeFiles/connection.dir/connection.c.o.requires
@@ -79,7 +79,7 @@ connection_EXTERNAL_OBJECTS =
 unittest/libmysql/connection: unittest/libmysql/CMakeFiles/connection.dir/connection.c.o
 unittest/libmysql/connection: unittest/mytap/libmytap.a
 unittest/libmysql/connection: libmysql/libmysqlclient.a
-unittest/libmysql/connection: /media/pavel/android/standalone-toolchains/android-9/arm/sysroot/usr/lib/libm.so
+unittest/libmysql/connection: /media/pavel/android/standalone-toolchains/android-14/arm/sysroot/usr/lib/libm.so
 unittest/libmysql/connection: unittest/libmysql/CMakeFiles/connection.dir/build.make
 unittest/libmysql/connection: unittest/libmysql/CMakeFiles/connection.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable connection"
