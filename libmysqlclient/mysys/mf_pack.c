@@ -38,6 +38,8 @@ void pack_dirname(char * to, const char *from)
   char buff[FN_REFLEN];
   DBUG_ENTER("pack_dirname");
 
+  buff_length = 0;
+
   LINT_INIT(buff_length);
   (void) intern_filename(to,from);		/* Change to intern name */
 

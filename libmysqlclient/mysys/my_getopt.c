@@ -113,6 +113,8 @@ int handle_options(int *argc, char ***argv,
   int error, i;
   my_bool is_cmdline_arg= 1;
 
+  prev_found = NULL;
+
   LINT_INIT(opt_found);
   /* handle_options() assumes arg0 (program name) always exists */
   DBUG_ASSERT(argc && *argc >= 1);

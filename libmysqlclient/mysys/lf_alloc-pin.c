@@ -332,6 +332,8 @@ static void _lf_pinbox_real_free(LF_PINS *pins)
   void *first, *last= NULL;
   LF_PINBOX *pinbox= pins->pinbox;
 
+  first = NULL;
+
   LINT_INIT(first);
   npins= pinbox->pins_in_array+1;
 

@@ -1348,7 +1348,7 @@ int bin2decimal(const uchar *from, decimal_t *to, int precision, int scale)
   if (intg0x)
   {
     int i=dig2bytes[intg0x];
-    dec1 x;
+    dec1 x = 0;
     LINT_INIT(x);
     switch (i)
     {
@@ -1390,7 +1390,7 @@ int bin2decimal(const uchar *from, decimal_t *to, int precision, int scale)
   if (frac0x)
   {
     int i=dig2bytes[frac0x];
-    dec1 x;
+    dec1 x = 0;
     LINT_INIT(x);
     switch (i)
     {
@@ -1475,7 +1475,9 @@ decimal_round(decimal_t *from, decimal_t *to, int scale,
                      (((intg0 + frac0)>0) && (from->buf[0] == DIG_MAX)));
   dec1 *buf0=from->buf, *buf1=to->buf, x, y, carry=0;
   int first_dig;
-
+    x = 0;
+    y = 0;
+    round_digit = 0;
   sanity(to);
 
   LINT_INIT(round_digit);
@@ -2106,10 +2108,10 @@ static int do_div_mod(decimal_t *from1, decimal_t *from2,
 {
   int frac1=ROUND_UP(from1->frac)*DIG_PER_DEC1, prec1=from1->intg+frac1,
       frac2=ROUND_UP(from2->frac)*DIG_PER_DEC1, prec2=from2->intg+frac2,
-      error, i, intg0, frac0, len1, len2, dintg, div_mod=(!mod);
+      error = 0, i, intg0, frac0, len1, len2, dintg, div_mod=(!mod);
   dec1 *buf0, *buf1=from1->buf, *buf2=from2->buf, *tmp1,
        *start2, *stop2, *stop1, *stop0, norm2, carry, *start1, dcarry;
-  dec2 norm_factor, x, guess, y;
+  dec2 norm_factor = 0, x = 0, guess = 0, y = 0;
 
   LINT_INIT(error);
 

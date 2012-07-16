@@ -75,7 +75,9 @@ int find_type(char *x, const TYPELIB *typelib, uint full_name)
   reg2 const char *j;
   DBUG_ENTER("find_type");
   DBUG_PRINT("enter",("x: '%s'  lib: %p", x, typelib));
-
+    
+  findpos = 0;
+    
   if (!typelib->count)
   {
     DBUG_PRINT("exit",("no count"));

@@ -319,6 +319,11 @@ my_bool my_hash_insert(HASH *info, const uchar *record)
   uchar *ptr_to_rec,*ptr_to_rec2;
   HASH_LINK *data,*empty,*gpos,*gpos2,*pos;
 
+  gpos        = NULL;
+  gpos2       = NULL;
+  ptr_to_rec2 = NULL;
+  ptr_to_rec  = NULL;
+
   LINT_INIT(gpos);
   LINT_INIT(gpos2);
   LINT_INIT(ptr_to_rec);

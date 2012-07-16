@@ -1272,6 +1272,7 @@ myodbc_remove_escape(MYSQL *mysql,char *name)
 #ifdef USE_MB
   my_bool use_mb_flag=use_mb(mysql->charset);
   char *end;
+  end = NULL;
   LINT_INIT(end);
   if (use_mb_flag)
     for (end=name; *end ; end++) ;

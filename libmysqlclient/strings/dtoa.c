@@ -1334,6 +1334,7 @@ static double my_strtod_int(const char *s00, char **se, int *error, char *buf, s
   Long L;
   ULong y, z;
   Bigint *bb, *bb1, *bd, *bd0, *bs, *delta;
+  c = 0;
 #ifdef SET_INEXACT
   int inexact, oldinexact;
 #endif

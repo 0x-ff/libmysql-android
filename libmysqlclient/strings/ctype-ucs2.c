@@ -1296,6 +1296,9 @@ my_strnncollsp_utf16(CHARSET_INFO *cs,
   my_wc_t s_wc, t_wc;
   const uchar *se= s + slen, *te= t + tlen;
   MY_UNICASE_INFO **uni_plane= cs->caseinfo;
+  
+  s_wc = 0;
+  
   LINT_INIT(s_wc);
   LINT_INIT(t_wc);
 
@@ -1512,6 +1515,8 @@ my_strnncollsp_utf16_bin(CHARSET_INFO *cs,
   const uchar *se= s + slen, *te= t + tlen;
   LINT_INIT(s_wc);
   LINT_INIT(t_wc);
+
+  s_wc = 0;
 
   DBUG_ASSERT((slen % 2) == 0);
   DBUG_ASSERT((tlen % 2) == 0);
