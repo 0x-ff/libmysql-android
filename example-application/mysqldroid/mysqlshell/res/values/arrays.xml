@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="output_format_list">
+		<item>CSV (comma separated values)</item>
+		<item>excel</item>
+		<item>plain text</item>
+		<item>Grid control</item>
+	</string-array>
+	<string-array name="output_format_values">
+		<item>csv</item>
+		<item>xls</item>
+		<item>txt</item>
+		<item>grid</item>
+	</string-array>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MySQL</string>
+    <string name="pref_title">Настройки</string>
+    <string name="pref_summary">Настройки mysql shell</string>
+    <string name="cap_pref">Настройки</string>
+    <string name="cap_exit">Выход</string>
+    <string name="very_compact_output_title">Компактный вывод</string>
+    <string name="very_compact_output_summary">(обрезание текста больших SQL запросов и значений полей BLOB/TEXT)</string>
+    <string name="use_pers_conns_title">Постоянные соединения</string>
+    <string name="use_pers_conns_summary">Служба будет постоянно держать одно соединение (можно будет одновременно выполнять не более одного запроса)</string>
+    <string name="verbose_log_title">До фига логов</string>
+    <string name="verbose_log_summary">Лоировать всё</string>
+    <string name="max_log_file_size_title">Максимальный размер лог-файла</string>
+    <string name="max_log_file_size_summary">в мегабайтах (по умолчанию 1)</string>
+    <string name="max_log_file_size_dialog">введите размер лог-файла в мегабайтах</string>
+    <string name="max_xls_row_size_title">Максимальное количество строк в XLS(CSV) файле</string>
+    <string name="max_xls_row_size_summary">по умолчанию 40000</string>
+    <string name="max_xls_row_size_dialog">введите максимальное число строк для XLS(CSV) файла</string>
+    <string name="taskman_timeout_title">Таймаут диспетчера запросов</string>
+    <string name="taskman_timeout_summary">в секундах</string>
+    <string name="taskman_timeout_dialog">введите таймаут для диспетчера запросов (в секундах)</string>
+    <string name="ouput_format_title">Формат вывода</string>
+    <string name="output_format_summary">для результатов запросов SELECT</string>
+    <string name="output_format_dialog_title">выберите формат вывода</string>
+    <string name="output_format_def_value">csv</string>
+    <string name="cap_debug">ОТЛАДКА</string>
+    <string name="cap_host_addr">Имя или IP-адрес сервера MySQL</string>
+    <string name="cap_username">Имя пользователя</string>
+    <string name="cap_password">Пароль</string>
+    <string name="cap_dbname">База данных</string>
+    <string name="cap_port">Порт (по умолчанию 3306)</string>
+    <string name="cap_connect">Соединиться</string>
+    <string name="cap_cancel">Отмена</string>
+    <string name="cap_local_name">Уникальное имя для этого соединения</string>
+    <string name="cap_list">Список соединений</string>
+    <string name="connected_title">Подключились</string>
+    <string name="connections_list">Выберите подключение</string>
+    <string name="cap_query">Запрос</string>
+    <string name="cap_taskman">Диспетчер задач</string>
+    <string name="cap_run_query">Выполнить</string>
+    <string name="cap_save_query">Сохранить</string>
+    <string name="cap_list_query">Список запросов</string>
+    <string name="cap_query_list">Список сохраненных запросов</string>
+    <string name="cap_drop_query">Удалить</string>
+    <string name="cap_kill_query">Завершить</string>
+    <string name="cap_results">Табличка с данными</string>
+    <string name="dont_use_default_encoding">Не использовать для соединения кодировку по умолчанию</string>
+    <string name="dont_use_default_encoding_summary">Введите какую кодировку желаете использовать</string>
+    <string name="redefine_default_encoding">Использовать кодировку</string>
+    <string name="redefine_default_encoding_summary">Служба выполнения запросов будет выполнять запрос SET CHARACTER SET перед выполнением любого запроса</string>
+    <string name="redefine_default_encoding_dialog">Введите сюда кодировку</string>
+    <string name="encoding_category">Кодировка</string>
+    <string name="cap_choose_db">Выберите базу данных</string>
+    <string name="cap_choose_database">Список баз</string>
+    <string name="cap_info">О программе</string>
+    <string name="cap_about">
+		<![CDATA[
+		<br>
+		<br>
+		Приложение mysqlshell, простенький клиент для работы с MySQL. 
+		<br>
+		<br>
+		Результаты выполнения запросов можно сохранять в четырех форматах 
+		txt, CSV, Excel и выводить на экран устройства.
+		<br>
+		<br>
+		Чтобы не набирать длинные запросы по нескольку раз, есть возможность
+		сохранения текста запросов в список, так же как и настройки подключения
+		к серверу. 
+		<br>
+		<br>
+		Есть возможность импорта и экспорта всех этих пользовательских данных
+		в XML файл. 
+		<br>
+		<br>
+		Есть диспетчер задач, для просмотра выполняющихся на сервере запросов,
+		использующий команду SHOW FULL PROCESSLIST.
+		<br>
+		<br>
+		Pavel V. Ivanisenko, pahanmipt@mail.ru
+		]]>
+    </string>
+    <string name="conn_name_empty">Введите пожалуйста уникальное имя соединения</string>
+    <string name="cap_import">Импорт настроек</string>
+    <string name="cap_export">Экспорт настроек</string>
+    <string name="query_name_empty">Пожалуйста введите уникальное имя для этого запроса</string>
+    <string name="conn_failed">Соединиться с сервером не удалось</string>
+    <string name="query_interrupted">Выполнение запроса было прервано</string>
+    <string name="query_ok">Запрос выполнен</string>
+    <string name="empty_query">Задан пустой запрос</string>
+    <string name="cap_showtabs">Таблицы</string>
+    <string name="cap_show_status">Статус</string>
+    <string name="cap_show_create">SHOW CREATE</string>
+    <string name="cap_show_full_columns">Столбцы</string>
+    <string name="cap_show_indexes">Индексы</string>
+</resources>

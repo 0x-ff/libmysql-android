@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/btn_show_status"
+		  android:title="@string/cap_show_status" />
+	<item android:id="@+id/btn_show_create"
+		  android:title="@string/cap_show_create" />
+	<item android:id="@+id/btn_show_full_columns"
+		  android:title="@string/cap_show_full_columns" />
+	<item android:id="@+id/btn_show_indexes"
+		  android:title="@string/cap_show_indexes" />
+</menu>

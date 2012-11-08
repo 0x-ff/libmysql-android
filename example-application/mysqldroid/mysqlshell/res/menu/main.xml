@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/btn_connect"
+          android:title="@string/cap_connect" />
+    <item android:id="@+id/btn_list_conns"
+          android:title="@string/cap_list" />
+	<item android:id="@+id/btn_save_conn"
+          android:title="@string/cap_save_query" />
+    <item android:id="@+id/btn_delete_conn"
+          android:title="@string/cap_drop_query" />
+    <item android:id="@+id/btn_info"
+          android:title="@string/cap_info" />
+    <item android:id="@+id/btn_export"
+          android:title="@string/cap_export" />
+    <item android:id="@+id/btn_import"
+          android:title="@string/cap_import" />
+    <item android:id="@+id/btn_pref"
+          android:title="@string/cap_pref" />
+    <item android:id="@+id/btn_exit"
+          android:title="@string/cap_exit" />
+</menu>

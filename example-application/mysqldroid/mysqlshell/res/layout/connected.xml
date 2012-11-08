@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:gravity="fill_horizontal|top"
+    android:fillViewport="true">
+	<LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:orientation="vertical" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent">    
+
+		<EditText android:id="@+id/sql_name"
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:gravity="top" 
+			android:scrollHorizontally="false" />
+
+
+		<EditText android:id="@+id/sql_string"
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:lines="500" 
+			android:gravity="top" 
+			android:inputType="textMultiLine"
+			android:scrollHorizontally="false" />
+
+	</LinearLayout>
+</ScrollView>

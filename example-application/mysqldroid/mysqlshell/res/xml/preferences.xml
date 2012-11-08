@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:key="option_preference"
+	android:title="@string/pref_title"
+	android:summary="@string/pref_summary">
+	
+	<CheckBoxPreference
+		android:key="very_compact_output"
+		android:title="@string/very_compact_output_title"
+		android:summary="@string/very_compact_output_summary" />
+	
+	<CheckBoxPreference
+		android:key="use_persistance_connections"
+		android:title="@string/use_pers_conns_title"
+		android:summary="@string/use_pers_conns_summary" />
+	
+	<CheckBoxPreference
+		android:key="verbose_logging"
+		android:title="@string/verbose_log_title"
+		android:summary="@string/verbose_log_summary" />
+	
+	<PreferenceCategory
+            android:title="@string/encoding_category">
+    
+        <CheckBoxPreference
+                android:key="dont_use_default_encoding"
+                android:title="@string/dont_use_default_encoding"
+                android:summary="@string/dont_use_default_encoding_summary" />
+
+        <EditTextPreference
+                android:key="redefine_default_encoding"
+                android:dependency="dont_use_default_encoding"
+                android:title="@string/redefine_default_encoding"
+                android:summary="@string/redefine_default_encoding_summary" 
+                android:dialogTitle="@string/redefine_default_encoding_dialog" />
+            
+    </PreferenceCategory>
+	
+	<EditTextPreference
+		android:key="max_log_file_size"
+		android:title="@string/max_log_file_size_title"
+		android:summary="@string/max_log_file_size_summary"
+		android:dialogTitle="@string/max_log_file_size_dialog" 
+		android:numeric="integer" 
+		android:maxLength="2" />
+	
+	<EditTextPreference
+		android:key="max_xls_row_size"
+		android:title="@string/max_xls_row_size_title"
+		android:summary="@string/max_xls_row_size_summary"
+		android:dialogTitle="@string/max_xls_row_size_dialog" 
+		android:numeric="integer" 
+		android:maxLength="5" />
+	
+	<EditTextPreference 
+		android:key="taskman_timeout" 
+		android:title="@string/taskman_timeout_title" 
+		android:summary="@string/taskman_timeout_summary" 
+		android:dialogTitle="@string/taskman_timeout_dialog" 
+		android:numeric="integer" 
+		android:maxLength="2" />
+
+	<ListPreference 
+		android:key="output_format" 
+		android:title="@string/ouput_format_title"
+		android:summary="@string/output_format_summary"
+		android:entries="@array/output_format_list" 
+		android:entryValues="@array/output_format_values"
+		android:dialogTitle="@string/output_format_dialog_title"
+		android:defaultValue="@string/output_format_def_value" />
+
+</PreferenceScreen>

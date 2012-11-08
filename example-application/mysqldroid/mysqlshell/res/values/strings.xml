@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MySQLshell</string>
+    <string name="pref_title">MySQL Shell Preferences</string>
+    <string name="pref_summary">MySQL shell preferences</string>
+    <string name="cap_pref">Preferences</string>
+    <string name="cap_exit">Exit</string>
+    <string name="very_compact_output_title">Very compact output</string>
+    <string name="very_compact_output_summary">(for big sql queries at task manager and for text,blob types)</string>
+    <string name="use_pers_conns_title">Persistance connections</string>
+    <string name="use_pers_conns_summary">you will be able run only single query at once (requires restart connection)</string>
+    <string name="verbose_log_title">Verbose log</string>
+    <string name="verbose_log_summary">log all libmysql events</string>
+    <string name="max_log_file_size_title">Max log file size</string>
+    <string name="max_log_file_size_summary">number in megabytes (by default 1)</string>
+    <string name="max_log_file_size_dialog">enter log size in megabytes</string>
+    <string name="max_xls_row_size_title">Max rows per xls sheet</string>
+    <string name="max_xls_row_size_summary">by default 40000</string>
+    <string name="max_xls_row_size_dialog">enter number (max rows at xls sheet)</string>
+    <string name="taskman_timeout_title">Task manager timeout</string>
+    <string name="taskman_timeout_summary">task manager timeout in seconds</string>
+    <string name="taskman_timeout_dialog">enter number (task manager timeout in seconds)</string>
+    <string name="ouput_format_title">Output format</string>
+    <string name="output_format_summary">output format for select queries</string>
+    <string name="output_format_dialog_title">Output format</string>
+    <string name="output_format_def_value">csv</string>
+    <string name="cap_debug">DEBUG</string>
+    <string name="cap_host_addr">Host address or name</string>
+    <string name="cap_username">User name</string>
+    <string name="cap_password">Password</string>
+    <string name="cap_dbname">Database name</string>
+    <string name="cap_port">Port (3306 by default)</string>
+    <string name="cap_connect">Connect</string>
+    <string name="cap_cancel">Cancel</string>
+    <string name="cap_local_name">Unique local name for connection</string>
+    <string name="cap_list">List connections</string>
+    <string name="connected_title">Connected to</string>
+    <string name="connections_list">Choose connection</string>
+    <string name="cap_query">Query</string>
+    <string name="cap_taskman">Task manager</string>
+    <string name="cap_run_query">Run</string>
+    <string name="cap_save_query">Save</string>
+    <string name="cap_list_query">List</string>
+    <string name="cap_query_list">Query List</string>
+    <string name="cap_drop_query">Delete</string>
+    <string name="cap_kill_query">Kill query</string>
+    <string name="cap_results">Sql results</string>
+    <string name="dont_use_default_encoding">Dont use default connection encoding</string>
+    <string name="dont_use_default_encoding_summary">Just force redefine what encoding you need</string>
+    <string name="redefine_default_encoding">Use this encoding instead</string>
+    <string name="redefine_default_encoding_summary">Service will force run SET CHARACTER SET before each query execution</string>
+    <string name="redefine_default_encoding_dialog">Type encoding name here</string>
+    <string name="encoding_category">Encoding</string>
+    <string name="cap_choose_db">Choose current database</string>
+    <string name="cap_choose_database">Databases</string>
+    <string name="cap_info">About mysqlshell</string>
+    <string name="cap_about">
+		My First Android Application
+		pahanmipt@mail.ru
+    </string>
+    <string name="conn_name_empty">Please enter an unique name for connection</string>
+    <string name="cap_import">Import user data</string>
+    <string name="cap_export">Export user data</string>
+    <string name="query_name_empty">Please enter an unique name for query</string>
+    <string name="conn_failed">Connection failed</string>
+    <string name="query_interrupted">Query execution was interrupted</string>
+    <string name="query_ok">Query complete</string>
+    <string name="empty_query">Empty query</string>
+    <string name="cap_showtabs">Show tables</string>
+    <string name="cap_show_status">show status</string>
+    <string name="cap_show_create">show create</string>
+    <string name="cap_show_full_columns">show columns</string>
+    <string name="cap_show_indexes">show indexes</string>
+</resources>

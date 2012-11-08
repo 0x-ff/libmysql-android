@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/btn_run_query"
+		  android:title="@string/cap_run_query" />
+	<item android:id="@+id/btn_save_query"
+		  android:title="@string/cap_save_query" />
+	<item android:id="@+id/btn_showtabs"
+		  android:title="@string/cap_showtabs" />
+	<item android:id="@+id/btn_choose_db"
+		  android:title="@string/cap_choose_database" />
+	<item android:id="@+id/btn_list_query"
+		  android:title="@string/cap_list_query" />
+	<item android:id="@+id/btn_drop_query"
+		  android:title="@string/cap_drop_query" />
+	<item android:id="@id/btn_pref"
+          android:title="@string/cap_pref" />
+	<item android:id="@+id/btn_taskman"
+		  android:title="@string/cap_taskman" />
+</menu>

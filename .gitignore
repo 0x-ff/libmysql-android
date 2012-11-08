@@ -1,5 +1,18 @@
 
+# Android project rules 
+*.dex
+*.dex.d
+jarlist.cache
+*.ap_
+*.ap_.d
+*.apk
+*.apk.d
+*.class
+*.java.d
+bin/
+gen/
 
+#
 /android8-arm
 /android9-arm
 /android14-arm

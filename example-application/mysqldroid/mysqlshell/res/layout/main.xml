@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:gravity="fill_horizontal|top"
+    android:fillViewport="true">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:gravity="fill_horizontal|top">
+
+		<TextView 
+			android:id="@+id/local_name_cap"
+			android:layout_width="fill_parent"  
+			android:layout_height="fill_parent"  
+			android:gravity="left" 
+			android:text="@string/cap_local_name" />
+			
+		<EditText 
+			android:id="@+id/conn_id" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" />
+
+		<TextView 
+			android:id="@+id/host_addr_cap"
+			android:layout_width="fill_parent"  
+			android:layout_height="wrap_content"  
+			android:gravity="left" 
+			android:text="@string/cap_host_addr" />
+
+		<EditText 
+			android:id="@+id/host_addr" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" />
+
+		<TextView 
+			android:id="@+id/username_cap"
+			android:layout_width="fill_parent"  
+			android:layout_height="wrap_content"  
+			android:gravity="left" 
+			android:text="@string/cap_username" />
+
+		<EditText 
+			android:id="@+id/username" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" />
+
+		<TextView 
+			android:id="@+id/password_cap"
+			android:layout_width="fill_parent"  
+			android:layout_height="wrap_content"  
+			android:gravity="left" 
+			android:text="@string/cap_password" />
+
+		<EditText 
+			android:id="@+id/password" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:password="true" />
+			
+		<TextView 
+			android:id="@+id/dbname_cap"
+			android:layout_width="fill_parent"  
+			android:layout_height="fill_parent"  
+			android:gravity="left" 
+			android:text="@string/cap_dbname" />
+
+		<EditText 
+			android:id="@+id/dbname" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" />
+
+		<TextView 
+			android:id="@+id/port_cap"
+			android:layout_width="fill_parent"  
+			android:layout_height="wrap_content"  
+			android:gravity="left" 
+			android:text="@string/cap_port" />
+
+		<EditText 
+			android:id="@+id/port" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:numeric="integer" 
+			android:maxLength="6" />
+
+</LinearLayout>
+
+</ScrollView>
