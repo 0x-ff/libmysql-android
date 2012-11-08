@@ -11,6 +11,7 @@ jarlist.cache
 *.java.d
 bin/
 gen/
+obj/
 
 #
 /android8-arm
@@ -32,3 +33,4 @@ gen/
 
 *.log
 
+*.o.d
