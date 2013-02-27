@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -50,15 +50,15 @@ unittest/mytap/CMakeFiles/mytap.dir/tap.c.o: unittest/mytap/CMakeFiles/mytap.dir
 unittest/mytap/CMakeFiles/mytap.dir/tap.c.o: unittest/mytap/tap.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object unittest/mytap/CMakeFiles/mytap.dir/tap.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mytap && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mytap.dir/tap.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mytap/tap.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mytap && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mytap.dir/tap.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mytap/tap.c
 
 unittest/mytap/CMakeFiles/mytap.dir/tap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mytap.dir/tap.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mytap && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mytap/tap.c > CMakeFiles/mytap.dir/tap.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mytap && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mytap/tap.c > CMakeFiles/mytap.dir/tap.c.i
 
 unittest/mytap/CMakeFiles/mytap.dir/tap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mytap.dir/tap.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mytap && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mytap/tap.c -o CMakeFiles/mytap.dir/tap.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mytap && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mytap/tap.c -o CMakeFiles/mytap.dir/tap.c.s
 
 unittest/mytap/CMakeFiles/mytap.dir/tap.c.o.requires:
 .PHONY : unittest/mytap/CMakeFiles/mytap.dir/tap.c.o.requires

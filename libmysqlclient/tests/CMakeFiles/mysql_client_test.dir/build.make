@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -50,15 +50,15 @@ tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.o: tests/CMakeFiles/m
 tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.o: tests/mysql_client_test.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/tests && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysql_client_test.dir/mysql_client_test.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/tests/mysql_client_test.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/tests && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysql_client_test.dir/mysql_client_test.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/tests/mysql_client_test.c
 
 tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysql_client_test.dir/mysql_client_test.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/tests && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/tests/mysql_client_test.c > CMakeFiles/mysql_client_test.dir/mysql_client_test.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/tests && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/tests/mysql_client_test.c > CMakeFiles/mysql_client_test.dir/mysql_client_test.c.i
 
 tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysql_client_test.dir/mysql_client_test.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/tests && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/tests/mysql_client_test.c -o CMakeFiles/mysql_client_test.dir/mysql_client_test.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/tests && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/tests/mysql_client_test.c -o CMakeFiles/mysql_client_test.dir/mysql_client_test.c.s
 
 tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.o.requires:
 .PHONY : tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.o.requires
@@ -73,15 +73,15 @@ tests/CMakeFiles/mysql_client_test.dir/__/mysys/my_memmem.c.o: tests/CMakeFiles/
 tests/CMakeFiles/mysql_client_test.dir/__/mysys/my_memmem.c.o: mysys/my_memmem.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object tests/CMakeFiles/mysql_client_test.dir/__/mysys/my_memmem.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/tests && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysql_client_test.dir/__/mysys/my_memmem.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_memmem.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/tests && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysql_client_test.dir/__/mysys/my_memmem.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_memmem.c
 
 tests/CMakeFiles/mysql_client_test.dir/__/mysys/my_memmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysql_client_test.dir/__/mysys/my_memmem.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/tests && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_memmem.c > CMakeFiles/mysql_client_test.dir/__/mysys/my_memmem.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/tests && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_memmem.c > CMakeFiles/mysql_client_test.dir/__/mysys/my_memmem.c.i
 
 tests/CMakeFiles/mysql_client_test.dir/__/mysys/my_memmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysql_client_test.dir/__/mysys/my_memmem.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/tests && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_memmem.c -o CMakeFiles/mysql_client_test.dir/__/mysys/my_memmem.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/tests && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_memmem.c -o CMakeFiles/mysql_client_test.dir/__/mysys/my_memmem.c.s
 
 tests/CMakeFiles/mysql_client_test.dir/__/mysys/my_memmem.c.o.requires:
 .PHONY : tests/CMakeFiles/mysql_client_test.dir/__/mysys/my_memmem.c.o.requires
@@ -103,7 +103,7 @@ mysql_client_test_EXTERNAL_OBJECTS =
 tests/mysql_client_test: tests/CMakeFiles/mysql_client_test.dir/mysql_client_test.c.o
 tests/mysql_client_test: tests/CMakeFiles/mysql_client_test.dir/__/mysys/my_memmem.c.o
 tests/mysql_client_test: libmysql/libmysqlclient.a
-tests/mysql_client_test: /media/pavel/android/standalone-toolchains/android-14/arm/sysroot/usr/lib/libm.so
+tests/mysql_client_test: /usr/lib/x86_64-linux-gnu/libm.so
 tests/mysql_client_test: tests/CMakeFiles/mysql_client_test.dir/build.make
 tests/mysql_client_test: tests/CMakeFiles/mysql_client_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable mysql_client_test"

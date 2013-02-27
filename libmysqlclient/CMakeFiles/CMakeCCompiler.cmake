@@ -1,11 +1,11 @@
-SET(CMAKE_C_COMPILER "/media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3")
+SET(CMAKE_C_COMPILER "/usr/bin/gcc")
 SET(CMAKE_C_COMPILER_ARG1 "")
 SET(CMAKE_C_COMPILER_ID "GNU")
 SET(CMAKE_C_PLATFORM_ID "Linux")
 
-SET(CMAKE_AR "/media/pavel/android/standalone-toolchains/android-14/arm/arm-linux-androideabi/bin/ar")
-SET(CMAKE_RANLIB "/media/pavel/android/standalone-toolchains/android-14/arm/arm-linux-androideabi/bin/ranlib")
-SET(CMAKE_LINKER "/media/pavel/android/standalone-toolchains/android-14/arm/arm-linux-androideabi/bin/ld")
+SET(CMAKE_AR "/usr/bin/ar")
+SET(CMAKE_RANLIB "/usr/bin/ranlib")
+SET(CMAKE_LINKER "/usr/bin/ld")
 SET(CMAKE_COMPILER_IS_GNUCC 1)
 SET(CMAKE_C_COMPILER_LOADED 1)
 SET(CMAKE_COMPILER_IS_MINGW )
@@ -26,9 +26,9 @@ SET(CMAKE_C_IGNORE_EXTENSIONS h;H;o;O;obj;OBJ;def;DEF;rc;RC)
 SET(CMAKE_C_LINKER_PREFERENCE 10)
 
 # Save compiler ABI information.
-SET(CMAKE_C_SIZEOF_DATA_PTR "4")
+SET(CMAKE_C_SIZEOF_DATA_PTR "8")
 SET(CMAKE_C_COMPILER_ABI "ELF")
-SET(CMAKE_C_LIBRARY_ARCHITECTURE "")
+SET(CMAKE_C_LIBRARY_ARCHITECTURE "x86_64-linux-gnu")
 
 IF(CMAKE_C_SIZEOF_DATA_PTR)
   SET(CMAKE_SIZEOF_VOID_P "${CMAKE_C_SIZEOF_DATA_PTR}")
@@ -39,11 +39,11 @@ IF(CMAKE_C_COMPILER_ABI)
 ENDIF(CMAKE_C_COMPILER_ABI)
 
 IF(CMAKE_C_LIBRARY_ARCHITECTURE)
-  SET(CMAKE_LIBRARY_ARCHITECTURE "")
+  SET(CMAKE_LIBRARY_ARCHITECTURE "x86_64-linux-gnu")
 ENDIF()
 
 SET(CMAKE_C_HAS_ISYSROOT "")
 
 
-SET(CMAKE_C_IMPLICIT_LINK_LIBRARIES "crystax;stdc++;log;c;dl")
-SET(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/media/pavel/android/standalone-toolchains/android-14/arm/lib/gcc/arm-linux-androideabi/4.6.3;/media/pavel/android/standalone-toolchains/android-14/arm/lib/gcc;/media/pavel/android/standalone-toolchains/android-14/arm/arm-linux-androideabi/lib;/media/pavel/android/standalone-toolchains/android-14/arm/sysroot/usr/lib")
+SET(CMAKE_C_IMPLICIT_LINK_LIBRARIES "c")
+SET(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc/x86_64-linux-gnu/4.6;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib")

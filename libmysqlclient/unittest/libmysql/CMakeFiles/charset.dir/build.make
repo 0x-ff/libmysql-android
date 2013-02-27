@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -50,15 +50,15 @@ unittest/libmysql/CMakeFiles/charset.dir/charset.c.o: unittest/libmysql/CMakeFil
 unittest/libmysql/CMakeFiles/charset.dir/charset.c.o: unittest/libmysql/charset.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object unittest/libmysql/CMakeFiles/charset.dir/charset.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/charset.dir/charset.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/charset.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/charset.dir/charset.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/charset.c
 
 unittest/libmysql/CMakeFiles/charset.dir/charset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/charset.dir/charset.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/charset.c > CMakeFiles/charset.dir/charset.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/charset.c > CMakeFiles/charset.dir/charset.c.i
 
 unittest/libmysql/CMakeFiles/charset.dir/charset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/charset.dir/charset.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/charset.c -o CMakeFiles/charset.dir/charset.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/charset.c -o CMakeFiles/charset.dir/charset.c.s
 
 unittest/libmysql/CMakeFiles/charset.dir/charset.c.o.requires:
 .PHONY : unittest/libmysql/CMakeFiles/charset.dir/charset.c.o.requires
@@ -79,7 +79,7 @@ charset_EXTERNAL_OBJECTS =
 unittest/libmysql/charset: unittest/libmysql/CMakeFiles/charset.dir/charset.c.o
 unittest/libmysql/charset: unittest/mytap/libmytap.a
 unittest/libmysql/charset: libmysql/libmysqlclient.a
-unittest/libmysql/charset: /media/pavel/android/standalone-toolchains/android-14/arm/sysroot/usr/lib/libm.so
+unittest/libmysql/charset: /usr/lib/x86_64-linux-gnu/libm.so
 unittest/libmysql/charset: unittest/libmysql/CMakeFiles/charset.dir/build.make
 unittest/libmysql/charset: unittest/libmysql/CMakeFiles/charset.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable charset"

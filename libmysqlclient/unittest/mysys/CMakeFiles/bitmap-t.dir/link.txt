@@ -1,1 +1,1 @@
-/media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3   -Wall -O3 -DNDEBUG -DDBUG_OFF    CMakeFiles/bitmap-t.dir/bitmap-t.c.o  -o bitmap-t -rdynamic ../mytap/libmytap.a ../../mysys/libmysys.a ../../strings/libstrings.a ../../extlib/dbug/libdbug.a -lm 
+/usr/bin/gcc   -Wall -O3 -DNDEBUG -DDBUG_OFF    CMakeFiles/bitmap-t.dir/bitmap-t.c.o  -o bitmap-t -rdynamic ../mytap/libmytap.a ../../mysys/libmysys.a ../../strings/libstrings.a ../../extlib/dbug/libdbug.a -lpthread -lm 

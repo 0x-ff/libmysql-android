@@ -16,7 +16,9 @@ obj/
 #
 /android8-arm
 /android9-arm
+/android9-x86
 /android14-arm
+/android14-x86
 
 # Compiled Object files
 *.slo

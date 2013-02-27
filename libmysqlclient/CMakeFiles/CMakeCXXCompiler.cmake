@@ -1,11 +1,11 @@
-SET(CMAKE_CXX_COMPILER "/media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-g++")
+SET(CMAKE_CXX_COMPILER "/media/pavel/android/standalone-toolchains/android-14/x86/bin/i686-android-linux-gcc-4.6.3")
 SET(CMAKE_CXX_COMPILER_ARG1 "")
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 SET(CMAKE_CXX_PLATFORM_ID "Linux")
 
-SET(CMAKE_AR "/media/pavel/android/standalone-toolchains/android-14/arm/arm-linux-androideabi/bin/ar")
-SET(CMAKE_RANLIB "/media/pavel/android/standalone-toolchains/android-14/arm/arm-linux-androideabi/bin/ranlib")
-SET(CMAKE_LINKER "/media/pavel/android/standalone-toolchains/android-14/arm/arm-linux-androideabi/bin/ld")
+SET(CMAKE_AR "/usr/bin/ar")
+SET(CMAKE_RANLIB "/usr/bin/ranlib")
+SET(CMAKE_LINKER "/usr/bin/ld")
 SET(CMAKE_COMPILER_IS_GNUCXX 1)
 SET(CMAKE_CXX_COMPILER_LOADED 1)
 SET(CMAKE_COMPILER_IS_MINGW )
@@ -46,5 +46,5 @@ ENDIF()
 SET(CMAKE_CXX_HAS_ISYSROOT "")
 
 
-SET(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;crystax;stdc++;log;c;dl")
-SET(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/media/pavel/android/standalone-toolchains/android-14/arm/lib/gcc/arm-linux-androideabi/4.6.3;/media/pavel/android/standalone-toolchains/android-14/arm/lib/gcc;/media/pavel/android/standalone-toolchains/android-14/arm/arm-linux-androideabi/lib;/media/pavel/android/standalone-toolchains/android-14/arm/sysroot/usr/lib")
+SET(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "crystax;stdc++;log;c;dl")
+SET(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/media/pavel/android/standalone-toolchains/android-14/x86/lib/gcc/i686-android-linux/4.6.3;/media/pavel/android/standalone-toolchains/android-14/x86/lib/gcc;/media/pavel/android/standalone-toolchains/android-14/x86/i686-android-linux/lib;/media/pavel/android/standalone-toolchains/android-14/x86/sysroot/usr/lib")

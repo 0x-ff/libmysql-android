@@ -5,7 +5,7 @@
 #   CPACK_INSTALL_CMAKE_PROJECTS        - For each project (path, name, component)
 #   CPACK_CMAKE_GENERATOR               - CMake Generator used for the projects
 #   CPACK_INSTALL_COMMANDS              - Extra commands to install components
-#   CPACK_INSTALL_DIRECTORIES           - Extra directories to install
+#   CPACK_INSTALLED_DIRECTORIES           - Extra directories to install
 #   CPACK_PACKAGE_DESCRIPTION_FILE      - Description file for the package
 #   CPACK_PACKAGE_DESCRIPTION_SUMMARY   - Summary of the package
 #   CPACK_PACKAGE_EXECUTABLES           - List of pairs of executables and labels
@@ -45,7 +45,7 @@ SET(CPACK_COMPONENT_UNSPECIFIED_HIDDEN "TRUE")
 SET(CPACK_COMPONENT_UNSPECIFIED_REQUIRED "TRUE")
 SET(CPACK_GENERATOR "TGZ")
 SET(CPACK_INSTALL_CMAKE_PROJECTS "/media/pavel/projects/libmysql-android/libmysqlclient;libmysql;ALL;/")
-SET(CPACK_INSTALL_PREFIX "/media/pavel/projects/libmysql-android/libmysqlclient/install")
+SET(CPACK_INSTALL_PREFIX "/usr/local/mysql")
 SET(CPACK_MODULE_PATH "")
 SET(CPACK_NSIS_DISPLAY_NAME "mysql-connector-c-6.0.2-unknown")
 SET(CPACK_NSIS_INSTALLER_ICON_CODE "")
@@ -58,7 +58,7 @@ SET(CPACK_PACKAGE_DESCRIPTION_FILE "README")
 SET(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Connector/C (libmysql), a library for connecting to MySQL servers.")
 SET(CPACK_PACKAGE_FILE_NAME "mysql-connector-c-6.0.2-unknown")
 SET(CPACK_PACKAGE_INSTALL_DIRECTORY "mysql-connector-c-6.0.2-unknown")
-SET(CPACK_PACKAGE_INSTALL_REGISTRY_KEY "mysql-connector-c 6.0.2")
+SET(CPACK_PACKAGE_INSTALL_REGISTRY_KEY "mysql-connector-c-6.0.2-unknown")
 SET(CPACK_PACKAGE_NAME "mysql-connector-c")
 SET(CPACK_PACKAGE_RELOCATABLE "true")
 SET(CPACK_PACKAGE_VENDOR "Sun Microsystems, Inc.")

@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -50,15 +50,15 @@ unittest/mysys/CMakeFiles/base64-t.dir/base64-t.c.o: unittest/mysys/CMakeFiles/b
 unittest/mysys/CMakeFiles/base64-t.dir/base64-t.c.o: unittest/mysys/base64-t.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object unittest/mysys/CMakeFiles/base64-t.dir/base64-t.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/base64-t.dir/base64-t.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/base64-t.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/base64-t.dir/base64-t.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/base64-t.c
 
 unittest/mysys/CMakeFiles/base64-t.dir/base64-t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/base64-t.dir/base64-t.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/base64-t.c > CMakeFiles/base64-t.dir/base64-t.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/base64-t.c > CMakeFiles/base64-t.dir/base64-t.c.i
 
 unittest/mysys/CMakeFiles/base64-t.dir/base64-t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/base64-t.dir/base64-t.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/base64-t.c -o CMakeFiles/base64-t.dir/base64-t.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/base64-t.c -o CMakeFiles/base64-t.dir/base64-t.c.s
 
 unittest/mysys/CMakeFiles/base64-t.dir/base64-t.c.o.requires:
 .PHONY : unittest/mysys/CMakeFiles/base64-t.dir/base64-t.c.o.requires
@@ -81,7 +81,7 @@ unittest/mysys/base64-t: unittest/mytap/libmytap.a
 unittest/mysys/base64-t: mysys/libmysys.a
 unittest/mysys/base64-t: strings/libstrings.a
 unittest/mysys/base64-t: extlib/dbug/libdbug.a
-unittest/mysys/base64-t: /media/pavel/android/standalone-toolchains/android-14/arm/sysroot/usr/lib/libm.so
+unittest/mysys/base64-t: /usr/lib/x86_64-linux-gnu/libm.so
 unittest/mysys/base64-t: unittest/mysys/CMakeFiles/base64-t.dir/build.make
 unittest/mysys/base64-t: unittest/mysys/CMakeFiles/base64-t.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable base64-t"

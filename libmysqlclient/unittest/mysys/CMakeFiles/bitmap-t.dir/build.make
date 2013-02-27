@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -50,15 +50,15 @@ unittest/mysys/CMakeFiles/bitmap-t.dir/bitmap-t.c.o: unittest/mysys/CMakeFiles/b
 unittest/mysys/CMakeFiles/bitmap-t.dir/bitmap-t.c.o: unittest/mysys/bitmap-t.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object unittest/mysys/CMakeFiles/bitmap-t.dir/bitmap-t.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/bitmap-t.dir/bitmap-t.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/bitmap-t.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/bitmap-t.dir/bitmap-t.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/bitmap-t.c
 
 unittest/mysys/CMakeFiles/bitmap-t.dir/bitmap-t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitmap-t.dir/bitmap-t.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/bitmap-t.c > CMakeFiles/bitmap-t.dir/bitmap-t.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/bitmap-t.c > CMakeFiles/bitmap-t.dir/bitmap-t.c.i
 
 unittest/mysys/CMakeFiles/bitmap-t.dir/bitmap-t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitmap-t.dir/bitmap-t.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/bitmap-t.c -o CMakeFiles/bitmap-t.dir/bitmap-t.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/bitmap-t.c -o CMakeFiles/bitmap-t.dir/bitmap-t.c.s
 
 unittest/mysys/CMakeFiles/bitmap-t.dir/bitmap-t.c.o.requires:
 .PHONY : unittest/mysys/CMakeFiles/bitmap-t.dir/bitmap-t.c.o.requires
@@ -81,7 +81,7 @@ unittest/mysys/bitmap-t: unittest/mytap/libmytap.a
 unittest/mysys/bitmap-t: mysys/libmysys.a
 unittest/mysys/bitmap-t: strings/libstrings.a
 unittest/mysys/bitmap-t: extlib/dbug/libdbug.a
-unittest/mysys/bitmap-t: /media/pavel/android/standalone-toolchains/android-14/arm/sysroot/usr/lib/libm.so
+unittest/mysys/bitmap-t: /usr/lib/x86_64-linux-gnu/libm.so
 unittest/mysys/bitmap-t: unittest/mysys/CMakeFiles/bitmap-t.dir/build.make
 unittest/mysys/bitmap-t: unittest/mysys/CMakeFiles/bitmap-t.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable bitmap-t"

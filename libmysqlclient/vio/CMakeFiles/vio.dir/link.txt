@@ -1,2 +1,2 @@
-/media/pavel/android/standalone-toolchains/android-14/arm/arm-linux-androideabi/bin/ar cr libvio.a  CMakeFiles/vio.dir/vio.c.o CMakeFiles/vio.dir/viosocket.c.o CMakeFiles/vio.dir/viossl.c.o CMakeFiles/vio.dir/viosslfactories.c.o
-/media/pavel/android/standalone-toolchains/android-14/arm/arm-linux-androideabi/bin/ranlib libvio.a
+/usr/bin/ar cr libvio.a  CMakeFiles/vio.dir/vio.c.o CMakeFiles/vio.dir/viosocket.c.o CMakeFiles/vio.dir/viossl.c.o CMakeFiles/vio.dir/viosslfactories.c.o
+/usr/bin/ranlib libvio.a

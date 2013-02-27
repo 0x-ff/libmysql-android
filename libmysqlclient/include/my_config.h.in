@@ -64,7 +64,7 @@ typedef unsigned short ushort;
 #cmakedefine HAVE_FCHMOD 1
 #cmakedefine HAVE_FCNTL 1
 #cmakedefine HAVE_FCONVERT 1
-#cmakedefine HAVE_FDATASYNC 1
+#cmakedefine HAVE_FDATASYNC 0
 #cmakedefine HAVE_FESETROUND 1
 #cmakedefine HAVE_FINITE 1
 #cmakedefine HAVE_FP_EXCEPT 1
@@ -297,3 +297,5 @@ typedef unsigned short ushort;
 #define THREAD_SAFE_CLIENT 1
 
 #define DEFAULT_CHARSET_HOME "@DEFAULT_CHARSET_HOME@"
+
+#undef HAVE_FDATASYNC

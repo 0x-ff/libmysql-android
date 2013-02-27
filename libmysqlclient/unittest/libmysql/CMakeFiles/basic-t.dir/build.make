@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -50,15 +50,15 @@ unittest/libmysql/CMakeFiles/basic-t.dir/basic-t.c.o: unittest/libmysql/CMakeFil
 unittest/libmysql/CMakeFiles/basic-t.dir/basic-t.c.o: unittest/libmysql/basic-t.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object unittest/libmysql/CMakeFiles/basic-t.dir/basic-t.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/basic-t.dir/basic-t.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/basic-t.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/basic-t.dir/basic-t.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/basic-t.c
 
 unittest/libmysql/CMakeFiles/basic-t.dir/basic-t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/basic-t.dir/basic-t.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/basic-t.c > CMakeFiles/basic-t.dir/basic-t.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/basic-t.c > CMakeFiles/basic-t.dir/basic-t.c.i
 
 unittest/libmysql/CMakeFiles/basic-t.dir/basic-t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/basic-t.dir/basic-t.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/basic-t.c -o CMakeFiles/basic-t.dir/basic-t.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/basic-t.c -o CMakeFiles/basic-t.dir/basic-t.c.s
 
 unittest/libmysql/CMakeFiles/basic-t.dir/basic-t.c.o.requires:
 .PHONY : unittest/libmysql/CMakeFiles/basic-t.dir/basic-t.c.o.requires
@@ -79,7 +79,7 @@ basic__t_EXTERNAL_OBJECTS =
 unittest/libmysql/basic-t: unittest/libmysql/CMakeFiles/basic-t.dir/basic-t.c.o
 unittest/libmysql/basic-t: unittest/mytap/libmytap.a
 unittest/libmysql/basic-t: libmysql/libmysqlclient.a
-unittest/libmysql/basic-t: /media/pavel/android/standalone-toolchains/android-14/arm/sysroot/usr/lib/libm.so
+unittest/libmysql/basic-t: /usr/lib/x86_64-linux-gnu/libm.so
 unittest/libmysql/basic-t: unittest/libmysql/CMakeFiles/basic-t.dir/build.make
 unittest/libmysql/basic-t: unittest/libmysql/CMakeFiles/basic-t.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable basic-t"

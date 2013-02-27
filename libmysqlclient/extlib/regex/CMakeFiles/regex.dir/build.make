@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -50,15 +50,15 @@ extlib/regex/CMakeFiles/regex.dir/debug.c.o: extlib/regex/CMakeFiles/regex.dir/f
 extlib/regex/CMakeFiles/regex.dir/debug.c.o: extlib/regex/debug.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object extlib/regex/CMakeFiles/regex.dir/debug.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/regex.dir/debug.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/debug.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/regex.dir/debug.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/debug.c
 
 extlib/regex/CMakeFiles/regex.dir/debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/regex.dir/debug.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/debug.c > CMakeFiles/regex.dir/debug.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/debug.c > CMakeFiles/regex.dir/debug.c.i
 
 extlib/regex/CMakeFiles/regex.dir/debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/regex.dir/debug.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/debug.c -o CMakeFiles/regex.dir/debug.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/debug.c -o CMakeFiles/regex.dir/debug.c.s
 
 extlib/regex/CMakeFiles/regex.dir/debug.c.o.requires:
 .PHONY : extlib/regex/CMakeFiles/regex.dir/debug.c.o.requires
@@ -73,15 +73,15 @@ extlib/regex/CMakeFiles/regex.dir/regcomp.c.o: extlib/regex/CMakeFiles/regex.dir
 extlib/regex/CMakeFiles/regex.dir/regcomp.c.o: extlib/regex/regcomp.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object extlib/regex/CMakeFiles/regex.dir/regcomp.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/regex.dir/regcomp.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regcomp.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/regex.dir/regcomp.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regcomp.c
 
 extlib/regex/CMakeFiles/regex.dir/regcomp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/regex.dir/regcomp.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regcomp.c > CMakeFiles/regex.dir/regcomp.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regcomp.c > CMakeFiles/regex.dir/regcomp.c.i
 
 extlib/regex/CMakeFiles/regex.dir/regcomp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/regex.dir/regcomp.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regcomp.c -o CMakeFiles/regex.dir/regcomp.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regcomp.c -o CMakeFiles/regex.dir/regcomp.c.s
 
 extlib/regex/CMakeFiles/regex.dir/regcomp.c.o.requires:
 .PHONY : extlib/regex/CMakeFiles/regex.dir/regcomp.c.o.requires
@@ -96,15 +96,15 @@ extlib/regex/CMakeFiles/regex.dir/regerror.c.o: extlib/regex/CMakeFiles/regex.di
 extlib/regex/CMakeFiles/regex.dir/regerror.c.o: extlib/regex/regerror.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object extlib/regex/CMakeFiles/regex.dir/regerror.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/regex.dir/regerror.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regerror.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/regex.dir/regerror.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regerror.c
 
 extlib/regex/CMakeFiles/regex.dir/regerror.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/regex.dir/regerror.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regerror.c > CMakeFiles/regex.dir/regerror.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regerror.c > CMakeFiles/regex.dir/regerror.c.i
 
 extlib/regex/CMakeFiles/regex.dir/regerror.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/regex.dir/regerror.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regerror.c -o CMakeFiles/regex.dir/regerror.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regerror.c -o CMakeFiles/regex.dir/regerror.c.s
 
 extlib/regex/CMakeFiles/regex.dir/regerror.c.o.requires:
 .PHONY : extlib/regex/CMakeFiles/regex.dir/regerror.c.o.requires
@@ -119,15 +119,15 @@ extlib/regex/CMakeFiles/regex.dir/regexec.c.o: extlib/regex/CMakeFiles/regex.dir
 extlib/regex/CMakeFiles/regex.dir/regexec.c.o: extlib/regex/regexec.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object extlib/regex/CMakeFiles/regex.dir/regexec.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/regex.dir/regexec.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regexec.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/regex.dir/regexec.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regexec.c
 
 extlib/regex/CMakeFiles/regex.dir/regexec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/regex.dir/regexec.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regexec.c > CMakeFiles/regex.dir/regexec.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regexec.c > CMakeFiles/regex.dir/regexec.c.i
 
 extlib/regex/CMakeFiles/regex.dir/regexec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/regex.dir/regexec.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regexec.c -o CMakeFiles/regex.dir/regexec.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regexec.c -o CMakeFiles/regex.dir/regexec.c.s
 
 extlib/regex/CMakeFiles/regex.dir/regexec.c.o.requires:
 .PHONY : extlib/regex/CMakeFiles/regex.dir/regexec.c.o.requires
@@ -142,15 +142,15 @@ extlib/regex/CMakeFiles/regex.dir/regfree.c.o: extlib/regex/CMakeFiles/regex.dir
 extlib/regex/CMakeFiles/regex.dir/regfree.c.o: extlib/regex/regfree.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object extlib/regex/CMakeFiles/regex.dir/regfree.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/regex.dir/regfree.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regfree.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/regex.dir/regfree.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regfree.c
 
 extlib/regex/CMakeFiles/regex.dir/regfree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/regex.dir/regfree.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regfree.c > CMakeFiles/regex.dir/regfree.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regfree.c > CMakeFiles/regex.dir/regfree.c.i
 
 extlib/regex/CMakeFiles/regex.dir/regfree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/regex.dir/regfree.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regfree.c -o CMakeFiles/regex.dir/regfree.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/regfree.c -o CMakeFiles/regex.dir/regfree.c.s
 
 extlib/regex/CMakeFiles/regex.dir/regfree.c.o.requires:
 .PHONY : extlib/regex/CMakeFiles/regex.dir/regfree.c.o.requires
@@ -165,15 +165,15 @@ extlib/regex/CMakeFiles/regex.dir/reginit.c.o: extlib/regex/CMakeFiles/regex.dir
 extlib/regex/CMakeFiles/regex.dir/reginit.c.o: extlib/regex/reginit.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object extlib/regex/CMakeFiles/regex.dir/reginit.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/regex.dir/reginit.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/reginit.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/regex.dir/reginit.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/reginit.c
 
 extlib/regex/CMakeFiles/regex.dir/reginit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/regex.dir/reginit.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/reginit.c > CMakeFiles/regex.dir/reginit.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/reginit.c > CMakeFiles/regex.dir/reginit.c.i
 
 extlib/regex/CMakeFiles/regex.dir/reginit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/regex.dir/reginit.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/reginit.c -o CMakeFiles/regex.dir/reginit.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/reginit.c -o CMakeFiles/regex.dir/reginit.c.s
 
 extlib/regex/CMakeFiles/regex.dir/reginit.c.o.requires:
 .PHONY : extlib/regex/CMakeFiles/regex.dir/reginit.c.o.requires
@@ -188,15 +188,15 @@ extlib/regex/CMakeFiles/regex.dir/split.c.o: extlib/regex/CMakeFiles/regex.dir/f
 extlib/regex/CMakeFiles/regex.dir/split.c.o: extlib/regex/split.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object extlib/regex/CMakeFiles/regex.dir/split.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/regex.dir/split.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/split.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/regex.dir/split.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/split.c
 
 extlib/regex/CMakeFiles/regex.dir/split.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/regex.dir/split.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/split.c > CMakeFiles/regex.dir/split.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/split.c > CMakeFiles/regex.dir/split.c.i
 
 extlib/regex/CMakeFiles/regex.dir/split.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/regex.dir/split.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/split.c -o CMakeFiles/regex.dir/split.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/regex/split.c -o CMakeFiles/regex.dir/split.c.s
 
 extlib/regex/CMakeFiles/regex.dir/split.c.o.requires:
 .PHONY : extlib/regex/CMakeFiles/regex.dir/split.c.o.requires

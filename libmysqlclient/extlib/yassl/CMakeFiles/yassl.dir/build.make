@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -50,15 +50,15 @@ extlib/yassl/CMakeFiles/yassl.dir/src/buffer.cpp.o: extlib/yassl/CMakeFiles/yass
 extlib/yassl/CMakeFiles/yassl.dir/src/buffer.cpp.o: extlib/yassl/src/buffer.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object extlib/yassl/CMakeFiles/yassl.dir/src/buffer.cpp.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/buffer.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/buffer.cpp
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/buffer.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/buffer.cpp
 
 extlib/yassl/CMakeFiles/yassl.dir/src/buffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yassl.dir/src/buffer.cpp.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/buffer.cpp > CMakeFiles/yassl.dir/src/buffer.cpp.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/buffer.cpp > CMakeFiles/yassl.dir/src/buffer.cpp.i
 
 extlib/yassl/CMakeFiles/yassl.dir/src/buffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yassl.dir/src/buffer.cpp.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/buffer.cpp -o CMakeFiles/yassl.dir/src/buffer.cpp.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/buffer.cpp -o CMakeFiles/yassl.dir/src/buffer.cpp.s
 
 extlib/yassl/CMakeFiles/yassl.dir/src/buffer.cpp.o.requires:
 .PHONY : extlib/yassl/CMakeFiles/yassl.dir/src/buffer.cpp.o.requires
@@ -73,15 +73,15 @@ extlib/yassl/CMakeFiles/yassl.dir/src/cert_wrapper.cpp.o: extlib/yassl/CMakeFile
 extlib/yassl/CMakeFiles/yassl.dir/src/cert_wrapper.cpp.o: extlib/yassl/src/cert_wrapper.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object extlib/yassl/CMakeFiles/yassl.dir/src/cert_wrapper.cpp.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/cert_wrapper.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/cert_wrapper.cpp
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/cert_wrapper.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/cert_wrapper.cpp
 
 extlib/yassl/CMakeFiles/yassl.dir/src/cert_wrapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yassl.dir/src/cert_wrapper.cpp.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/cert_wrapper.cpp > CMakeFiles/yassl.dir/src/cert_wrapper.cpp.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/cert_wrapper.cpp > CMakeFiles/yassl.dir/src/cert_wrapper.cpp.i
 
 extlib/yassl/CMakeFiles/yassl.dir/src/cert_wrapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yassl.dir/src/cert_wrapper.cpp.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/cert_wrapper.cpp -o CMakeFiles/yassl.dir/src/cert_wrapper.cpp.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/cert_wrapper.cpp -o CMakeFiles/yassl.dir/src/cert_wrapper.cpp.s
 
 extlib/yassl/CMakeFiles/yassl.dir/src/cert_wrapper.cpp.o.requires:
 .PHONY : extlib/yassl/CMakeFiles/yassl.dir/src/cert_wrapper.cpp.o.requires
@@ -96,15 +96,15 @@ extlib/yassl/CMakeFiles/yassl.dir/src/crypto_wrapper.cpp.o: extlib/yassl/CMakeFi
 extlib/yassl/CMakeFiles/yassl.dir/src/crypto_wrapper.cpp.o: extlib/yassl/src/crypto_wrapper.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object extlib/yassl/CMakeFiles/yassl.dir/src/crypto_wrapper.cpp.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/crypto_wrapper.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/crypto_wrapper.cpp
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/crypto_wrapper.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/crypto_wrapper.cpp
 
 extlib/yassl/CMakeFiles/yassl.dir/src/crypto_wrapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yassl.dir/src/crypto_wrapper.cpp.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/crypto_wrapper.cpp > CMakeFiles/yassl.dir/src/crypto_wrapper.cpp.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/crypto_wrapper.cpp > CMakeFiles/yassl.dir/src/crypto_wrapper.cpp.i
 
 extlib/yassl/CMakeFiles/yassl.dir/src/crypto_wrapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yassl.dir/src/crypto_wrapper.cpp.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/crypto_wrapper.cpp -o CMakeFiles/yassl.dir/src/crypto_wrapper.cpp.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/crypto_wrapper.cpp -o CMakeFiles/yassl.dir/src/crypto_wrapper.cpp.s
 
 extlib/yassl/CMakeFiles/yassl.dir/src/crypto_wrapper.cpp.o.requires:
 .PHONY : extlib/yassl/CMakeFiles/yassl.dir/src/crypto_wrapper.cpp.o.requires
@@ -119,15 +119,15 @@ extlib/yassl/CMakeFiles/yassl.dir/src/handshake.cpp.o: extlib/yassl/CMakeFiles/y
 extlib/yassl/CMakeFiles/yassl.dir/src/handshake.cpp.o: extlib/yassl/src/handshake.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object extlib/yassl/CMakeFiles/yassl.dir/src/handshake.cpp.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/handshake.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/handshake.cpp
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/handshake.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/handshake.cpp
 
 extlib/yassl/CMakeFiles/yassl.dir/src/handshake.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yassl.dir/src/handshake.cpp.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/handshake.cpp > CMakeFiles/yassl.dir/src/handshake.cpp.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/handshake.cpp > CMakeFiles/yassl.dir/src/handshake.cpp.i
 
 extlib/yassl/CMakeFiles/yassl.dir/src/handshake.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yassl.dir/src/handshake.cpp.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/handshake.cpp -o CMakeFiles/yassl.dir/src/handshake.cpp.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/handshake.cpp -o CMakeFiles/yassl.dir/src/handshake.cpp.s
 
 extlib/yassl/CMakeFiles/yassl.dir/src/handshake.cpp.o.requires:
 .PHONY : extlib/yassl/CMakeFiles/yassl.dir/src/handshake.cpp.o.requires
@@ -142,15 +142,15 @@ extlib/yassl/CMakeFiles/yassl.dir/src/lock.cpp.o: extlib/yassl/CMakeFiles/yassl.
 extlib/yassl/CMakeFiles/yassl.dir/src/lock.cpp.o: extlib/yassl/src/lock.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object extlib/yassl/CMakeFiles/yassl.dir/src/lock.cpp.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/lock.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/lock.cpp
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/lock.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/lock.cpp
 
 extlib/yassl/CMakeFiles/yassl.dir/src/lock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yassl.dir/src/lock.cpp.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/lock.cpp > CMakeFiles/yassl.dir/src/lock.cpp.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/lock.cpp > CMakeFiles/yassl.dir/src/lock.cpp.i
 
 extlib/yassl/CMakeFiles/yassl.dir/src/lock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yassl.dir/src/lock.cpp.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/lock.cpp -o CMakeFiles/yassl.dir/src/lock.cpp.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/lock.cpp -o CMakeFiles/yassl.dir/src/lock.cpp.s
 
 extlib/yassl/CMakeFiles/yassl.dir/src/lock.cpp.o.requires:
 .PHONY : extlib/yassl/CMakeFiles/yassl.dir/src/lock.cpp.o.requires
@@ -165,15 +165,15 @@ extlib/yassl/CMakeFiles/yassl.dir/src/log.cpp.o: extlib/yassl/CMakeFiles/yassl.d
 extlib/yassl/CMakeFiles/yassl.dir/src/log.cpp.o: extlib/yassl/src/log.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object extlib/yassl/CMakeFiles/yassl.dir/src/log.cpp.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/log.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/log.cpp
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/log.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/log.cpp
 
 extlib/yassl/CMakeFiles/yassl.dir/src/log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yassl.dir/src/log.cpp.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/log.cpp > CMakeFiles/yassl.dir/src/log.cpp.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/log.cpp > CMakeFiles/yassl.dir/src/log.cpp.i
 
 extlib/yassl/CMakeFiles/yassl.dir/src/log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yassl.dir/src/log.cpp.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/log.cpp -o CMakeFiles/yassl.dir/src/log.cpp.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/log.cpp -o CMakeFiles/yassl.dir/src/log.cpp.s
 
 extlib/yassl/CMakeFiles/yassl.dir/src/log.cpp.o.requires:
 .PHONY : extlib/yassl/CMakeFiles/yassl.dir/src/log.cpp.o.requires
@@ -188,15 +188,15 @@ extlib/yassl/CMakeFiles/yassl.dir/src/socket_wrapper.cpp.o: extlib/yassl/CMakeFi
 extlib/yassl/CMakeFiles/yassl.dir/src/socket_wrapper.cpp.o: extlib/yassl/src/socket_wrapper.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object extlib/yassl/CMakeFiles/yassl.dir/src/socket_wrapper.cpp.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/socket_wrapper.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/socket_wrapper.cpp
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/socket_wrapper.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/socket_wrapper.cpp
 
 extlib/yassl/CMakeFiles/yassl.dir/src/socket_wrapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yassl.dir/src/socket_wrapper.cpp.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/socket_wrapper.cpp > CMakeFiles/yassl.dir/src/socket_wrapper.cpp.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/socket_wrapper.cpp > CMakeFiles/yassl.dir/src/socket_wrapper.cpp.i
 
 extlib/yassl/CMakeFiles/yassl.dir/src/socket_wrapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yassl.dir/src/socket_wrapper.cpp.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/socket_wrapper.cpp -o CMakeFiles/yassl.dir/src/socket_wrapper.cpp.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/socket_wrapper.cpp -o CMakeFiles/yassl.dir/src/socket_wrapper.cpp.s
 
 extlib/yassl/CMakeFiles/yassl.dir/src/socket_wrapper.cpp.o.requires:
 .PHONY : extlib/yassl/CMakeFiles/yassl.dir/src/socket_wrapper.cpp.o.requires
@@ -211,15 +211,15 @@ extlib/yassl/CMakeFiles/yassl.dir/src/ssl.cpp.o: extlib/yassl/CMakeFiles/yassl.d
 extlib/yassl/CMakeFiles/yassl.dir/src/ssl.cpp.o: extlib/yassl/src/ssl.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object extlib/yassl/CMakeFiles/yassl.dir/src/ssl.cpp.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/ssl.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/ssl.cpp
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/ssl.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/ssl.cpp
 
 extlib/yassl/CMakeFiles/yassl.dir/src/ssl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yassl.dir/src/ssl.cpp.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/ssl.cpp > CMakeFiles/yassl.dir/src/ssl.cpp.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/ssl.cpp > CMakeFiles/yassl.dir/src/ssl.cpp.i
 
 extlib/yassl/CMakeFiles/yassl.dir/src/ssl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yassl.dir/src/ssl.cpp.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/ssl.cpp -o CMakeFiles/yassl.dir/src/ssl.cpp.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/ssl.cpp -o CMakeFiles/yassl.dir/src/ssl.cpp.s
 
 extlib/yassl/CMakeFiles/yassl.dir/src/ssl.cpp.o.requires:
 .PHONY : extlib/yassl/CMakeFiles/yassl.dir/src/ssl.cpp.o.requires
@@ -234,15 +234,15 @@ extlib/yassl/CMakeFiles/yassl.dir/src/timer.cpp.o: extlib/yassl/CMakeFiles/yassl
 extlib/yassl/CMakeFiles/yassl.dir/src/timer.cpp.o: extlib/yassl/src/timer.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object extlib/yassl/CMakeFiles/yassl.dir/src/timer.cpp.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/timer.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/timer.cpp
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/timer.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/timer.cpp
 
 extlib/yassl/CMakeFiles/yassl.dir/src/timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yassl.dir/src/timer.cpp.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/timer.cpp > CMakeFiles/yassl.dir/src/timer.cpp.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/timer.cpp > CMakeFiles/yassl.dir/src/timer.cpp.i
 
 extlib/yassl/CMakeFiles/yassl.dir/src/timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yassl.dir/src/timer.cpp.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/timer.cpp -o CMakeFiles/yassl.dir/src/timer.cpp.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/timer.cpp -o CMakeFiles/yassl.dir/src/timer.cpp.s
 
 extlib/yassl/CMakeFiles/yassl.dir/src/timer.cpp.o.requires:
 .PHONY : extlib/yassl/CMakeFiles/yassl.dir/src/timer.cpp.o.requires
@@ -257,15 +257,15 @@ extlib/yassl/CMakeFiles/yassl.dir/src/yassl_error.cpp.o: extlib/yassl/CMakeFiles
 extlib/yassl/CMakeFiles/yassl.dir/src/yassl_error.cpp.o: extlib/yassl/src/yassl_error.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object extlib/yassl/CMakeFiles/yassl.dir/src/yassl_error.cpp.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/yassl_error.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/yassl_error.cpp
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/yassl_error.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/yassl_error.cpp
 
 extlib/yassl/CMakeFiles/yassl.dir/src/yassl_error.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yassl.dir/src/yassl_error.cpp.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/yassl_error.cpp > CMakeFiles/yassl.dir/src/yassl_error.cpp.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/yassl_error.cpp > CMakeFiles/yassl.dir/src/yassl_error.cpp.i
 
 extlib/yassl/CMakeFiles/yassl.dir/src/yassl_error.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yassl.dir/src/yassl_error.cpp.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/yassl_error.cpp -o CMakeFiles/yassl.dir/src/yassl_error.cpp.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/yassl_error.cpp -o CMakeFiles/yassl.dir/src/yassl_error.cpp.s
 
 extlib/yassl/CMakeFiles/yassl.dir/src/yassl_error.cpp.o.requires:
 .PHONY : extlib/yassl/CMakeFiles/yassl.dir/src/yassl_error.cpp.o.requires
@@ -280,15 +280,15 @@ extlib/yassl/CMakeFiles/yassl.dir/src/yassl_imp.cpp.o: extlib/yassl/CMakeFiles/y
 extlib/yassl/CMakeFiles/yassl.dir/src/yassl_imp.cpp.o: extlib/yassl/src/yassl_imp.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object extlib/yassl/CMakeFiles/yassl.dir/src/yassl_imp.cpp.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/yassl_imp.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/yassl_imp.cpp
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/yassl_imp.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/yassl_imp.cpp
 
 extlib/yassl/CMakeFiles/yassl.dir/src/yassl_imp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yassl.dir/src/yassl_imp.cpp.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/yassl_imp.cpp > CMakeFiles/yassl.dir/src/yassl_imp.cpp.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/yassl_imp.cpp > CMakeFiles/yassl.dir/src/yassl_imp.cpp.i
 
 extlib/yassl/CMakeFiles/yassl.dir/src/yassl_imp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yassl.dir/src/yassl_imp.cpp.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/yassl_imp.cpp -o CMakeFiles/yassl.dir/src/yassl_imp.cpp.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/yassl_imp.cpp -o CMakeFiles/yassl.dir/src/yassl_imp.cpp.s
 
 extlib/yassl/CMakeFiles/yassl.dir/src/yassl_imp.cpp.o.requires:
 .PHONY : extlib/yassl/CMakeFiles/yassl.dir/src/yassl_imp.cpp.o.requires
@@ -303,15 +303,15 @@ extlib/yassl/CMakeFiles/yassl.dir/src/yassl_int.cpp.o: extlib/yassl/CMakeFiles/y
 extlib/yassl/CMakeFiles/yassl.dir/src/yassl_int.cpp.o: extlib/yassl/src/yassl_int.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object extlib/yassl/CMakeFiles/yassl.dir/src/yassl_int.cpp.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/yassl_int.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/yassl_int.cpp
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/yassl.dir/src/yassl_int.cpp.o -c /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/yassl_int.cpp
 
 extlib/yassl/CMakeFiles/yassl.dir/src/yassl_int.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yassl.dir/src/yassl_int.cpp.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/yassl_int.cpp > CMakeFiles/yassl.dir/src/yassl_int.cpp.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/yassl_int.cpp > CMakeFiles/yassl.dir/src/yassl_int.cpp.i
 
 extlib/yassl/CMakeFiles/yassl.dir/src/yassl_int.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yassl.dir/src/yassl_int.cpp.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/yassl_int.cpp -o CMakeFiles/yassl.dir/src/yassl_int.cpp.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl && /usr/bin/gcc  $(CXX_DEFINES) $(CXX_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/extlib/yassl/src/yassl_int.cpp -o CMakeFiles/yassl.dir/src/yassl_int.cpp.s
 
 extlib/yassl/CMakeFiles/yassl.dir/src/yassl_int.cpp.o.requires:
 .PHONY : extlib/yassl/CMakeFiles/yassl.dir/src/yassl_int.cpp.o.requires

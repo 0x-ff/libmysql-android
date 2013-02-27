@@ -1,1 +1,1 @@
-/media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3    -Wall -fno-rtti -fno-exceptions -O3 -DNDEBUG -DDBUG_OFF    CMakeFiles/fetch.dir/fetch.c.o  -o fetch -rdynamic ../mytap/libmytap.a ../../libmysql/libmysqlclient.a -lm 
+/usr/bin/gcc    -Wall -fno-rtti -fno-exceptions -O3 -DNDEBUG -DDBUG_OFF    CMakeFiles/fetch.dir/fetch.c.o  -o fetch -rdynamic -L/usr/lib/gcc/x86_64-linux-gnu/4.6 ../mytap/libmytap.a ../../libmysql/libmysqlclient.a -lpthread -lm 

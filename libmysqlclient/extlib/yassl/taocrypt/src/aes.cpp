@@ -42,30 +42,29 @@ void AES::Process(byte* out, const byte* in, word32 sz)
 
     word32 blocks = sz / BLOCK_SIZE;
 
-    if (mode_ == ECB)
+    if (mode_ == ECB) {
         while (blocks--) {
-            if (dir_ == ENCRYPTION)
+            if (dir_ == ENCRYPTION) {
                 AsmEncrypt(in, out, (void*)Te0);
-            else
-                AsmDecrypt(in, out, (void*)Td0);               
+            } else {
+                AsmDecrypt(in, out, (void*)Td0);
+            }
             out += BLOCK_SIZE;
             in  += BLOCK_SIZE;
         }
-    else if (mode_ == CBC)    
-        if (dir_ == ENCRYPTION)
+    } else if (mode_ == CBC) {
+        if ( dir_ == ENCRYPTION ) {
             while (blocks--) {
                 r_[0] ^= *(word32*)in;
                 r_[1] ^= *(word32*)(in +  4);
                 r_[2] ^= *(word32*)(in +  8);
                 r_[3] ^= *(word32*)(in + 12);
-
                 AsmEncrypt((byte*)r_, (byte*)r_, (void*)Te0);
-
                 memcpy(out, r_, BLOCK_SIZE);
                 out += BLOCK_SIZE;
                 in  += BLOCK_SIZE;
             }
-        else
+        } else {
             while (blocks--) {
                 AsmDecrypt(in, out, (void*)Td0);
                 
@@ -78,6 +77,8 @@ void AES::Process(byte* out, const byte* in, word32 sz)
                 out += BLOCK_SIZE;
                 in  += BLOCK_SIZE;
             }
+        }
+    }
 }
 
 #endif // DO_AES_ASM

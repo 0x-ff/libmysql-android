@@ -15,7 +15,7 @@
 ########################
 
 //Path to a program.
-CMAKE_AR:FILEPATH=/media/pavel/android/standalone-toolchains/android-14/arm/arm-linux-androideabi/bin/ar
+CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None(CMAKE_CXX_FLAGS or
 // CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel.
@@ -42,7 +42,7 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g
 
 //C compiler.
-CMAKE_C_COMPILER:FILEPATH=/media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3
+CMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc
 
 //Flags used by the compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -79,11 +79,11 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Enable/Disable output of compile commands during generation.
 CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
 
-//Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=/media/pavel/projects/libmysql-android/libmysqlclient/install
+//Connector/C install prefix
+CMAKE_INSTALL_PREFIX:PATH=/usr/local/mysql
 
 //Path to a program.
-CMAKE_LINKER:FILEPATH=/media/pavel/android/standalone-toolchains/android-14/arm/arm-linux-androideabi/bin/ld
+CMAKE_LINKER:FILEPATH=/usr/bin/ld
 
 //Path to a program.
 CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make
@@ -104,19 +104,19 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_NM:FILEPATH=/media/pavel/android/standalone-toolchains/android-14/arm/arm-linux-androideabi/bin/nm
+CMAKE_NM:FILEPATH=/usr/bin/nm
 
 //Path to a program.
-CMAKE_OBJCOPY:FILEPATH=/media/pavel/android/standalone-toolchains/android-14/arm/arm-linux-androideabi/bin/objcopy
+CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 
 //Path to a program.
-CMAKE_OBJDUMP:FILEPATH=/media/pavel/android/standalone-toolchains/android-14/arm/arm-linux-androideabi/bin/objdump
+CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=libmysql
 
 //Path to a program.
-CMAKE_RANLIB:FILEPATH=/media/pavel/android/standalone-toolchains/android-14/arm/arm-linux-androideabi/bin/ranlib
+CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
 
 //Flags used by the linker during the creation of dll's.
 CMAKE_SHARED_LINKER_FLAGS:STRING=' '
@@ -137,10 +137,7 @@ CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_SKIP_RPATH:BOOL=NO
 
 //Path to a program.
-CMAKE_STRIP:FILEPATH=/media/pavel/android/standalone-toolchains/android-14/arm/arm-linux-androideabi/bin/strip
-
-//The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/media/pavel/projects/libmysql-android/libmysqlclient/android14arm.cmake
+CMAKE_STRIP:FILEPATH=/usr/bin/strip
 
 //If true, cmake will use relative paths in makefiles and projects.
 CMAKE_USE_RELATIVE_PATHS:BOOL=OFF
@@ -164,7 +161,7 @@ CPACK_SOURCE_TZ:BOOL=ON
 CPACK_SOURCE_ZIP:BOOL=OFF
 
 //Path to a library.
-MATH_LIBRARY:FILEPATH=/media/pavel/android/standalone-toolchains/android-14/arm/sysroot/usr/lib/libm.so
+MATH_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libm.so
 
 //Path to a library.
 SOCKET_LIBRARY:FILEPATH=SOCKET_LIBRARY-NOTFOUND
@@ -176,16 +173,16 @@ dbug_LIB_DEPENDS:STATIC=
 libmysql_BINARY_DIR:STATIC=/media/pavel/projects/libmysql-android/libmysqlclient
 
 //Dependencies for the target
-libmysql_LIB_DEPENDS:STATIC=general;/media/pavel/android/standalone-toolchains/android-14/arm/sysroot/usr/lib/libm.so;
+libmysql_LIB_DEPENDS:STATIC=general;-lpthread;general;/usr/lib/x86_64-linux-gnu/libm.so;
 
 //Value Computed by CMake
 libmysql_SOURCE_DIR:STATIC=/media/pavel/projects/libmysql-android/libmysqlclient
 
 //Dependencies for the target
-mysqlclient_LIB_DEPENDS:STATIC=general;/media/pavel/android/standalone-toolchains/android-14/arm/sysroot/usr/lib/libm.so;
+mysqlclient_LIB_DEPENDS:STATIC=general;-lpthread;general;/usr/lib/x86_64-linux-gnu/libm.so;
 
 //Dependencies for the target
-mysys_LIB_DEPENDS:STATIC=general;/media/pavel/android/standalone-toolchains/android-14/arm/sysroot/usr/lib/libm.so;
+mysys_LIB_DEPENDS:STATIC=general;-lpthread;general;/usr/lib/x86_64-linux-gnu/libm.so;
 
 //Dependencies for target
 mytap_LIB_DEPENDS:STATIC=
@@ -226,7 +223,7 @@ CMAKE_CACHE_MAJOR_VERSION:INTERNAL=2
 //Minor version of cmake used to create the current loaded cache
 CMAKE_CACHE_MINOR_VERSION:INTERNAL=8
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=5
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=7
 //ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
 CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.
@@ -238,7 +235,7 @@ CMAKE_CTEST_COMMAND:INTERNAL=/usr/bin/ctest
 //ADVANCED property for variable: CMAKE_CXX_COMPILER
 CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
 //C++ Compiler
-CMAKE_CXX_COMPILER:INTERNAL=/media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3
+CMAKE_CXX_COMPILER:INTERNAL=/usr/bin/gcc
 CMAKE_CXX_COMPILER_WORKS:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
 CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
@@ -286,7 +283,7 @@ CMAKE_GENERATOR:INTERNAL=Unix Makefiles
 //Have library pthreads
 CMAKE_HAVE_PTHREADS_CREATE:INTERNAL=
 //Have library pthread
-CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=
+CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 //Have include CMAKE_HAVE_PTHREAD_H
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Start directory with the top level CMakeLists.txt file for this
@@ -352,6 +349,8 @@ CPACK_SOURCE_TZ-ADVANCED:INTERNAL=1
 CPACK_SOURCE_ZIP-ADVANCED:INTERNAL=1
 //Test C_HAS_inline
 C_HAS_inline:INTERNAL=1
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Have function access
 HAVE_ACCESS:INTERNAL=1
 //Have function aiowait
@@ -365,7 +364,7 @@ HAVE_ALLOCA_H:INTERNAL=1
 //Have include HAVE_ARPA_INET_H
 HAVE_ARPA_INET_H:INTERNAL=1
 //Have function bcmp
-HAVE_BCMP:INTERNAL=
+HAVE_BCMP:INTERNAL=1
 //Have function bfill
 HAVE_BFILL:INTERNAL=
 //Have function bmove
@@ -375,25 +374,25 @@ HAVE_BSS_START:INTERNAL=
 //Have function bzero
 HAVE_BZERO:INTERNAL=1
 //Have function clock_gettime
-HAVE_CLOCK_GETTIME:INTERNAL=1
+HAVE_CLOCK_GETTIME:INTERNAL=
 //Result of TRY_COMPILE
 HAVE_CMAKE_SIZEOF_UNSIGNED_SHORT:INTERNAL=TRUE
 //Have function compress
 HAVE_COMPRESS:INTERNAL=
 //Have function crypt
 HAVE_CRYPT:INTERNAL=
-//Have includes HAVE_CRYPT_H
-HAVE_CRYPT_H:INTERNAL=
+//Have include HAVE_CRYPT_H
+HAVE_CRYPT_H:INTERNAL=1
 //Have symbol madvise
 HAVE_DECL_MADVISE:INTERNAL=1
 //Have include HAVE_DIRENT_H
 HAVE_DIRENT_H:INTERNAL=1
 //Have function dlerror
-HAVE_DLERROR:INTERNAL=1
+HAVE_DLERROR:INTERNAL=
 //Have function dlopen
-HAVE_DLOPEN:INTERNAL=1
-//Have includes HAVE_EXECINFO_H
-HAVE_EXECINFO_H:INTERNAL=
+HAVE_DLOPEN:INTERNAL=
+//Have include HAVE_EXECINFO_H
+HAVE_EXECINFO_H:INTERNAL=1
 //Have function fchmod
 HAVE_FCHMOD:INTERNAL=1
 //Have function fcntl
@@ -404,12 +403,12 @@ HAVE_FCNTL_H:INTERNAL=1
 HAVE_FCONVERT:INTERNAL=
 //Have function fdatasync
 HAVE_FDATASYNC:INTERNAL=1
-//Have includes HAVE_FENV_H
-HAVE_FENV_H:INTERNAL=
+//Have include HAVE_FENV_H
+HAVE_FENV_H:INTERNAL=1
 //Have function fesetround
 HAVE_FESETROUND:INTERNAL=
 //Have function finite
-HAVE_FINITE:INTERNAL=
+HAVE_FINITE:INTERNAL=1
 //Have include HAVE_FLOAT_H
 HAVE_FLOAT_H:INTERNAL=1
 //Have includes HAVE_FPU_CONTROL_H
@@ -423,7 +422,7 @@ HAVE_GETADDRINFO:INTERNAL=1
 //Have function getcwd
 HAVE_GETCWD:INTERNAL=1
 //Have function gethostbyaddr_r
-HAVE_GETHOSTBYADDR_R:INTERNAL=
+HAVE_GETHOSTBYADDR_R:INTERNAL=1
 //Have function gethostbyname_r
 HAVE_GETHOSTBYNAME_R:INTERNAL=1
 //Have function gethrtime
@@ -431,9 +430,9 @@ HAVE_GETHRTIME:INTERNAL=
 //Have function getnameinfo
 HAVE_GETNAMEINFO:INTERNAL=1
 //Have function getpagesize
-HAVE_GETPAGESIZE:INTERNAL=
+HAVE_GETPAGESIZE:INTERNAL=1
 //Have function getpass
-HAVE_GETPASS:INTERNAL=
+HAVE_GETPASS:INTERNAL=1
 //Have function getpassphrase
 HAVE_GETPASSPHRASE:INTERNAL=
 //Have function getpwnam
@@ -445,7 +444,7 @@ HAVE_GETRLIMIT:INTERNAL=1
 //Have function getrusage
 HAVE_GETRUSAGE:INTERNAL=1
 //Have function getwd
-HAVE_GETWD:INTERNAL=
+HAVE_GETWD:INTERNAL=1
 //Have function gmtime_r
 HAVE_GMTIME_R:INTERNAL=1
 //Have include HAVE_GRP_H
@@ -487,11 +486,11 @@ HAVE_MKSTEMP:INTERNAL=1
 //Have function mlock
 HAVE_MLOCK:INTERNAL=1
 //Have function mlockall
-HAVE_MLOCKALL:INTERNAL=
+HAVE_MLOCKALL:INTERNAL=1
 //Have function mmap
 HAVE_MMAP:INTERNAL=1
 //Have function mmap64
-HAVE_MMAP64:INTERNAL=
+HAVE_MMAP64:INTERNAL=1
 //Have include HAVE_NETINET_IN_H
 HAVE_NETINET_IN_H:INTERNAL=1
 //Have include HAVE_PATHS_H
@@ -505,7 +504,7 @@ HAVE_PREAD:INTERNAL=1
 //Have function pthread_attr_create
 HAVE_PTHREAD_ATTR_CREATE:INTERNAL=
 //Have function pthread_attr_getstacksize
-HAVE_PTHREAD_ATTR_GETSTACKSIZE:INTERNAL=1
+HAVE_PTHREAD_ATTR_GETSTACKSIZE:INTERNAL=
 //Have function pthread_attr_setprio
 HAVE_PTHREAD_ATTR_SETPRIO:INTERNAL=
 //Have function pthread_attr_setschedparam
@@ -513,23 +512,23 @@ HAVE_PTHREAD_ATTR_SETSCHEDPARAM:INTERNAL=1
 //Have function pthread_attr_setscope
 HAVE_PTHREAD_ATTR_SETSCOPE:INTERNAL=1
 //Have function pthread_attr_setstacksize
-HAVE_PTHREAD_ATTR_SETSTACKSIZE:INTERNAL=1
+HAVE_PTHREAD_ATTR_SETSTACKSIZE:INTERNAL=
 //Have function pthread_condattr_create
 HAVE_PTHREAD_CONDATTR_CREATE:INTERNAL=
 //Have function pthread_init
 HAVE_PTHREAD_INIT:INTERNAL=
 //Have function pthread_key_delete
-HAVE_PTHREAD_KEY_DELETE:INTERNAL=1
+HAVE_PTHREAD_KEY_DELETE:INTERNAL=
 //Have function pthread_kill
-HAVE_PTHREAD_KILL:INTERNAL=1
+HAVE_PTHREAD_KILL:INTERNAL=
 //Have function pthread_rwlock_rdlock
-HAVE_PTHREAD_RWLOCK_RDLOCK:INTERNAL=1
+HAVE_PTHREAD_RWLOCK_RDLOCK:INTERNAL=
 //Have function pthread_setprio_np
 HAVE_PTHREAD_SETPRIO_NP:INTERNAL=
 //Have function pthread_setschedparam
 HAVE_PTHREAD_SETSCHEDPARAM:INTERNAL=1
 //Have function pthread_sigmask
-HAVE_PTHREAD_SIGMASK:INTERNAL=1
+HAVE_PTHREAD_SIGMASK:INTERNAL=
 //Have function pthread_threadmask
 HAVE_PTHREAD_THREADMASK:INTERNAL=
 //Have function pthread_yield_np
@@ -607,7 +606,7 @@ HAVE_SIZEOF_UINT8:INTERNAL=FALSE
 //Result of TRY_COMPILE
 HAVE_SIZEOF_UINT_32_T:INTERNAL=TRUE
 //Result of TRY_COMPILE
-HAVE_SIZEOF_ULONG:INTERNAL=FALSE
+HAVE_SIZEOF_ULONG:INTERNAL=TRUE
 //Have function sleep
 HAVE_SLEEP:INTERNAL=1
 //Have function snprintf
@@ -619,7 +618,7 @@ HAVE_STDINT_H:INTERNAL=1
 //Have include HAVE_STDLIB_H
 HAVE_STDLIB_H:INTERNAL=1
 //Have function stpcpy
-HAVE_STPCPY:INTERNAL=
+HAVE_STPCPY:INTERNAL=1
 //Have function strerror
 HAVE_STRERROR:INTERNAL=1
 //Have include HAVE_STRINGS_H
@@ -627,7 +626,7 @@ HAVE_STRINGS_H:INTERNAL=1
 //Have include HAVE_STRING_H
 HAVE_STRING_H:INTERNAL=1
 //Have function strlcpy
-HAVE_STRLCPY:INTERNAL=1
+HAVE_STRLCPY:INTERNAL=
 //Have function strnlen
 HAVE_STRNLEN:INTERNAL=1
 //Have function strpbrk
@@ -651,7 +650,7 @@ HAVE_SYNCH_H:INTERNAL=
 //Have includes HAVE_SYSENT_H
 HAVE_SYSENT_H:INTERNAL=
 //Have symbol sys_errlist
-HAVE_SYS_ERRLIST:INTERNAL=
+HAVE_SYS_ERRLIST:INTERNAL=1
 //Have includes HAVE_SYS_FPU_H
 HAVE_SYS_FPU_H:INTERNAL=
 //Have include HAVE_SYS_IOCTL_H
@@ -660,12 +659,12 @@ HAVE_SYS_IOCTL_H:INTERNAL=1
 HAVE_SYS_IPC_H:INTERNAL=1
 //Have include HAVE_SYS_MMAN_H
 HAVE_SYS_MMAN_H:INTERNAL=1
-//Have includes HAVE_SYS_PRCTL_H
-HAVE_SYS_PRCTL_H:INTERNAL=
+//Have include HAVE_SYS_PRCTL_H
+HAVE_SYS_PRCTL_H:INTERNAL=1
 //Have include HAVE_SYS_SELECT_H
 HAVE_SYS_SELECT_H:INTERNAL=1
-//Have includes HAVE_SYS_SHM_H
-HAVE_SYS_SHM_H:INTERNAL=
+//Have include HAVE_SYS_SHM_H
+HAVE_SYS_SHM_H:INTERNAL=1
 //Have include HAVE_SYS_SOCKET_H
 HAVE_SYS_SOCKET_H:INTERNAL=1
 //Have include HAVE_SYS_STAT_H
@@ -676,8 +675,8 @@ HAVE_SYS_STREAM_H:INTERNAL=
 HAVE_SYS_TIMEB_H:INTERNAL=1
 //Have include HAVE_SYS_TYPES_H
 HAVE_SYS_TYPES_H:INTERNAL=1
-//Have includes HAVE_SYS_UN_H
-HAVE_SYS_UN_H:INTERNAL=
+//Have include HAVE_SYS_UN_H
+HAVE_SYS_UN_H:INTERNAL=1
 //Have function tell
 HAVE_TELL:INTERNAL=
 //Have include HAVE_TERMIOS_H
@@ -707,7 +706,7 @@ SIGNAL_RETURN_TYPE_IS_VOID:INTERNAL=1
 //CHECK_TYPE_SIZE: sizeof(char)
 SIZEOF_CHAR:INTERNAL=1
 //CHECK_TYPE_SIZE: sizeof(char *)
-SIZEOF_CHARP:INTERNAL=4
+SIZEOF_CHARP:INTERNAL=8
 //CHECK_TYPE_SIZE: sizeof(int)
 SIZEOF_INT:INTERNAL=4
 //CHECK_TYPE_SIZE: int16 unknown
@@ -719,17 +718,17 @@ SIZEOF_INT64:INTERNAL=
 //CHECK_TYPE_SIZE: int8 unknown
 SIZEOF_INT8:INTERNAL=
 //CHECK_TYPE_SIZE: sizeof(long)
-SIZEOF_LONG:INTERNAL=4
+SIZEOF_LONG:INTERNAL=8
 //CHECK_TYPE_SIZE: sizeof(long long)
 SIZEOF_LONG_LONG:INTERNAL=8
 //CHECK_TYPE_SIZE: sizeof(off_t)
-SIZEOF_OFF_T:INTERNAL=4
+SIZEOF_OFF_T:INTERNAL=8
 //CHECK_TYPE_SIZE: sizeof(short)
 SIZEOF_SHORT:INTERNAL=2
 //CHECK_TYPE_SIZE: sizeof(sigset_t)
-SIZEOF_SIGSET_T:INTERNAL=4
+SIZEOF_SIGSET_T:INTERNAL=128
 //CHECK_TYPE_SIZE: sizeof(size_t)
-SIZEOF_SIZE_T:INTERNAL=4
+SIZEOF_SIZE_T:INTERNAL=8
 //CHECK_TYPE_SIZE: sizeof(socklen_t)
 SIZEOF_SOCKLEN_T:INTERNAL=4
 //CHECK_TYPE_SIZE: uchar unknown
@@ -746,10 +745,8 @@ SIZEOF_UINT64:INTERNAL=
 SIZEOF_UINT8:INTERNAL=
 //CHECK_TYPE_SIZE: sizeof(u_int32_t)
 SIZEOF_UINT_32_T:INTERNAL=4
-//CHECK_TYPE_SIZE: ulong unknown
-SIZEOF_ULONG:INTERNAL=
-//Result of TRY_COMPILE
-THREADS_HAVE_PTHREAD_ARG:INTERNAL=FALSE
+//CHECK_TYPE_SIZE: sizeof(ulong)
+SIZEOF_ULONG:INTERNAL=8
 //Result of TEST_BIG_ENDIAN
 WORDS_BIGENDIAN:INTERNAL=0
 

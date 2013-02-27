@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -50,15 +50,15 @@ unittest/mysys/CMakeFiles/my_atomic-t.dir/my_atomic-t.c.o: unittest/mysys/CMakeF
 unittest/mysys/CMakeFiles/my_atomic-t.dir/my_atomic-t.c.o: unittest/mysys/my_atomic-t.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object unittest/mysys/CMakeFiles/my_atomic-t.dir/my_atomic-t.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/my_atomic-t.dir/my_atomic-t.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/my_atomic-t.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/my_atomic-t.dir/my_atomic-t.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/my_atomic-t.c
 
 unittest/mysys/CMakeFiles/my_atomic-t.dir/my_atomic-t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_atomic-t.dir/my_atomic-t.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/my_atomic-t.c > CMakeFiles/my_atomic-t.dir/my_atomic-t.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/my_atomic-t.c > CMakeFiles/my_atomic-t.dir/my_atomic-t.c.i
 
 unittest/mysys/CMakeFiles/my_atomic-t.dir/my_atomic-t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_atomic-t.dir/my_atomic-t.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/my_atomic-t.c -o CMakeFiles/my_atomic-t.dir/my_atomic-t.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/mysys/my_atomic-t.c -o CMakeFiles/my_atomic-t.dir/my_atomic-t.c.s
 
 unittest/mysys/CMakeFiles/my_atomic-t.dir/my_atomic-t.c.o.requires:
 .PHONY : unittest/mysys/CMakeFiles/my_atomic-t.dir/my_atomic-t.c.o.requires
@@ -81,7 +81,7 @@ unittest/mysys/my_atomic-t: unittest/mytap/libmytap.a
 unittest/mysys/my_atomic-t: mysys/libmysys.a
 unittest/mysys/my_atomic-t: strings/libstrings.a
 unittest/mysys/my_atomic-t: extlib/dbug/libdbug.a
-unittest/mysys/my_atomic-t: /media/pavel/android/standalone-toolchains/android-14/arm/sysroot/usr/lib/libm.so
+unittest/mysys/my_atomic-t: /usr/lib/x86_64-linux-gnu/libm.so
 unittest/mysys/my_atomic-t: unittest/mysys/CMakeFiles/my_atomic-t.dir/build.make
 unittest/mysys/my_atomic-t: unittest/mysys/CMakeFiles/my_atomic-t.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable my_atomic-t"

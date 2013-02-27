@@ -18,9 +18,9 @@
 #include <my_getopt.h>
 #include <stdio.h>
 
-#define INCLUDE "-I/media/pavel/projects/libmysql-android/libmysqlclient/install/include"
-#define LIBS    "-L/media/pavel/projects/libmysql-android/libmysqlclient/install/lib -lmysql" \
-                ""
+#define INCLUDE "-I/usr/local/include"
+#define LIBS    "-L/usr/local/lib -lmysql" \
+                " -lpthread"
 #define CFLAGS  INCLUDE
 #define VERSION "6.0.2"
 

@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -50,15 +50,15 @@ unittest/libmysql/CMakeFiles/sp.dir/sp.c.o: unittest/libmysql/CMakeFiles/sp.dir/
 unittest/libmysql/CMakeFiles/sp.dir/sp.c.o: unittest/libmysql/sp.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object unittest/libmysql/CMakeFiles/sp.dir/sp.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/sp.dir/sp.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/sp.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/sp.dir/sp.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/sp.c
 
 unittest/libmysql/CMakeFiles/sp.dir/sp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sp.dir/sp.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/sp.c > CMakeFiles/sp.dir/sp.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/sp.c > CMakeFiles/sp.dir/sp.c.i
 
 unittest/libmysql/CMakeFiles/sp.dir/sp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sp.dir/sp.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/sp.c -o CMakeFiles/sp.dir/sp.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/sp.c -o CMakeFiles/sp.dir/sp.c.s
 
 unittest/libmysql/CMakeFiles/sp.dir/sp.c.o.requires:
 .PHONY : unittest/libmysql/CMakeFiles/sp.dir/sp.c.o.requires
@@ -79,7 +79,7 @@ sp_EXTERNAL_OBJECTS =
 unittest/libmysql/sp: unittest/libmysql/CMakeFiles/sp.dir/sp.c.o
 unittest/libmysql/sp: unittest/mytap/libmytap.a
 unittest/libmysql/sp: libmysql/libmysqlclient.a
-unittest/libmysql/sp: /media/pavel/android/standalone-toolchains/android-14/arm/sysroot/usr/lib/libm.so
+unittest/libmysql/sp: /usr/lib/x86_64-linux-gnu/libm.so
 unittest/libmysql/sp: unittest/libmysql/CMakeFiles/sp.dir/build.make
 unittest/libmysql/sp: unittest/libmysql/CMakeFiles/sp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable sp"

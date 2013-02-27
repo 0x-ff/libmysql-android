@@ -6,11 +6,11 @@ typedef unsigned short ushort;
 /* Headers we may want to use. */
 #define HAVE_ALLOCA_H 1
 #define HAVE_ARPA_INET_H 1
-/* #undef HAVE_CRYPT_H */
+#define HAVE_CRYPT_H 1
 #define HAVE_DIRENT_H 1
-/* #undef HAVE_EXECINFO_H */
+#define HAVE_EXECINFO_H 1
 #define HAVE_FCNTL_H 1
-/* #undef HAVE_FENV_H */
+#define HAVE_FENV_H 1
 #define HAVE_FLOAT_H 1
 /* #undef HAVE_FPU_CONTROL_H */
 #define HAVE_GRP_H 1
@@ -33,15 +33,15 @@ typedef unsigned short ushort;
 #define HAVE_SYS_IOCTL_H 1
 #define HAVE_SYS_IPC_H 1
 #define HAVE_SYS_MMAN_H 1
-/* #undef HAVE_SYS_PRCTL_H */
+#define HAVE_SYS_PRCTL_H 1
 #define HAVE_SYS_SELECT_H 1
-/* #undef HAVE_SYS_SHM_H */
+#define HAVE_SYS_SHM_H 1
 #define HAVE_SYS_SOCKET_H 1
 #define HAVE_SYS_STAT_H 1
 /* #undef HAVE_SYS_STREAM_H */
 #define HAVE_SYS_TIMEB_H 1
 #define HAVE_SYS_TYPES_H 1
-/* #undef HAVE_SYS_UN_H */
+#define HAVE_SYS_UN_H 1
 #define HAVE_TERMIOS_H 1
 #define HAVE_TERMIO_H 1
 #define HAVE_UNISTD_H 1
@@ -52,38 +52,38 @@ typedef unsigned short ushort;
 /* #undef HAVE_AIOWAIT */
 #define HAVE_ALARM 1
 /* #undef HAVE_ALLOCA */
-/* #undef HAVE_BCMP */
+#define HAVE_BCMP 1
 /* #undef HAVE_BFILL */
 /* #undef HAVE_BMOVE */
 #define HAVE_BZERO 1
-#define HAVE_CLOCK_GETTIME 1
+/* #undef HAVE_CLOCK_GETTIME */
 /* #undef HAVE_COMPRESS */
 /* #undef HAVE_CRYPT */
-#define HAVE_DLERROR 1
-#define HAVE_DLOPEN 1
+/* #undef HAVE_DLERROR */
+/* #undef HAVE_DLOPEN */
 #define HAVE_FCHMOD 1
 #define HAVE_FCNTL 1
 /* #undef HAVE_FCONVERT */
-#define HAVE_FDATASYNC 1
+#define HAVE_FDATASYNC 0
 /* #undef HAVE_FESETROUND */
-/* #undef HAVE_FINITE */
+#define HAVE_FINITE 1
 /* #undef HAVE_FP_EXCEPT */
 #define HAVE_FSEEKO 1
 #define HAVE_FSYNC 1
 #define HAVE_GETADDRINFO 1
 #define HAVE_GETCWD 1
-/* #undef HAVE_GETHOSTBYADDR_R */
+#define HAVE_GETHOSTBYADDR_R 1
 #define HAVE_GETHOSTBYNAME_R 1
 /* #undef HAVE_GETHRTIME */
 #define HAVE_GETNAMEINFO 1
-/* #undef HAVE_GETPAGESIZE */
-/* #undef HAVE_GETPASS */
+#define HAVE_GETPAGESIZE 1
+#define HAVE_GETPASS 1
 /* #undef HAVE_GETPASSPHRASE */
 #define HAVE_GETPWNAM 1
 #define HAVE_GETPWUID 1
 #define HAVE_GETRLIMIT 1
 #define HAVE_GETRUSAGE 1
-/* #undef HAVE_GETWD */
+#define HAVE_GETWD 1
 #define HAVE_GMTIME_R 1
 #define HAVE_INITGROUPS 1
 #define HAVE_ISNAN 1
@@ -101,27 +101,27 @@ typedef unsigned short ushort;
 #define HAVE_MEMMOVE 1
 #define HAVE_MKSTEMP 1
 #define HAVE_MLOCK 1
-/* #undef HAVE_MLOCKALL */
+#define HAVE_MLOCKALL 1
 #define HAVE_MMAP 1
-/* #undef HAVE_MMAP64 */
+#define HAVE_MMAP64 1
 #define HAVE_PERROR 1
 #define HAVE_POLL 1
 #define HAVE_PREAD 1
 /* #undef HAVE_PTHREAD_ATTR_CREATE */
-#define HAVE_PTHREAD_ATTR_GETSTACKSIZE 1
+/* #undef HAVE_PTHREAD_ATTR_GETSTACKSIZE */
 /* #undef HAVE_PTHREAD_ATTR_SETPRIO */
 #define HAVE_PTHREAD_ATTR_SETSCHEDPARAM 1
 #define HAVE_PTHREAD_ATTR_SETSCOPE 1
-#define HAVE_PTHREAD_ATTR_SETSTACKSIZE 1
+/* #undef HAVE_PTHREAD_ATTR_SETSTACKSIZE */
 /* #undef HAVE_PTHREAD_CONDATTR_CREATE */
 /* #undef HAVE_PTHREAD_INIT */
-#define HAVE_PTHREAD_KEY_DELETE 1
-#define HAVE_PTHREAD_KEY_DELETE 1
-#define HAVE_PTHREAD_KILL 1
-#define HAVE_PTHREAD_RWLOCK_RDLOCK 1
+/* #undef HAVE_PTHREAD_KEY_DELETE */
+/* #undef HAVE_PTHREAD_KEY_DELETE */
+/* #undef HAVE_PTHREAD_KILL */
+/* #undef HAVE_PTHREAD_RWLOCK_RDLOCK */
 /* #undef HAVE_PTHREAD_SETPRIO_NP */
 #define HAVE_PTHREAD_SETSCHEDPARAM 1
-#define HAVE_PTHREAD_SIGMASK 1
+/* #undef HAVE_PTHREAD_SIGMASK */
 /* #undef HAVE_PTHREAD_THREADMASK */
 /* #undef HAVE_PTHREAD_YIELD_NP */
 #define HAVE_READDIR_R 1
@@ -138,9 +138,9 @@ typedef unsigned short ushort;
 #define HAVE_SIGWAIT 1
 #define HAVE_SLEEP 1
 #define HAVE_SNPRINTF 1
-/* #undef HAVE_STPCPY */
+#define HAVE_STPCPY 1
 #define HAVE_STRERROR 1
-#define HAVE_STRLCPY 1
+/* #undef HAVE_STRLCPY */
 #define HAVE_STRNLEN 1
 #define HAVE_STRPBRK 1
 #define HAVE_STRSEP 1
@@ -158,7 +158,7 @@ typedef unsigned short ushort;
 #define HAVE_VSNPRINTF 1
 
 /* Symbols we may use */
-/* #undef HAVE_SYS_ERRLIST */
+#define HAVE_SYS_ERRLIST 1
 /* used by stacktrace functions */
 /* #undef HAVE_BSS_START */
 
@@ -171,7 +171,7 @@ typedef unsigned short ushort;
 # define HAVE_CHAR 1
 #endif
 
-#define SIZEOF_CHARP 4
+#define SIZEOF_CHARP 8
 #if SIZEOF_CHARP
 # define HAVE_CHARP 1
 #endif
@@ -186,7 +186,7 @@ typedef unsigned short ushort;
 # define HAVE_INT 1
 #endif
 
-#define SIZEOF_LONG 4
+#define SIZEOF_LONG 8
 #if SIZEOF_LONG
 # define HAVE_LONG 1
 #endif
@@ -196,17 +196,17 @@ typedef unsigned short ushort;
 # define HAVE_LONG_LONG 1
 #endif
 
-#define SIZEOF_OFF_T 4
+#define SIZEOF_OFF_T 8
 #if SIZEOF_OFF_T
 # define HAVE_OFF_T 1
 #endif
 
-#define SIZEOF_SIGSET_T 4
+#define SIZEOF_SIGSET_T 128
 #if SIZEOF_SIGSET_T
 # define HAVE_SIGSET_T 1
 #endif
 
-#define SIZEOF_SIZE_T 4
+#define SIZEOF_SIZE_T 8
 #if SIZEOF_SIZE_T
 # define HAVE_SIZE_T 1
 #endif
@@ -221,7 +221,7 @@ typedef unsigned short ushort;
 # define HAVE_UINT 1
 #endif
 
-/* #undef SIZEOF_ULONG */
+#define SIZEOF_ULONG 8
 #if SIZEOF_ULONG
 # define HAVE_ULONG 1
 #endif
@@ -292,8 +292,10 @@ typedef unsigned short ushort;
 
 #define STACK_DIRECTION -1
 
-#define SHAREDIR "/media/pavel/projects/libmysql-android/libmysqlclient/install/share/mysql"
+#define SHAREDIR "/usr/local/share/mysql"
 #define THREAD 1
 #define THREAD_SAFE_CLIENT 1
 
-#define DEFAULT_CHARSET_HOME "/media/pavel/projects/libmysql-android/libmysqlclient/install"
+#define DEFAULT_CHARSET_HOME "/usr/local"
+
+#undef HAVE_FDATASYNC

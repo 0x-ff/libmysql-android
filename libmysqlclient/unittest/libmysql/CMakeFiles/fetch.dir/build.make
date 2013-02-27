@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -50,15 +50,15 @@ unittest/libmysql/CMakeFiles/fetch.dir/fetch.c.o: unittest/libmysql/CMakeFiles/f
 unittest/libmysql/CMakeFiles/fetch.dir/fetch.c.o: unittest/libmysql/fetch.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object unittest/libmysql/CMakeFiles/fetch.dir/fetch.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/fetch.dir/fetch.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/fetch.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/fetch.dir/fetch.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/fetch.c
 
 unittest/libmysql/CMakeFiles/fetch.dir/fetch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fetch.dir/fetch.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/fetch.c > CMakeFiles/fetch.dir/fetch.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/fetch.c > CMakeFiles/fetch.dir/fetch.c.i
 
 unittest/libmysql/CMakeFiles/fetch.dir/fetch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fetch.dir/fetch.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/fetch.c -o CMakeFiles/fetch.dir/fetch.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/unittest/libmysql/fetch.c -o CMakeFiles/fetch.dir/fetch.c.s
 
 unittest/libmysql/CMakeFiles/fetch.dir/fetch.c.o.requires:
 .PHONY : unittest/libmysql/CMakeFiles/fetch.dir/fetch.c.o.requires
@@ -79,7 +79,7 @@ fetch_EXTERNAL_OBJECTS =
 unittest/libmysql/fetch: unittest/libmysql/CMakeFiles/fetch.dir/fetch.c.o
 unittest/libmysql/fetch: unittest/mytap/libmytap.a
 unittest/libmysql/fetch: libmysql/libmysqlclient.a
-unittest/libmysql/fetch: /media/pavel/android/standalone-toolchains/android-14/arm/sysroot/usr/lib/libm.so
+unittest/libmysql/fetch: /usr/lib/x86_64-linux-gnu/libm.so
 unittest/libmysql/fetch: unittest/libmysql/CMakeFiles/fetch.dir/build.make
 unittest/libmysql/fetch: unittest/libmysql/CMakeFiles/fetch.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable fetch"

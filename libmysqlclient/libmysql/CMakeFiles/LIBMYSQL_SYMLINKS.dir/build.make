@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -38,6 +38,9 @@ CMAKE_SOURCE_DIR = /media/pavel/projects/libmysql-android/libmysqlclient
 CMAKE_BINARY_DIR = /media/pavel/projects/libmysql-android/libmysqlclient
 
 # Utility rule file for LIBMYSQL_SYMLINKS.
+
+# Include the progress variables for this target.
+include libmysql/CMakeFiles/LIBMYSQL_SYMLINKS.dir/progress.make
 
 libmysql/CMakeFiles/LIBMYSQL_SYMLINKS: libmysql/libmysqlclient.so
 libmysql/CMakeFiles/LIBMYSQL_SYMLINKS: libmysql/libmysqlclient_r.so

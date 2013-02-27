@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -50,15 +50,15 @@ mysql_config/CMakeFiles/mysql_config.dir/mysql_config.c.o: mysql_config/CMakeFil
 mysql_config/CMakeFiles/mysql_config.dir/mysql_config.c.o: mysql_config/mysql_config.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysql_config/CMakeFiles/mysql_config.dir/mysql_config.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysql_config && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysql_config.dir/mysql_config.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysql_config/mysql_config.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysql_config && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysql_config.dir/mysql_config.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysql_config/mysql_config.c
 
 mysql_config/CMakeFiles/mysql_config.dir/mysql_config.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysql_config.dir/mysql_config.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysql_config && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysql_config/mysql_config.c > CMakeFiles/mysql_config.dir/mysql_config.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysql_config && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysql_config/mysql_config.c > CMakeFiles/mysql_config.dir/mysql_config.c.i
 
 mysql_config/CMakeFiles/mysql_config.dir/mysql_config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysql_config.dir/mysql_config.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysql_config && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysql_config/mysql_config.c -o CMakeFiles/mysql_config.dir/mysql_config.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysql_config && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysql_config/mysql_config.c -o CMakeFiles/mysql_config.dir/mysql_config.c.s
 
 mysql_config/CMakeFiles/mysql_config.dir/mysql_config.c.o.requires:
 .PHONY : mysql_config/CMakeFiles/mysql_config.dir/mysql_config.c.o.requires
@@ -78,7 +78,7 @@ mysql_config_EXTERNAL_OBJECTS =
 
 mysql_config/mysql_config: mysql_config/CMakeFiles/mysql_config.dir/mysql_config.c.o
 mysql_config/mysql_config: libmysql/libmysqlclient.a
-mysql_config/mysql_config: /media/pavel/android/standalone-toolchains/android-14/arm/sysroot/usr/lib/libm.so
+mysql_config/mysql_config: /usr/lib/x86_64-linux-gnu/libm.so
 mysql_config/mysql_config: mysql_config/CMakeFiles/mysql_config.dir/build.make
 mysql_config/mysql_config: mysql_config/CMakeFiles/mysql_config.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable mysql_config"

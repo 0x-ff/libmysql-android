@@ -122,9 +122,9 @@ void AlignedAllocator<T>::deallocate(void* p, size_type n)
         #else
             free(p);
         #endif
-    }
-    else
+    } else {
         tcArrayDelete((T *)p);
+    }
 }
 
 #endif  // SSE2

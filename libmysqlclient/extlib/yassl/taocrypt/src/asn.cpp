@@ -33,7 +33,6 @@
 #include <time.h>     // gmtime();
 #include "memory.hpp" // some auto_ptr don't have reset, also need auto_array
 
-
 namespace TaoCrypt {
 
 namespace { // locals

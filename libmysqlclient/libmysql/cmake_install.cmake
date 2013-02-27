@@ -2,7 +2,7 @@
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/media/pavel/projects/libmysql-android/libmysqlclient/install")
+  SET(CMAKE_INSTALL_PREFIX "/usr/local/mysql")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -58,7 +58,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     IF(EXISTS "${file}" AND
        NOT IS_SYMLINK "${file}")
       IF(CMAKE_INSTALL_DO_STRIP)
-        EXECUTE_PROCESS(COMMAND "/media/pavel/android/standalone-toolchains/android-14/arm/arm-linux-androideabi/bin/strip" "${file}")
+        EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "${file}")
       ENDIF(CMAKE_INSTALL_DO_STRIP)
     ENDIF()
   ENDFOREACH()

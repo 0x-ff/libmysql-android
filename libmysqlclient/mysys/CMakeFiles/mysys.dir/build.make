@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -50,15 +50,15 @@ mysys/CMakeFiles/mysys.dir/array.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/array.c.o: mysys/array.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/array.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/array.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/array.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/array.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/array.c
 
 mysys/CMakeFiles/mysys.dir/array.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/array.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/array.c > CMakeFiles/mysys.dir/array.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/array.c > CMakeFiles/mysys.dir/array.c.i
 
 mysys/CMakeFiles/mysys.dir/array.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/array.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/array.c -o CMakeFiles/mysys.dir/array.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/array.c -o CMakeFiles/mysys.dir/array.c.s
 
 mysys/CMakeFiles/mysys.dir/array.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/array.c.o.requires
@@ -73,15 +73,15 @@ mysys/CMakeFiles/mysys.dir/charset-def.c.o: mysys/CMakeFiles/mysys.dir/flags.mak
 mysys/CMakeFiles/mysys.dir/charset-def.c.o: mysys/charset-def.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/charset-def.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/charset-def.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/charset-def.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/charset-def.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/charset-def.c
 
 mysys/CMakeFiles/mysys.dir/charset-def.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/charset-def.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/charset-def.c > CMakeFiles/mysys.dir/charset-def.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/charset-def.c > CMakeFiles/mysys.dir/charset-def.c.i
 
 mysys/CMakeFiles/mysys.dir/charset-def.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/charset-def.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/charset-def.c -o CMakeFiles/mysys.dir/charset-def.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/charset-def.c -o CMakeFiles/mysys.dir/charset-def.c.s
 
 mysys/CMakeFiles/mysys.dir/charset-def.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/charset-def.c.o.requires
@@ -96,15 +96,15 @@ mysys/CMakeFiles/mysys.dir/charset.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/charset.c.o: mysys/charset.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/charset.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/charset.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/charset.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/charset.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/charset.c
 
 mysys/CMakeFiles/mysys.dir/charset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/charset.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/charset.c > CMakeFiles/mysys.dir/charset.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/charset.c > CMakeFiles/mysys.dir/charset.c.i
 
 mysys/CMakeFiles/mysys.dir/charset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/charset.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/charset.c -o CMakeFiles/mysys.dir/charset.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/charset.c -o CMakeFiles/mysys.dir/charset.c.s
 
 mysys/CMakeFiles/mysys.dir/charset.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/charset.c.o.requires
@@ -119,15 +119,15 @@ mysys/CMakeFiles/mysys.dir/checksum.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/checksum.c.o: mysys/checksum.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/checksum.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/checksum.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/checksum.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/checksum.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/checksum.c
 
 mysys/CMakeFiles/mysys.dir/checksum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/checksum.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/checksum.c > CMakeFiles/mysys.dir/checksum.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/checksum.c > CMakeFiles/mysys.dir/checksum.c.i
 
 mysys/CMakeFiles/mysys.dir/checksum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/checksum.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/checksum.c -o CMakeFiles/mysys.dir/checksum.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/checksum.c -o CMakeFiles/mysys.dir/checksum.c.s
 
 mysys/CMakeFiles/mysys.dir/checksum.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/checksum.c.o.requires
@@ -142,15 +142,15 @@ mysys/CMakeFiles/mysys.dir/default.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/default.c.o: mysys/default.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/default.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/default.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/default.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/default.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/default.c
 
 mysys/CMakeFiles/mysys.dir/default.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/default.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/default.c > CMakeFiles/mysys.dir/default.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/default.c > CMakeFiles/mysys.dir/default.c.i
 
 mysys/CMakeFiles/mysys.dir/default.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/default.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/default.c -o CMakeFiles/mysys.dir/default.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/default.c -o CMakeFiles/mysys.dir/default.c.s
 
 mysys/CMakeFiles/mysys.dir/default.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/default.c.o.requires
@@ -165,15 +165,15 @@ mysys/CMakeFiles/mysys.dir/default_modify.c.o: mysys/CMakeFiles/mysys.dir/flags.
 mysys/CMakeFiles/mysys.dir/default_modify.c.o: mysys/default_modify.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/default_modify.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/default_modify.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/default_modify.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/default_modify.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/default_modify.c
 
 mysys/CMakeFiles/mysys.dir/default_modify.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/default_modify.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/default_modify.c > CMakeFiles/mysys.dir/default_modify.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/default_modify.c > CMakeFiles/mysys.dir/default_modify.c.i
 
 mysys/CMakeFiles/mysys.dir/default_modify.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/default_modify.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/default_modify.c -o CMakeFiles/mysys.dir/default_modify.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/default_modify.c -o CMakeFiles/mysys.dir/default_modify.c.s
 
 mysys/CMakeFiles/mysys.dir/default_modify.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/default_modify.c.o.requires
@@ -188,15 +188,15 @@ mysys/CMakeFiles/mysys.dir/errors.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/errors.c.o: mysys/errors.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/errors.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/errors.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/errors.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/errors.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/errors.c
 
 mysys/CMakeFiles/mysys.dir/errors.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/errors.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/errors.c > CMakeFiles/mysys.dir/errors.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/errors.c > CMakeFiles/mysys.dir/errors.c.i
 
 mysys/CMakeFiles/mysys.dir/errors.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/errors.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/errors.c -o CMakeFiles/mysys.dir/errors.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/errors.c -o CMakeFiles/mysys.dir/errors.c.s
 
 mysys/CMakeFiles/mysys.dir/errors.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/errors.c.o.requires
@@ -211,15 +211,15 @@ mysys/CMakeFiles/mysys.dir/hash.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/hash.c.o: mysys/hash.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/hash.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/hash.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/hash.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/hash.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/hash.c
 
 mysys/CMakeFiles/mysys.dir/hash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/hash.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/hash.c > CMakeFiles/mysys.dir/hash.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/hash.c > CMakeFiles/mysys.dir/hash.c.i
 
 mysys/CMakeFiles/mysys.dir/hash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/hash.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/hash.c -o CMakeFiles/mysys.dir/hash.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/hash.c -o CMakeFiles/mysys.dir/hash.c.s
 
 mysys/CMakeFiles/mysys.dir/hash.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/hash.c.o.requires
@@ -234,15 +234,15 @@ mysys/CMakeFiles/mysys.dir/list.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/list.c.o: mysys/list.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/list.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/list.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/list.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/list.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/list.c
 
 mysys/CMakeFiles/mysys.dir/list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/list.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/list.c > CMakeFiles/mysys.dir/list.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/list.c > CMakeFiles/mysys.dir/list.c.i
 
 mysys/CMakeFiles/mysys.dir/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/list.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/list.c -o CMakeFiles/mysys.dir/list.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/list.c -o CMakeFiles/mysys.dir/list.c.s
 
 mysys/CMakeFiles/mysys.dir/list.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/list.c.o.requires
@@ -257,15 +257,15 @@ mysys/CMakeFiles/mysys.dir/md5.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/md5.c.o: mysys/md5.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/md5.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/md5.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/md5.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/md5.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/md5.c
 
 mysys/CMakeFiles/mysys.dir/md5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/md5.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/md5.c > CMakeFiles/mysys.dir/md5.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/md5.c > CMakeFiles/mysys.dir/md5.c.i
 
 mysys/CMakeFiles/mysys.dir/md5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/md5.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/md5.c -o CMakeFiles/mysys.dir/md5.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/md5.c -o CMakeFiles/mysys.dir/md5.c.s
 
 mysys/CMakeFiles/mysys.dir/md5.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/md5.c.o.requires
@@ -280,15 +280,15 @@ mysys/CMakeFiles/mysys.dir/mf_brkhant.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_brkhant.c.o: mysys/mf_brkhant.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_brkhant.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_brkhant.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_brkhant.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_brkhant.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_brkhant.c
 
 mysys/CMakeFiles/mysys.dir/mf_brkhant.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_brkhant.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_brkhant.c > CMakeFiles/mysys.dir/mf_brkhant.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_brkhant.c > CMakeFiles/mysys.dir/mf_brkhant.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_brkhant.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_brkhant.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_brkhant.c -o CMakeFiles/mysys.dir/mf_brkhant.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_brkhant.c -o CMakeFiles/mysys.dir/mf_brkhant.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_brkhant.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_brkhant.c.o.requires
@@ -303,15 +303,15 @@ mysys/CMakeFiles/mysys.dir/mf_cache.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_cache.c.o: mysys/mf_cache.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_cache.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_cache.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_cache.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_cache.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_cache.c
 
 mysys/CMakeFiles/mysys.dir/mf_cache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_cache.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_cache.c > CMakeFiles/mysys.dir/mf_cache.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_cache.c > CMakeFiles/mysys.dir/mf_cache.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_cache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_cache.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_cache.c -o CMakeFiles/mysys.dir/mf_cache.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_cache.c -o CMakeFiles/mysys.dir/mf_cache.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_cache.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_cache.c.o.requires
@@ -326,15 +326,15 @@ mysys/CMakeFiles/mysys.dir/mf_dirname.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_dirname.c.o: mysys/mf_dirname.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_dirname.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_dirname.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_dirname.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_dirname.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_dirname.c
 
 mysys/CMakeFiles/mysys.dir/mf_dirname.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_dirname.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_dirname.c > CMakeFiles/mysys.dir/mf_dirname.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_dirname.c > CMakeFiles/mysys.dir/mf_dirname.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_dirname.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_dirname.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_dirname.c -o CMakeFiles/mysys.dir/mf_dirname.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_dirname.c -o CMakeFiles/mysys.dir/mf_dirname.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_dirname.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_dirname.c.o.requires
@@ -349,15 +349,15 @@ mysys/CMakeFiles/mysys.dir/mf_fn_ext.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_fn_ext.c.o: mysys/mf_fn_ext.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_fn_ext.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_fn_ext.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_fn_ext.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_fn_ext.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_fn_ext.c
 
 mysys/CMakeFiles/mysys.dir/mf_fn_ext.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_fn_ext.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_fn_ext.c > CMakeFiles/mysys.dir/mf_fn_ext.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_fn_ext.c > CMakeFiles/mysys.dir/mf_fn_ext.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_fn_ext.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_fn_ext.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_fn_ext.c -o CMakeFiles/mysys.dir/mf_fn_ext.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_fn_ext.c -o CMakeFiles/mysys.dir/mf_fn_ext.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_fn_ext.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_fn_ext.c.o.requires
@@ -372,15 +372,15 @@ mysys/CMakeFiles/mysys.dir/mf_format.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_format.c.o: mysys/mf_format.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_format.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_format.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_format.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_format.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_format.c
 
 mysys/CMakeFiles/mysys.dir/mf_format.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_format.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_format.c > CMakeFiles/mysys.dir/mf_format.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_format.c > CMakeFiles/mysys.dir/mf_format.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_format.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_format.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_format.c -o CMakeFiles/mysys.dir/mf_format.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_format.c -o CMakeFiles/mysys.dir/mf_format.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_format.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_format.c.o.requires
@@ -395,15 +395,15 @@ mysys/CMakeFiles/mysys.dir/mf_getdate.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_getdate.c.o: mysys/mf_getdate.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_getdate.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_getdate.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_getdate.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_getdate.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_getdate.c
 
 mysys/CMakeFiles/mysys.dir/mf_getdate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_getdate.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_getdate.c > CMakeFiles/mysys.dir/mf_getdate.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_getdate.c > CMakeFiles/mysys.dir/mf_getdate.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_getdate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_getdate.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_getdate.c -o CMakeFiles/mysys.dir/mf_getdate.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_getdate.c -o CMakeFiles/mysys.dir/mf_getdate.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_getdate.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_getdate.c.o.requires
@@ -418,15 +418,15 @@ mysys/CMakeFiles/mysys.dir/mf_iocache.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_iocache.c.o: mysys/mf_iocache.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_iocache.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_iocache.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_iocache.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_iocache.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_iocache.c
 
 mysys/CMakeFiles/mysys.dir/mf_iocache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_iocache.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_iocache.c > CMakeFiles/mysys.dir/mf_iocache.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_iocache.c > CMakeFiles/mysys.dir/mf_iocache.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_iocache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_iocache.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_iocache.c -o CMakeFiles/mysys.dir/mf_iocache.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_iocache.c -o CMakeFiles/mysys.dir/mf_iocache.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_iocache.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_iocache.c.o.requires
@@ -441,15 +441,15 @@ mysys/CMakeFiles/mysys.dir/mf_iocache2.c.o: mysys/CMakeFiles/mysys.dir/flags.mak
 mysys/CMakeFiles/mysys.dir/mf_iocache2.c.o: mysys/mf_iocache2.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_iocache2.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_iocache2.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_iocache2.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_iocache2.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_iocache2.c
 
 mysys/CMakeFiles/mysys.dir/mf_iocache2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_iocache2.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_iocache2.c > CMakeFiles/mysys.dir/mf_iocache2.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_iocache2.c > CMakeFiles/mysys.dir/mf_iocache2.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_iocache2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_iocache2.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_iocache2.c -o CMakeFiles/mysys.dir/mf_iocache2.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_iocache2.c -o CMakeFiles/mysys.dir/mf_iocache2.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_iocache2.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_iocache2.c.o.requires
@@ -464,15 +464,15 @@ mysys/CMakeFiles/mysys.dir/mf_keycache.c.o: mysys/CMakeFiles/mysys.dir/flags.mak
 mysys/CMakeFiles/mysys.dir/mf_keycache.c.o: mysys/mf_keycache.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_keycache.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_keycache.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_keycache.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_keycache.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_keycache.c
 
 mysys/CMakeFiles/mysys.dir/mf_keycache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_keycache.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_keycache.c > CMakeFiles/mysys.dir/mf_keycache.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_keycache.c > CMakeFiles/mysys.dir/mf_keycache.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_keycache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_keycache.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_keycache.c -o CMakeFiles/mysys.dir/mf_keycache.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_keycache.c -o CMakeFiles/mysys.dir/mf_keycache.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_keycache.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_keycache.c.o.requires
@@ -487,15 +487,15 @@ mysys/CMakeFiles/mysys.dir/my_safehash.c.o: mysys/CMakeFiles/mysys.dir/flags.mak
 mysys/CMakeFiles/mysys.dir/my_safehash.c.o: mysys/my_safehash.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_safehash.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_safehash.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_safehash.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_safehash.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_safehash.c
 
 mysys/CMakeFiles/mysys.dir/my_safehash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_safehash.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_safehash.c > CMakeFiles/mysys.dir/my_safehash.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_safehash.c > CMakeFiles/mysys.dir/my_safehash.c.i
 
 mysys/CMakeFiles/mysys.dir/my_safehash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_safehash.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_safehash.c -o CMakeFiles/mysys.dir/my_safehash.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_safehash.c -o CMakeFiles/mysys.dir/my_safehash.c.s
 
 mysys/CMakeFiles/mysys.dir/my_safehash.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_safehash.c.o.requires
@@ -510,15 +510,15 @@ mysys/CMakeFiles/mysys.dir/mf_keycaches.c.o: mysys/CMakeFiles/mysys.dir/flags.ma
 mysys/CMakeFiles/mysys.dir/mf_keycaches.c.o: mysys/mf_keycaches.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_keycaches.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_keycaches.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_keycaches.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_keycaches.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_keycaches.c
 
 mysys/CMakeFiles/mysys.dir/mf_keycaches.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_keycaches.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_keycaches.c > CMakeFiles/mysys.dir/mf_keycaches.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_keycaches.c > CMakeFiles/mysys.dir/mf_keycaches.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_keycaches.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_keycaches.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_keycaches.c -o CMakeFiles/mysys.dir/mf_keycaches.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_keycaches.c -o CMakeFiles/mysys.dir/mf_keycaches.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_keycaches.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_keycaches.c.o.requires
@@ -533,15 +533,15 @@ mysys/CMakeFiles/mysys.dir/mf_loadpath.c.o: mysys/CMakeFiles/mysys.dir/flags.mak
 mysys/CMakeFiles/mysys.dir/mf_loadpath.c.o: mysys/mf_loadpath.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_loadpath.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_loadpath.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_loadpath.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_loadpath.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_loadpath.c
 
 mysys/CMakeFiles/mysys.dir/mf_loadpath.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_loadpath.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_loadpath.c > CMakeFiles/mysys.dir/mf_loadpath.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_loadpath.c > CMakeFiles/mysys.dir/mf_loadpath.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_loadpath.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_loadpath.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_loadpath.c -o CMakeFiles/mysys.dir/mf_loadpath.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_loadpath.c -o CMakeFiles/mysys.dir/mf_loadpath.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_loadpath.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_loadpath.c.o.requires
@@ -556,15 +556,15 @@ mysys/CMakeFiles/mysys.dir/mf_pack.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_pack.c.o: mysys/mf_pack.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_pack.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_pack.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_pack.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_pack.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_pack.c
 
 mysys/CMakeFiles/mysys.dir/mf_pack.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_pack.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_pack.c > CMakeFiles/mysys.dir/mf_pack.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_pack.c > CMakeFiles/mysys.dir/mf_pack.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_pack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_pack.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_pack.c -o CMakeFiles/mysys.dir/mf_pack.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_pack.c -o CMakeFiles/mysys.dir/mf_pack.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_pack.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_pack.c.o.requires
@@ -579,15 +579,15 @@ mysys/CMakeFiles/mysys.dir/mf_path.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_path.c.o: mysys/mf_path.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_path.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_path.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_path.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_path.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_path.c
 
 mysys/CMakeFiles/mysys.dir/mf_path.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_path.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_path.c > CMakeFiles/mysys.dir/mf_path.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_path.c > CMakeFiles/mysys.dir/mf_path.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_path.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_path.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_path.c -o CMakeFiles/mysys.dir/mf_path.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_path.c -o CMakeFiles/mysys.dir/mf_path.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_path.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_path.c.o.requires
@@ -602,15 +602,15 @@ mysys/CMakeFiles/mysys.dir/mf_qsort.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_qsort.c.o: mysys/mf_qsort.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_qsort.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_qsort.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_qsort.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_qsort.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_qsort.c
 
 mysys/CMakeFiles/mysys.dir/mf_qsort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_qsort.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_qsort.c > CMakeFiles/mysys.dir/mf_qsort.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_qsort.c > CMakeFiles/mysys.dir/mf_qsort.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_qsort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_qsort.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_qsort.c -o CMakeFiles/mysys.dir/mf_qsort.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_qsort.c -o CMakeFiles/mysys.dir/mf_qsort.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_qsort.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_qsort.c.o.requires
@@ -625,15 +625,15 @@ mysys/CMakeFiles/mysys.dir/mf_qsort2.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_qsort2.c.o: mysys/mf_qsort2.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_qsort2.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_qsort2.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_qsort2.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_qsort2.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_qsort2.c
 
 mysys/CMakeFiles/mysys.dir/mf_qsort2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_qsort2.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_qsort2.c > CMakeFiles/mysys.dir/mf_qsort2.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_qsort2.c > CMakeFiles/mysys.dir/mf_qsort2.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_qsort2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_qsort2.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_qsort2.c -o CMakeFiles/mysys.dir/mf_qsort2.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_qsort2.c -o CMakeFiles/mysys.dir/mf_qsort2.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_qsort2.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_qsort2.c.o.requires
@@ -648,15 +648,15 @@ mysys/CMakeFiles/mysys.dir/mf_radix.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_radix.c.o: mysys/mf_radix.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_radix.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_radix.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_radix.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_radix.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_radix.c
 
 mysys/CMakeFiles/mysys.dir/mf_radix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_radix.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_radix.c > CMakeFiles/mysys.dir/mf_radix.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_radix.c > CMakeFiles/mysys.dir/mf_radix.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_radix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_radix.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_radix.c -o CMakeFiles/mysys.dir/mf_radix.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_radix.c -o CMakeFiles/mysys.dir/mf_radix.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_radix.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_radix.c.o.requires
@@ -671,15 +671,15 @@ mysys/CMakeFiles/mysys.dir/mf_same.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_same.c.o: mysys/mf_same.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_same.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_same.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_same.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_same.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_same.c
 
 mysys/CMakeFiles/mysys.dir/mf_same.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_same.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_same.c > CMakeFiles/mysys.dir/mf_same.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_same.c > CMakeFiles/mysys.dir/mf_same.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_same.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_same.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_same.c -o CMakeFiles/mysys.dir/mf_same.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_same.c -o CMakeFiles/mysys.dir/mf_same.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_same.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_same.c.o.requires
@@ -694,15 +694,15 @@ mysys/CMakeFiles/mysys.dir/mf_sort.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_sort.c.o: mysys/mf_sort.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_sort.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_sort.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_sort.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_sort.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_sort.c
 
 mysys/CMakeFiles/mysys.dir/mf_sort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_sort.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_sort.c > CMakeFiles/mysys.dir/mf_sort.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_sort.c > CMakeFiles/mysys.dir/mf_sort.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_sort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_sort.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_sort.c -o CMakeFiles/mysys.dir/mf_sort.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_sort.c -o CMakeFiles/mysys.dir/mf_sort.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_sort.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_sort.c.o.requires
@@ -717,15 +717,15 @@ mysys/CMakeFiles/mysys.dir/mf_soundex.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_soundex.c.o: mysys/mf_soundex.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_soundex.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_soundex.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_soundex.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_soundex.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_soundex.c
 
 mysys/CMakeFiles/mysys.dir/mf_soundex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_soundex.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_soundex.c > CMakeFiles/mysys.dir/mf_soundex.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_soundex.c > CMakeFiles/mysys.dir/mf_soundex.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_soundex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_soundex.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_soundex.c -o CMakeFiles/mysys.dir/mf_soundex.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_soundex.c -o CMakeFiles/mysys.dir/mf_soundex.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_soundex.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_soundex.c.o.requires
@@ -740,15 +740,15 @@ mysys/CMakeFiles/mysys.dir/mf_strip.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_strip.c.o: mysys/mf_strip.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_strip.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_strip.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_strip.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_strip.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_strip.c
 
 mysys/CMakeFiles/mysys.dir/mf_strip.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_strip.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_strip.c > CMakeFiles/mysys.dir/mf_strip.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_strip.c > CMakeFiles/mysys.dir/mf_strip.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_strip.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_strip.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_strip.c -o CMakeFiles/mysys.dir/mf_strip.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_strip.c -o CMakeFiles/mysys.dir/mf_strip.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_strip.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_strip.c.o.requires
@@ -763,15 +763,15 @@ mysys/CMakeFiles/mysys.dir/mf_arr_appstr.c.o: mysys/CMakeFiles/mysys.dir/flags.m
 mysys/CMakeFiles/mysys.dir/mf_arr_appstr.c.o: mysys/mf_arr_appstr.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_arr_appstr.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_arr_appstr.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_arr_appstr.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_arr_appstr.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_arr_appstr.c
 
 mysys/CMakeFiles/mysys.dir/mf_arr_appstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_arr_appstr.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_arr_appstr.c > CMakeFiles/mysys.dir/mf_arr_appstr.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_arr_appstr.c > CMakeFiles/mysys.dir/mf_arr_appstr.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_arr_appstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_arr_appstr.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_arr_appstr.c -o CMakeFiles/mysys.dir/mf_arr_appstr.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_arr_appstr.c -o CMakeFiles/mysys.dir/mf_arr_appstr.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_arr_appstr.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_arr_appstr.c.o.requires
@@ -786,15 +786,15 @@ mysys/CMakeFiles/mysys.dir/mf_tempdir.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_tempdir.c.o: mysys/mf_tempdir.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_tempdir.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_tempdir.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_tempdir.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_tempdir.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_tempdir.c
 
 mysys/CMakeFiles/mysys.dir/mf_tempdir.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_tempdir.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_tempdir.c > CMakeFiles/mysys.dir/mf_tempdir.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_tempdir.c > CMakeFiles/mysys.dir/mf_tempdir.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_tempdir.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_tempdir.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_tempdir.c -o CMakeFiles/mysys.dir/mf_tempdir.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_tempdir.c -o CMakeFiles/mysys.dir/mf_tempdir.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_tempdir.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_tempdir.c.o.requires
@@ -809,15 +809,15 @@ mysys/CMakeFiles/mysys.dir/mf_tempfile.c.o: mysys/CMakeFiles/mysys.dir/flags.mak
 mysys/CMakeFiles/mysys.dir/mf_tempfile.c.o: mysys/mf_tempfile.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_tempfile.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_tempfile.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_tempfile.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_tempfile.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_tempfile.c
 
 mysys/CMakeFiles/mysys.dir/mf_tempfile.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_tempfile.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_tempfile.c > CMakeFiles/mysys.dir/mf_tempfile.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_tempfile.c > CMakeFiles/mysys.dir/mf_tempfile.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_tempfile.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_tempfile.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_tempfile.c -o CMakeFiles/mysys.dir/mf_tempfile.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_tempfile.c -o CMakeFiles/mysys.dir/mf_tempfile.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_tempfile.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_tempfile.c.o.requires
@@ -832,15 +832,15 @@ mysys/CMakeFiles/mysys.dir/mf_unixpath.c.o: mysys/CMakeFiles/mysys.dir/flags.mak
 mysys/CMakeFiles/mysys.dir/mf_unixpath.c.o: mysys/mf_unixpath.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_unixpath.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_unixpath.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_unixpath.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_unixpath.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_unixpath.c
 
 mysys/CMakeFiles/mysys.dir/mf_unixpath.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_unixpath.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_unixpath.c > CMakeFiles/mysys.dir/mf_unixpath.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_unixpath.c > CMakeFiles/mysys.dir/mf_unixpath.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_unixpath.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_unixpath.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_unixpath.c -o CMakeFiles/mysys.dir/mf_unixpath.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_unixpath.c -o CMakeFiles/mysys.dir/mf_unixpath.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_unixpath.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_unixpath.c.o.requires
@@ -855,15 +855,15 @@ mysys/CMakeFiles/mysys.dir/mf_wcomp.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_wcomp.c.o: mysys/mf_wcomp.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_wcomp.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_wcomp.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_wcomp.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_wcomp.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_wcomp.c
 
 mysys/CMakeFiles/mysys.dir/mf_wcomp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_wcomp.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_wcomp.c > CMakeFiles/mysys.dir/mf_wcomp.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_wcomp.c > CMakeFiles/mysys.dir/mf_wcomp.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_wcomp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_wcomp.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_wcomp.c -o CMakeFiles/mysys.dir/mf_wcomp.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_wcomp.c -o CMakeFiles/mysys.dir/mf_wcomp.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_wcomp.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_wcomp.c.o.requires
@@ -878,15 +878,15 @@ mysys/CMakeFiles/mysys.dir/mf_wfile.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mf_wfile.c.o: mysys/mf_wfile.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mf_wfile.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_wfile.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_wfile.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mf_wfile.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_wfile.c
 
 mysys/CMakeFiles/mysys.dir/mf_wfile.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mf_wfile.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_wfile.c > CMakeFiles/mysys.dir/mf_wfile.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_wfile.c > CMakeFiles/mysys.dir/mf_wfile.c.i
 
 mysys/CMakeFiles/mysys.dir/mf_wfile.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mf_wfile.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_wfile.c -o CMakeFiles/mysys.dir/mf_wfile.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mf_wfile.c -o CMakeFiles/mysys.dir/mf_wfile.c.s
 
 mysys/CMakeFiles/mysys.dir/mf_wfile.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mf_wfile.c.o.requires
@@ -901,15 +901,15 @@ mysys/CMakeFiles/mysys.dir/mulalloc.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/mulalloc.c.o: mysys/mulalloc.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/mulalloc.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mulalloc.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mulalloc.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/mulalloc.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mulalloc.c
 
 mysys/CMakeFiles/mysys.dir/mulalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/mulalloc.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mulalloc.c > CMakeFiles/mysys.dir/mulalloc.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mulalloc.c > CMakeFiles/mysys.dir/mulalloc.c.i
 
 mysys/CMakeFiles/mysys.dir/mulalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/mulalloc.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mulalloc.c -o CMakeFiles/mysys.dir/mulalloc.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/mulalloc.c -o CMakeFiles/mysys.dir/mulalloc.c.s
 
 mysys/CMakeFiles/mysys.dir/mulalloc.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/mulalloc.c.o.requires
@@ -924,15 +924,15 @@ mysys/CMakeFiles/mysys.dir/my_access.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_access.c.o: mysys/my_access.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_access.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_access.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_access.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_access.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_access.c
 
 mysys/CMakeFiles/mysys.dir/my_access.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_access.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_access.c > CMakeFiles/mysys.dir/my_access.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_access.c > CMakeFiles/mysys.dir/my_access.c.i
 
 mysys/CMakeFiles/mysys.dir/my_access.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_access.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_access.c -o CMakeFiles/mysys.dir/my_access.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_access.c -o CMakeFiles/mysys.dir/my_access.c.s
 
 mysys/CMakeFiles/mysys.dir/my_access.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_access.c.o.requires
@@ -947,15 +947,15 @@ mysys/CMakeFiles/mysys.dir/my_aes.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_aes.c.o: mysys/my_aes.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_aes.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_aes.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_aes.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_aes.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_aes.c
 
 mysys/CMakeFiles/mysys.dir/my_aes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_aes.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_aes.c > CMakeFiles/mysys.dir/my_aes.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_aes.c > CMakeFiles/mysys.dir/my_aes.c.i
 
 mysys/CMakeFiles/mysys.dir/my_aes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_aes.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_aes.c -o CMakeFiles/mysys.dir/my_aes.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_aes.c -o CMakeFiles/mysys.dir/my_aes.c.s
 
 mysys/CMakeFiles/mysys.dir/my_aes.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_aes.c.o.requires
@@ -970,15 +970,15 @@ mysys/CMakeFiles/mysys.dir/my_alarm.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_alarm.c.o: mysys/my_alarm.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_alarm.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_alarm.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_alarm.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_alarm.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_alarm.c
 
 mysys/CMakeFiles/mysys.dir/my_alarm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_alarm.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_alarm.c > CMakeFiles/mysys.dir/my_alarm.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_alarm.c > CMakeFiles/mysys.dir/my_alarm.c.i
 
 mysys/CMakeFiles/mysys.dir/my_alarm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_alarm.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_alarm.c -o CMakeFiles/mysys.dir/my_alarm.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_alarm.c -o CMakeFiles/mysys.dir/my_alarm.c.s
 
 mysys/CMakeFiles/mysys.dir/my_alarm.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_alarm.c.o.requires
@@ -993,15 +993,15 @@ mysys/CMakeFiles/mysys.dir/my_alloc.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_alloc.c.o: mysys/my_alloc.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_alloc.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_alloc.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_alloc.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_alloc.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_alloc.c
 
 mysys/CMakeFiles/mysys.dir/my_alloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_alloc.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_alloc.c > CMakeFiles/mysys.dir/my_alloc.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_alloc.c > CMakeFiles/mysys.dir/my_alloc.c.i
 
 mysys/CMakeFiles/mysys.dir/my_alloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_alloc.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_alloc.c -o CMakeFiles/mysys.dir/my_alloc.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_alloc.c -o CMakeFiles/mysys.dir/my_alloc.c.s
 
 mysys/CMakeFiles/mysys.dir/my_alloc.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_alloc.c.o.requires
@@ -1016,15 +1016,15 @@ mysys/CMakeFiles/mysys.dir/my_append.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_append.c.o: mysys/my_append.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_append.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_append.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_append.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_append.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_append.c
 
 mysys/CMakeFiles/mysys.dir/my_append.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_append.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_append.c > CMakeFiles/mysys.dir/my_append.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_append.c > CMakeFiles/mysys.dir/my_append.c.i
 
 mysys/CMakeFiles/mysys.dir/my_append.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_append.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_append.c -o CMakeFiles/mysys.dir/my_append.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_append.c -o CMakeFiles/mysys.dir/my_append.c.s
 
 mysys/CMakeFiles/mysys.dir/my_append.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_append.c.o.requires
@@ -1039,15 +1039,15 @@ mysys/CMakeFiles/mysys.dir/my_bit.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_bit.c.o: mysys/my_bit.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_bit.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_bit.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_bit.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_bit.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_bit.c
 
 mysys/CMakeFiles/mysys.dir/my_bit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_bit.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_bit.c > CMakeFiles/mysys.dir/my_bit.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_bit.c > CMakeFiles/mysys.dir/my_bit.c.i
 
 mysys/CMakeFiles/mysys.dir/my_bit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_bit.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_bit.c -o CMakeFiles/mysys.dir/my_bit.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_bit.c -o CMakeFiles/mysys.dir/my_bit.c.s
 
 mysys/CMakeFiles/mysys.dir/my_bit.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_bit.c.o.requires
@@ -1062,15 +1062,15 @@ mysys/CMakeFiles/mysys.dir/my_bitmap.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_bitmap.c.o: mysys/my_bitmap.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_bitmap.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_bitmap.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_bitmap.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_bitmap.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_bitmap.c
 
 mysys/CMakeFiles/mysys.dir/my_bitmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_bitmap.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_bitmap.c > CMakeFiles/mysys.dir/my_bitmap.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_bitmap.c > CMakeFiles/mysys.dir/my_bitmap.c.i
 
 mysys/CMakeFiles/mysys.dir/my_bitmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_bitmap.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_bitmap.c -o CMakeFiles/mysys.dir/my_bitmap.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_bitmap.c -o CMakeFiles/mysys.dir/my_bitmap.c.s
 
 mysys/CMakeFiles/mysys.dir/my_bitmap.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_bitmap.c.o.requires
@@ -1085,15 +1085,15 @@ mysys/CMakeFiles/mysys.dir/my_chmod.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_chmod.c.o: mysys/my_chmod.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_chmod.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_chmod.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_chmod.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_chmod.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_chmod.c
 
 mysys/CMakeFiles/mysys.dir/my_chmod.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_chmod.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_chmod.c > CMakeFiles/mysys.dir/my_chmod.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_chmod.c > CMakeFiles/mysys.dir/my_chmod.c.i
 
 mysys/CMakeFiles/mysys.dir/my_chmod.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_chmod.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_chmod.c -o CMakeFiles/mysys.dir/my_chmod.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_chmod.c -o CMakeFiles/mysys.dir/my_chmod.c.s
 
 mysys/CMakeFiles/mysys.dir/my_chmod.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_chmod.c.o.requires
@@ -1108,15 +1108,15 @@ mysys/CMakeFiles/mysys.dir/my_chsize.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_chsize.c.o: mysys/my_chsize.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_chsize.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_chsize.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_chsize.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_chsize.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_chsize.c
 
 mysys/CMakeFiles/mysys.dir/my_chsize.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_chsize.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_chsize.c > CMakeFiles/mysys.dir/my_chsize.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_chsize.c > CMakeFiles/mysys.dir/my_chsize.c.i
 
 mysys/CMakeFiles/mysys.dir/my_chsize.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_chsize.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_chsize.c -o CMakeFiles/mysys.dir/my_chsize.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_chsize.c -o CMakeFiles/mysys.dir/my_chsize.c.s
 
 mysys/CMakeFiles/mysys.dir/my_chsize.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_chsize.c.o.requires
@@ -1131,15 +1131,15 @@ mysys/CMakeFiles/mysys.dir/my_clock.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_clock.c.o: mysys/my_clock.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_clock.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_clock.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_clock.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_clock.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_clock.c
 
 mysys/CMakeFiles/mysys.dir/my_clock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_clock.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_clock.c > CMakeFiles/mysys.dir/my_clock.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_clock.c > CMakeFiles/mysys.dir/my_clock.c.i
 
 mysys/CMakeFiles/mysys.dir/my_clock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_clock.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_clock.c -o CMakeFiles/mysys.dir/my_clock.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_clock.c -o CMakeFiles/mysys.dir/my_clock.c.s
 
 mysys/CMakeFiles/mysys.dir/my_clock.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_clock.c.o.requires
@@ -1154,15 +1154,15 @@ mysys/CMakeFiles/mysys.dir/my_compress.c.o: mysys/CMakeFiles/mysys.dir/flags.mak
 mysys/CMakeFiles/mysys.dir/my_compress.c.o: mysys/my_compress.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_compress.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_compress.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_compress.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_compress.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_compress.c
 
 mysys/CMakeFiles/mysys.dir/my_compress.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_compress.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_compress.c > CMakeFiles/mysys.dir/my_compress.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_compress.c > CMakeFiles/mysys.dir/my_compress.c.i
 
 mysys/CMakeFiles/mysys.dir/my_compress.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_compress.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_compress.c -o CMakeFiles/mysys.dir/my_compress.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_compress.c -o CMakeFiles/mysys.dir/my_compress.c.s
 
 mysys/CMakeFiles/mysys.dir/my_compress.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_compress.c.o.requires
@@ -1177,15 +1177,15 @@ mysys/CMakeFiles/mysys.dir/my_conio.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_conio.c.o: mysys/my_conio.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_conio.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_conio.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_conio.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_conio.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_conio.c
 
 mysys/CMakeFiles/mysys.dir/my_conio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_conio.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_conio.c > CMakeFiles/mysys.dir/my_conio.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_conio.c > CMakeFiles/mysys.dir/my_conio.c.i
 
 mysys/CMakeFiles/mysys.dir/my_conio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_conio.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_conio.c -o CMakeFiles/mysys.dir/my_conio.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_conio.c -o CMakeFiles/mysys.dir/my_conio.c.s
 
 mysys/CMakeFiles/mysys.dir/my_conio.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_conio.c.o.requires
@@ -1200,15 +1200,15 @@ mysys/CMakeFiles/mysys.dir/my_copy.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_copy.c.o: mysys/my_copy.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_copy.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_copy.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_copy.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_copy.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_copy.c
 
 mysys/CMakeFiles/mysys.dir/my_copy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_copy.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_copy.c > CMakeFiles/mysys.dir/my_copy.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_copy.c > CMakeFiles/mysys.dir/my_copy.c.i
 
 mysys/CMakeFiles/mysys.dir/my_copy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_copy.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_copy.c -o CMakeFiles/mysys.dir/my_copy.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_copy.c -o CMakeFiles/mysys.dir/my_copy.c.s
 
 mysys/CMakeFiles/mysys.dir/my_copy.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_copy.c.o.requires
@@ -1223,15 +1223,15 @@ mysys/CMakeFiles/mysys.dir/my_create.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_create.c.o: mysys/my_create.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_create.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_create.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_create.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_create.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_create.c
 
 mysys/CMakeFiles/mysys.dir/my_create.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_create.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_create.c > CMakeFiles/mysys.dir/my_create.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_create.c > CMakeFiles/mysys.dir/my_create.c.i
 
 mysys/CMakeFiles/mysys.dir/my_create.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_create.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_create.c -o CMakeFiles/mysys.dir/my_create.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_create.c -o CMakeFiles/mysys.dir/my_create.c.s
 
 mysys/CMakeFiles/mysys.dir/my_create.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_create.c.o.requires
@@ -1246,15 +1246,15 @@ mysys/CMakeFiles/mysys.dir/my_delete.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_delete.c.o: mysys/my_delete.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_delete.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_delete.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_delete.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_delete.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_delete.c
 
 mysys/CMakeFiles/mysys.dir/my_delete.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_delete.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_delete.c > CMakeFiles/mysys.dir/my_delete.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_delete.c > CMakeFiles/mysys.dir/my_delete.c.i
 
 mysys/CMakeFiles/mysys.dir/my_delete.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_delete.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_delete.c -o CMakeFiles/mysys.dir/my_delete.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_delete.c -o CMakeFiles/mysys.dir/my_delete.c.s
 
 mysys/CMakeFiles/mysys.dir/my_delete.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_delete.c.o.requires
@@ -1269,15 +1269,15 @@ mysys/CMakeFiles/mysys.dir/my_div.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_div.c.o: mysys/my_div.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_div.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_div.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_div.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_div.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_div.c
 
 mysys/CMakeFiles/mysys.dir/my_div.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_div.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_div.c > CMakeFiles/mysys.dir/my_div.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_div.c > CMakeFiles/mysys.dir/my_div.c.i
 
 mysys/CMakeFiles/mysys.dir/my_div.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_div.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_div.c -o CMakeFiles/mysys.dir/my_div.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_div.c -o CMakeFiles/mysys.dir/my_div.c.s
 
 mysys/CMakeFiles/mysys.dir/my_div.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_div.c.o.requires
@@ -1292,15 +1292,15 @@ mysys/CMakeFiles/mysys.dir/my_error.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_error.c.o: mysys/my_error.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_error.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_error.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_error.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_error.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_error.c
 
 mysys/CMakeFiles/mysys.dir/my_error.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_error.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_error.c > CMakeFiles/mysys.dir/my_error.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_error.c > CMakeFiles/mysys.dir/my_error.c.i
 
 mysys/CMakeFiles/mysys.dir/my_error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_error.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_error.c -o CMakeFiles/mysys.dir/my_error.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_error.c -o CMakeFiles/mysys.dir/my_error.c.s
 
 mysys/CMakeFiles/mysys.dir/my_error.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_error.c.o.requires
@@ -1315,15 +1315,15 @@ mysys/CMakeFiles/mysys.dir/my_file.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_file.c.o: mysys/my_file.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_file.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_file.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_file.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_file.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_file.c
 
 mysys/CMakeFiles/mysys.dir/my_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_file.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_file.c > CMakeFiles/mysys.dir/my_file.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_file.c > CMakeFiles/mysys.dir/my_file.c.i
 
 mysys/CMakeFiles/mysys.dir/my_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_file.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_file.c -o CMakeFiles/mysys.dir/my_file.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_file.c -o CMakeFiles/mysys.dir/my_file.c.s
 
 mysys/CMakeFiles/mysys.dir/my_file.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_file.c.o.requires
@@ -1338,15 +1338,15 @@ mysys/CMakeFiles/mysys.dir/my_fopen.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_fopen.c.o: mysys/my_fopen.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_fopen.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_fopen.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_fopen.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_fopen.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_fopen.c
 
 mysys/CMakeFiles/mysys.dir/my_fopen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_fopen.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_fopen.c > CMakeFiles/mysys.dir/my_fopen.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_fopen.c > CMakeFiles/mysys.dir/my_fopen.c.i
 
 mysys/CMakeFiles/mysys.dir/my_fopen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_fopen.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_fopen.c -o CMakeFiles/mysys.dir/my_fopen.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_fopen.c -o CMakeFiles/mysys.dir/my_fopen.c.s
 
 mysys/CMakeFiles/mysys.dir/my_fopen.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_fopen.c.o.requires
@@ -1361,15 +1361,15 @@ mysys/CMakeFiles/mysys.dir/my_fstream.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_fstream.c.o: mysys/my_fstream.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_fstream.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_fstream.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_fstream.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_fstream.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_fstream.c
 
 mysys/CMakeFiles/mysys.dir/my_fstream.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_fstream.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_fstream.c > CMakeFiles/mysys.dir/my_fstream.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_fstream.c > CMakeFiles/mysys.dir/my_fstream.c.i
 
 mysys/CMakeFiles/mysys.dir/my_fstream.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_fstream.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_fstream.c -o CMakeFiles/mysys.dir/my_fstream.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_fstream.c -o CMakeFiles/mysys.dir/my_fstream.c.s
 
 mysys/CMakeFiles/mysys.dir/my_fstream.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_fstream.c.o.requires
@@ -1384,15 +1384,15 @@ mysys/CMakeFiles/mysys.dir/my_gethostbyname.c.o: mysys/CMakeFiles/mysys.dir/flag
 mysys/CMakeFiles/mysys.dir/my_gethostbyname.c.o: mysys/my_gethostbyname.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_gethostbyname.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_gethostbyname.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_gethostbyname.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_gethostbyname.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_gethostbyname.c
 
 mysys/CMakeFiles/mysys.dir/my_gethostbyname.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_gethostbyname.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_gethostbyname.c > CMakeFiles/mysys.dir/my_gethostbyname.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_gethostbyname.c > CMakeFiles/mysys.dir/my_gethostbyname.c.i
 
 mysys/CMakeFiles/mysys.dir/my_gethostbyname.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_gethostbyname.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_gethostbyname.c -o CMakeFiles/mysys.dir/my_gethostbyname.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_gethostbyname.c -o CMakeFiles/mysys.dir/my_gethostbyname.c.s
 
 mysys/CMakeFiles/mysys.dir/my_gethostbyname.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_gethostbyname.c.o.requires
@@ -1407,15 +1407,15 @@ mysys/CMakeFiles/mysys.dir/my_gethwaddr.c.o: mysys/CMakeFiles/mysys.dir/flags.ma
 mysys/CMakeFiles/mysys.dir/my_gethwaddr.c.o: mysys/my_gethwaddr.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_60)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_gethwaddr.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_gethwaddr.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_gethwaddr.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_gethwaddr.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_gethwaddr.c
 
 mysys/CMakeFiles/mysys.dir/my_gethwaddr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_gethwaddr.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_gethwaddr.c > CMakeFiles/mysys.dir/my_gethwaddr.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_gethwaddr.c > CMakeFiles/mysys.dir/my_gethwaddr.c.i
 
 mysys/CMakeFiles/mysys.dir/my_gethwaddr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_gethwaddr.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_gethwaddr.c -o CMakeFiles/mysys.dir/my_gethwaddr.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_gethwaddr.c -o CMakeFiles/mysys.dir/my_gethwaddr.c.s
 
 mysys/CMakeFiles/mysys.dir/my_gethwaddr.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_gethwaddr.c.o.requires
@@ -1430,15 +1430,15 @@ mysys/CMakeFiles/mysys.dir/my_getopt.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_getopt.c.o: mysys/my_getopt.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_61)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_getopt.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_getopt.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getopt.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_getopt.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getopt.c
 
 mysys/CMakeFiles/mysys.dir/my_getopt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_getopt.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getopt.c > CMakeFiles/mysys.dir/my_getopt.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getopt.c > CMakeFiles/mysys.dir/my_getopt.c.i
 
 mysys/CMakeFiles/mysys.dir/my_getopt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_getopt.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getopt.c -o CMakeFiles/mysys.dir/my_getopt.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getopt.c -o CMakeFiles/mysys.dir/my_getopt.c.s
 
 mysys/CMakeFiles/mysys.dir/my_getopt.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_getopt.c.o.requires
@@ -1453,15 +1453,15 @@ mysys/CMakeFiles/mysys.dir/my_getsystime.c.o: mysys/CMakeFiles/mysys.dir/flags.m
 mysys/CMakeFiles/mysys.dir/my_getsystime.c.o: mysys/my_getsystime.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_62)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_getsystime.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_getsystime.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getsystime.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_getsystime.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getsystime.c
 
 mysys/CMakeFiles/mysys.dir/my_getsystime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_getsystime.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getsystime.c > CMakeFiles/mysys.dir/my_getsystime.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getsystime.c > CMakeFiles/mysys.dir/my_getsystime.c.i
 
 mysys/CMakeFiles/mysys.dir/my_getsystime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_getsystime.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getsystime.c -o CMakeFiles/mysys.dir/my_getsystime.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getsystime.c -o CMakeFiles/mysys.dir/my_getsystime.c.s
 
 mysys/CMakeFiles/mysys.dir/my_getsystime.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_getsystime.c.o.requires
@@ -1476,15 +1476,15 @@ mysys/CMakeFiles/mysys.dir/my_getwd.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_getwd.c.o: mysys/my_getwd.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_63)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_getwd.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_getwd.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getwd.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_getwd.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getwd.c
 
 mysys/CMakeFiles/mysys.dir/my_getwd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_getwd.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getwd.c > CMakeFiles/mysys.dir/my_getwd.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getwd.c > CMakeFiles/mysys.dir/my_getwd.c.i
 
 mysys/CMakeFiles/mysys.dir/my_getwd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_getwd.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getwd.c -o CMakeFiles/mysys.dir/my_getwd.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getwd.c -o CMakeFiles/mysys.dir/my_getwd.c.s
 
 mysys/CMakeFiles/mysys.dir/my_getwd.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_getwd.c.o.requires
@@ -1499,15 +1499,15 @@ mysys/CMakeFiles/mysys.dir/my_init.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_init.c.o: mysys/my_init.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_64)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_init.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_init.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_init.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_init.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_init.c
 
 mysys/CMakeFiles/mysys.dir/my_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_init.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_init.c > CMakeFiles/mysys.dir/my_init.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_init.c > CMakeFiles/mysys.dir/my_init.c.i
 
 mysys/CMakeFiles/mysys.dir/my_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_init.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_init.c -o CMakeFiles/mysys.dir/my_init.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_init.c -o CMakeFiles/mysys.dir/my_init.c.s
 
 mysys/CMakeFiles/mysys.dir/my_init.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_init.c.o.requires
@@ -1522,15 +1522,15 @@ mysys/CMakeFiles/mysys.dir/my_lib.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_lib.c.o: mysys/my_lib.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_65)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_lib.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_lib.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_lib.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_lib.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_lib.c
 
 mysys/CMakeFiles/mysys.dir/my_lib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_lib.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_lib.c > CMakeFiles/mysys.dir/my_lib.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_lib.c > CMakeFiles/mysys.dir/my_lib.c.i
 
 mysys/CMakeFiles/mysys.dir/my_lib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_lib.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_lib.c -o CMakeFiles/mysys.dir/my_lib.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_lib.c -o CMakeFiles/mysys.dir/my_lib.c.s
 
 mysys/CMakeFiles/mysys.dir/my_lib.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_lib.c.o.requires
@@ -1545,15 +1545,15 @@ mysys/CMakeFiles/mysys.dir/my_lock.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_lock.c.o: mysys/my_lock.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_66)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_lock.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_lock.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_lock.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_lock.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_lock.c
 
 mysys/CMakeFiles/mysys.dir/my_lock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_lock.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_lock.c > CMakeFiles/mysys.dir/my_lock.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_lock.c > CMakeFiles/mysys.dir/my_lock.c.i
 
 mysys/CMakeFiles/mysys.dir/my_lock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_lock.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_lock.c -o CMakeFiles/mysys.dir/my_lock.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_lock.c -o CMakeFiles/mysys.dir/my_lock.c.s
 
 mysys/CMakeFiles/mysys.dir/my_lock.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_lock.c.o.requires
@@ -1568,15 +1568,15 @@ mysys/CMakeFiles/mysys.dir/my_lockmem.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_lockmem.c.o: mysys/my_lockmem.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_67)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_lockmem.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_lockmem.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_lockmem.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_lockmem.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_lockmem.c
 
 mysys/CMakeFiles/mysys.dir/my_lockmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_lockmem.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_lockmem.c > CMakeFiles/mysys.dir/my_lockmem.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_lockmem.c > CMakeFiles/mysys.dir/my_lockmem.c.i
 
 mysys/CMakeFiles/mysys.dir/my_lockmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_lockmem.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_lockmem.c -o CMakeFiles/mysys.dir/my_lockmem.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_lockmem.c -o CMakeFiles/mysys.dir/my_lockmem.c.s
 
 mysys/CMakeFiles/mysys.dir/my_lockmem.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_lockmem.c.o.requires
@@ -1591,15 +1591,15 @@ mysys/CMakeFiles/mysys.dir/my_malloc.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_malloc.c.o: mysys/my_malloc.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_68)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_malloc.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_malloc.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_malloc.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_malloc.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_malloc.c
 
 mysys/CMakeFiles/mysys.dir/my_malloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_malloc.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_malloc.c > CMakeFiles/mysys.dir/my_malloc.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_malloc.c > CMakeFiles/mysys.dir/my_malloc.c.i
 
 mysys/CMakeFiles/mysys.dir/my_malloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_malloc.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_malloc.c -o CMakeFiles/mysys.dir/my_malloc.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_malloc.c -o CMakeFiles/mysys.dir/my_malloc.c.s
 
 mysys/CMakeFiles/mysys.dir/my_malloc.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_malloc.c.o.requires
@@ -1614,15 +1614,15 @@ mysys/CMakeFiles/mysys.dir/my_messnc.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_messnc.c.o: mysys/my_messnc.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_69)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_messnc.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_messnc.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_messnc.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_messnc.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_messnc.c
 
 mysys/CMakeFiles/mysys.dir/my_messnc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_messnc.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_messnc.c > CMakeFiles/mysys.dir/my_messnc.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_messnc.c > CMakeFiles/mysys.dir/my_messnc.c.i
 
 mysys/CMakeFiles/mysys.dir/my_messnc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_messnc.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_messnc.c -o CMakeFiles/mysys.dir/my_messnc.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_messnc.c -o CMakeFiles/mysys.dir/my_messnc.c.s
 
 mysys/CMakeFiles/mysys.dir/my_messnc.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_messnc.c.o.requires
@@ -1637,15 +1637,15 @@ mysys/CMakeFiles/mysys.dir/my_dup.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_dup.c.o: mysys/my_dup.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_70)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_dup.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_dup.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_dup.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_dup.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_dup.c
 
 mysys/CMakeFiles/mysys.dir/my_dup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_dup.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_dup.c > CMakeFiles/mysys.dir/my_dup.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_dup.c > CMakeFiles/mysys.dir/my_dup.c.i
 
 mysys/CMakeFiles/mysys.dir/my_dup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_dup.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_dup.c -o CMakeFiles/mysys.dir/my_dup.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_dup.c -o CMakeFiles/mysys.dir/my_dup.c.s
 
 mysys/CMakeFiles/mysys.dir/my_dup.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_dup.c.o.requires
@@ -1660,15 +1660,15 @@ mysys/CMakeFiles/mysys.dir/my_mkdir.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_mkdir.c.o: mysys/my_mkdir.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_71)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_mkdir.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_mkdir.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_mkdir.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_mkdir.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_mkdir.c
 
 mysys/CMakeFiles/mysys.dir/my_mkdir.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_mkdir.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_mkdir.c > CMakeFiles/mysys.dir/my_mkdir.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_mkdir.c > CMakeFiles/mysys.dir/my_mkdir.c.i
 
 mysys/CMakeFiles/mysys.dir/my_mkdir.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_mkdir.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_mkdir.c -o CMakeFiles/mysys.dir/my_mkdir.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_mkdir.c -o CMakeFiles/mysys.dir/my_mkdir.c.s
 
 mysys/CMakeFiles/mysys.dir/my_mkdir.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_mkdir.c.o.requires
@@ -1683,15 +1683,15 @@ mysys/CMakeFiles/mysys.dir/my_mmap.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_mmap.c.o: mysys/my_mmap.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_72)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_mmap.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_mmap.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_mmap.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_mmap.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_mmap.c
 
 mysys/CMakeFiles/mysys.dir/my_mmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_mmap.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_mmap.c > CMakeFiles/mysys.dir/my_mmap.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_mmap.c > CMakeFiles/mysys.dir/my_mmap.c.i
 
 mysys/CMakeFiles/mysys.dir/my_mmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_mmap.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_mmap.c -o CMakeFiles/mysys.dir/my_mmap.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_mmap.c -o CMakeFiles/mysys.dir/my_mmap.c.s
 
 mysys/CMakeFiles/mysys.dir/my_mmap.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_mmap.c.o.requires
@@ -1706,15 +1706,15 @@ mysys/CMakeFiles/mysys.dir/my_net.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_net.c.o: mysys/my_net.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_73)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_net.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_net.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_net.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_net.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_net.c
 
 mysys/CMakeFiles/mysys.dir/my_net.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_net.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_net.c > CMakeFiles/mysys.dir/my_net.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_net.c > CMakeFiles/mysys.dir/my_net.c.i
 
 mysys/CMakeFiles/mysys.dir/my_net.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_net.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_net.c -o CMakeFiles/mysys.dir/my_net.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_net.c -o CMakeFiles/mysys.dir/my_net.c.s
 
 mysys/CMakeFiles/mysys.dir/my_net.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_net.c.o.requires
@@ -1729,15 +1729,15 @@ mysys/CMakeFiles/mysys.dir/my_once.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_once.c.o: mysys/my_once.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_74)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_once.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_once.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_once.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_once.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_once.c
 
 mysys/CMakeFiles/mysys.dir/my_once.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_once.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_once.c > CMakeFiles/mysys.dir/my_once.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_once.c > CMakeFiles/mysys.dir/my_once.c.i
 
 mysys/CMakeFiles/mysys.dir/my_once.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_once.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_once.c -o CMakeFiles/mysys.dir/my_once.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_once.c -o CMakeFiles/mysys.dir/my_once.c.s
 
 mysys/CMakeFiles/mysys.dir/my_once.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_once.c.o.requires
@@ -1752,15 +1752,15 @@ mysys/CMakeFiles/mysys.dir/my_open.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_open.c.o: mysys/my_open.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_75)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_open.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_open.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_open.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_open.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_open.c
 
 mysys/CMakeFiles/mysys.dir/my_open.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_open.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_open.c > CMakeFiles/mysys.dir/my_open.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_open.c > CMakeFiles/mysys.dir/my_open.c.i
 
 mysys/CMakeFiles/mysys.dir/my_open.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_open.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_open.c -o CMakeFiles/mysys.dir/my_open.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_open.c -o CMakeFiles/mysys.dir/my_open.c.s
 
 mysys/CMakeFiles/mysys.dir/my_open.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_open.c.o.requires
@@ -1775,15 +1775,15 @@ mysys/CMakeFiles/mysys.dir/my_pread.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_pread.c.o: mysys/my_pread.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_76)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_pread.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_pread.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_pread.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_pread.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_pread.c
 
 mysys/CMakeFiles/mysys.dir/my_pread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_pread.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_pread.c > CMakeFiles/mysys.dir/my_pread.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_pread.c > CMakeFiles/mysys.dir/my_pread.c.i
 
 mysys/CMakeFiles/mysys.dir/my_pread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_pread.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_pread.c -o CMakeFiles/mysys.dir/my_pread.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_pread.c -o CMakeFiles/mysys.dir/my_pread.c.s
 
 mysys/CMakeFiles/mysys.dir/my_pread.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_pread.c.o.requires
@@ -1798,15 +1798,15 @@ mysys/CMakeFiles/mysys.dir/my_pthread.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_pthread.c.o: mysys/my_pthread.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_77)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_pthread.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_pthread.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_pthread.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_pthread.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_pthread.c
 
 mysys/CMakeFiles/mysys.dir/my_pthread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_pthread.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_pthread.c > CMakeFiles/mysys.dir/my_pthread.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_pthread.c > CMakeFiles/mysys.dir/my_pthread.c.i
 
 mysys/CMakeFiles/mysys.dir/my_pthread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_pthread.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_pthread.c -o CMakeFiles/mysys.dir/my_pthread.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_pthread.c -o CMakeFiles/mysys.dir/my_pthread.c.s
 
 mysys/CMakeFiles/mysys.dir/my_pthread.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_pthread.c.o.requires
@@ -1821,15 +1821,15 @@ mysys/CMakeFiles/mysys.dir/my_quick.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_quick.c.o: mysys/my_quick.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_78)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_quick.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_quick.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_quick.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_quick.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_quick.c
 
 mysys/CMakeFiles/mysys.dir/my_quick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_quick.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_quick.c > CMakeFiles/mysys.dir/my_quick.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_quick.c > CMakeFiles/mysys.dir/my_quick.c.i
 
 mysys/CMakeFiles/mysys.dir/my_quick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_quick.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_quick.c -o CMakeFiles/mysys.dir/my_quick.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_quick.c -o CMakeFiles/mysys.dir/my_quick.c.s
 
 mysys/CMakeFiles/mysys.dir/my_quick.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_quick.c.o.requires
@@ -1844,15 +1844,15 @@ mysys/CMakeFiles/mysys.dir/my_read.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_read.c.o: mysys/my_read.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_79)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_read.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_read.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_read.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_read.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_read.c
 
 mysys/CMakeFiles/mysys.dir/my_read.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_read.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_read.c > CMakeFiles/mysys.dir/my_read.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_read.c > CMakeFiles/mysys.dir/my_read.c.i
 
 mysys/CMakeFiles/mysys.dir/my_read.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_read.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_read.c -o CMakeFiles/mysys.dir/my_read.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_read.c -o CMakeFiles/mysys.dir/my_read.c.s
 
 mysys/CMakeFiles/mysys.dir/my_read.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_read.c.o.requires
@@ -1867,15 +1867,15 @@ mysys/CMakeFiles/mysys.dir/my_realloc.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_realloc.c.o: mysys/my_realloc.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_80)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_realloc.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_realloc.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_realloc.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_realloc.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_realloc.c
 
 mysys/CMakeFiles/mysys.dir/my_realloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_realloc.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_realloc.c > CMakeFiles/mysys.dir/my_realloc.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_realloc.c > CMakeFiles/mysys.dir/my_realloc.c.i
 
 mysys/CMakeFiles/mysys.dir/my_realloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_realloc.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_realloc.c -o CMakeFiles/mysys.dir/my_realloc.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_realloc.c -o CMakeFiles/mysys.dir/my_realloc.c.s
 
 mysys/CMakeFiles/mysys.dir/my_realloc.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_realloc.c.o.requires
@@ -1890,15 +1890,15 @@ mysys/CMakeFiles/mysys.dir/my_redel.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_redel.c.o: mysys/my_redel.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_81)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_redel.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_redel.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_redel.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_redel.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_redel.c
 
 mysys/CMakeFiles/mysys.dir/my_redel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_redel.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_redel.c > CMakeFiles/mysys.dir/my_redel.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_redel.c > CMakeFiles/mysys.dir/my_redel.c.i
 
 mysys/CMakeFiles/mysys.dir/my_redel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_redel.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_redel.c -o CMakeFiles/mysys.dir/my_redel.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_redel.c -o CMakeFiles/mysys.dir/my_redel.c.s
 
 mysys/CMakeFiles/mysys.dir/my_redel.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_redel.c.o.requires
@@ -1913,15 +1913,15 @@ mysys/CMakeFiles/mysys.dir/my_rename.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_rename.c.o: mysys/my_rename.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_82)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_rename.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_rename.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_rename.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_rename.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_rename.c
 
 mysys/CMakeFiles/mysys.dir/my_rename.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_rename.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_rename.c > CMakeFiles/mysys.dir/my_rename.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_rename.c > CMakeFiles/mysys.dir/my_rename.c.i
 
 mysys/CMakeFiles/mysys.dir/my_rename.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_rename.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_rename.c -o CMakeFiles/mysys.dir/my_rename.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_rename.c -o CMakeFiles/mysys.dir/my_rename.c.s
 
 mysys/CMakeFiles/mysys.dir/my_rename.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_rename.c.o.requires
@@ -1936,15 +1936,15 @@ mysys/CMakeFiles/mysys.dir/my_seek.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_seek.c.o: mysys/my_seek.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_83)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_seek.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_seek.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_seek.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_seek.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_seek.c
 
 mysys/CMakeFiles/mysys.dir/my_seek.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_seek.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_seek.c > CMakeFiles/mysys.dir/my_seek.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_seek.c > CMakeFiles/mysys.dir/my_seek.c.i
 
 mysys/CMakeFiles/mysys.dir/my_seek.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_seek.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_seek.c -o CMakeFiles/mysys.dir/my_seek.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_seek.c -o CMakeFiles/mysys.dir/my_seek.c.s
 
 mysys/CMakeFiles/mysys.dir/my_seek.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_seek.c.o.requires
@@ -1959,15 +1959,15 @@ mysys/CMakeFiles/mysys.dir/my_sleep.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_sleep.c.o: mysys/my_sleep.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_84)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_sleep.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_sleep.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_sleep.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_sleep.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_sleep.c
 
 mysys/CMakeFiles/mysys.dir/my_sleep.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_sleep.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_sleep.c > CMakeFiles/mysys.dir/my_sleep.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_sleep.c > CMakeFiles/mysys.dir/my_sleep.c.i
 
 mysys/CMakeFiles/mysys.dir/my_sleep.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_sleep.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_sleep.c -o CMakeFiles/mysys.dir/my_sleep.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_sleep.c -o CMakeFiles/mysys.dir/my_sleep.c.s
 
 mysys/CMakeFiles/mysys.dir/my_sleep.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_sleep.c.o.requires
@@ -1982,15 +1982,15 @@ mysys/CMakeFiles/mysys.dir/my_static.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_static.c.o: mysys/my_static.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_85)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_static.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_static.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_static.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_static.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_static.c
 
 mysys/CMakeFiles/mysys.dir/my_static.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_static.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_static.c > CMakeFiles/mysys.dir/my_static.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_static.c > CMakeFiles/mysys.dir/my_static.c.i
 
 mysys/CMakeFiles/mysys.dir/my_static.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_static.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_static.c -o CMakeFiles/mysys.dir/my_static.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_static.c -o CMakeFiles/mysys.dir/my_static.c.s
 
 mysys/CMakeFiles/mysys.dir/my_static.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_static.c.o.requires
@@ -2005,15 +2005,15 @@ mysys/CMakeFiles/mysys.dir/my_symlink.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_symlink.c.o: mysys/my_symlink.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_86)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_symlink.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_symlink.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_symlink.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_symlink.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_symlink.c
 
 mysys/CMakeFiles/mysys.dir/my_symlink.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_symlink.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_symlink.c > CMakeFiles/mysys.dir/my_symlink.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_symlink.c > CMakeFiles/mysys.dir/my_symlink.c.i
 
 mysys/CMakeFiles/mysys.dir/my_symlink.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_symlink.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_symlink.c -o CMakeFiles/mysys.dir/my_symlink.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_symlink.c -o CMakeFiles/mysys.dir/my_symlink.c.s
 
 mysys/CMakeFiles/mysys.dir/my_symlink.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_symlink.c.o.requires
@@ -2028,15 +2028,15 @@ mysys/CMakeFiles/mysys.dir/my_symlink2.c.o: mysys/CMakeFiles/mysys.dir/flags.mak
 mysys/CMakeFiles/mysys.dir/my_symlink2.c.o: mysys/my_symlink2.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_87)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_symlink2.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_symlink2.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_symlink2.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_symlink2.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_symlink2.c
 
 mysys/CMakeFiles/mysys.dir/my_symlink2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_symlink2.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_symlink2.c > CMakeFiles/mysys.dir/my_symlink2.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_symlink2.c > CMakeFiles/mysys.dir/my_symlink2.c.i
 
 mysys/CMakeFiles/mysys.dir/my_symlink2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_symlink2.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_symlink2.c -o CMakeFiles/mysys.dir/my_symlink2.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_symlink2.c -o CMakeFiles/mysys.dir/my_symlink2.c.s
 
 mysys/CMakeFiles/mysys.dir/my_symlink2.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_symlink2.c.o.requires
@@ -2051,15 +2051,15 @@ mysys/CMakeFiles/mysys.dir/my_sync.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_sync.c.o: mysys/my_sync.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_88)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_sync.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_sync.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_sync.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_sync.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_sync.c
 
 mysys/CMakeFiles/mysys.dir/my_sync.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_sync.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_sync.c > CMakeFiles/mysys.dir/my_sync.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_sync.c > CMakeFiles/mysys.dir/my_sync.c.i
 
 mysys/CMakeFiles/mysys.dir/my_sync.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_sync.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_sync.c -o CMakeFiles/mysys.dir/my_sync.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_sync.c -o CMakeFiles/mysys.dir/my_sync.c.s
 
 mysys/CMakeFiles/mysys.dir/my_sync.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_sync.c.o.requires
@@ -2074,15 +2074,15 @@ mysys/CMakeFiles/mysys.dir/my_thr_init.c.o: mysys/CMakeFiles/mysys.dir/flags.mak
 mysys/CMakeFiles/mysys.dir/my_thr_init.c.o: mysys/my_thr_init.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_89)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_thr_init.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_thr_init.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_thr_init.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_thr_init.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_thr_init.c
 
 mysys/CMakeFiles/mysys.dir/my_thr_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_thr_init.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_thr_init.c > CMakeFiles/mysys.dir/my_thr_init.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_thr_init.c > CMakeFiles/mysys.dir/my_thr_init.c.i
 
 mysys/CMakeFiles/mysys.dir/my_thr_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_thr_init.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_thr_init.c -o CMakeFiles/mysys.dir/my_thr_init.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_thr_init.c -o CMakeFiles/mysys.dir/my_thr_init.c.s
 
 mysys/CMakeFiles/mysys.dir/my_thr_init.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_thr_init.c.o.requires
@@ -2097,15 +2097,15 @@ mysys/CMakeFiles/mysys.dir/my_wincond.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_wincond.c.o: mysys/my_wincond.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_90)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_wincond.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_wincond.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_wincond.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_wincond.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_wincond.c
 
 mysys/CMakeFiles/mysys.dir/my_wincond.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_wincond.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_wincond.c > CMakeFiles/mysys.dir/my_wincond.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_wincond.c > CMakeFiles/mysys.dir/my_wincond.c.i
 
 mysys/CMakeFiles/mysys.dir/my_wincond.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_wincond.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_wincond.c -o CMakeFiles/mysys.dir/my_wincond.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_wincond.c -o CMakeFiles/mysys.dir/my_wincond.c.s
 
 mysys/CMakeFiles/mysys.dir/my_wincond.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_wincond.c.o.requires
@@ -2120,15 +2120,15 @@ mysys/CMakeFiles/mysys.dir/my_winerr.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_winerr.c.o: mysys/my_winerr.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_91)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_winerr.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_winerr.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_winerr.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_winerr.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_winerr.c
 
 mysys/CMakeFiles/mysys.dir/my_winerr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_winerr.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_winerr.c > CMakeFiles/mysys.dir/my_winerr.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_winerr.c > CMakeFiles/mysys.dir/my_winerr.c.i
 
 mysys/CMakeFiles/mysys.dir/my_winerr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_winerr.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_winerr.c -o CMakeFiles/mysys.dir/my_winerr.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_winerr.c -o CMakeFiles/mysys.dir/my_winerr.c.s
 
 mysys/CMakeFiles/mysys.dir/my_winerr.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_winerr.c.o.requires
@@ -2143,15 +2143,15 @@ mysys/CMakeFiles/mysys.dir/my_winfile.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_winfile.c.o: mysys/my_winfile.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_92)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_winfile.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_winfile.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_winfile.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_winfile.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_winfile.c
 
 mysys/CMakeFiles/mysys.dir/my_winfile.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_winfile.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_winfile.c > CMakeFiles/mysys.dir/my_winfile.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_winfile.c > CMakeFiles/mysys.dir/my_winfile.c.i
 
 mysys/CMakeFiles/mysys.dir/my_winfile.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_winfile.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_winfile.c -o CMakeFiles/mysys.dir/my_winfile.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_winfile.c -o CMakeFiles/mysys.dir/my_winfile.c.s
 
 mysys/CMakeFiles/mysys.dir/my_winfile.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_winfile.c.o.requires
@@ -2166,15 +2166,15 @@ mysys/CMakeFiles/mysys.dir/my_windac.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_windac.c.o: mysys/my_windac.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_93)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_windac.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_windac.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_windac.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_windac.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_windac.c
 
 mysys/CMakeFiles/mysys.dir/my_windac.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_windac.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_windac.c > CMakeFiles/mysys.dir/my_windac.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_windac.c > CMakeFiles/mysys.dir/my_windac.c.i
 
 mysys/CMakeFiles/mysys.dir/my_windac.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_windac.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_windac.c -o CMakeFiles/mysys.dir/my_windac.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_windac.c -o CMakeFiles/mysys.dir/my_windac.c.s
 
 mysys/CMakeFiles/mysys.dir/my_windac.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_windac.c.o.requires
@@ -2189,15 +2189,15 @@ mysys/CMakeFiles/mysys.dir/my_winthread.c.o: mysys/CMakeFiles/mysys.dir/flags.ma
 mysys/CMakeFiles/mysys.dir/my_winthread.c.o: mysys/my_winthread.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_94)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_winthread.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_winthread.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_winthread.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_winthread.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_winthread.c
 
 mysys/CMakeFiles/mysys.dir/my_winthread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_winthread.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_winthread.c > CMakeFiles/mysys.dir/my_winthread.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_winthread.c > CMakeFiles/mysys.dir/my_winthread.c.i
 
 mysys/CMakeFiles/mysys.dir/my_winthread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_winthread.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_winthread.c -o CMakeFiles/mysys.dir/my_winthread.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_winthread.c -o CMakeFiles/mysys.dir/my_winthread.c.s
 
 mysys/CMakeFiles/mysys.dir/my_winthread.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_winthread.c.o.requires
@@ -2212,15 +2212,15 @@ mysys/CMakeFiles/mysys.dir/my_write.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_write.c.o: mysys/my_write.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_95)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_write.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_write.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_write.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_write.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_write.c
 
 mysys/CMakeFiles/mysys.dir/my_write.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_write.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_write.c > CMakeFiles/mysys.dir/my_write.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_write.c > CMakeFiles/mysys.dir/my_write.c.i
 
 mysys/CMakeFiles/mysys.dir/my_write.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_write.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_write.c -o CMakeFiles/mysys.dir/my_write.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_write.c -o CMakeFiles/mysys.dir/my_write.c.s
 
 mysys/CMakeFiles/mysys.dir/my_write.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_write.c.o.requires
@@ -2235,15 +2235,15 @@ mysys/CMakeFiles/mysys.dir/ptr_cmp.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/ptr_cmp.c.o: mysys/ptr_cmp.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_96)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/ptr_cmp.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/ptr_cmp.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/ptr_cmp.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/ptr_cmp.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/ptr_cmp.c
 
 mysys/CMakeFiles/mysys.dir/ptr_cmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/ptr_cmp.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/ptr_cmp.c > CMakeFiles/mysys.dir/ptr_cmp.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/ptr_cmp.c > CMakeFiles/mysys.dir/ptr_cmp.c.i
 
 mysys/CMakeFiles/mysys.dir/ptr_cmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/ptr_cmp.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/ptr_cmp.c -o CMakeFiles/mysys.dir/ptr_cmp.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/ptr_cmp.c -o CMakeFiles/mysys.dir/ptr_cmp.c.s
 
 mysys/CMakeFiles/mysys.dir/ptr_cmp.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/ptr_cmp.c.o.requires
@@ -2258,15 +2258,15 @@ mysys/CMakeFiles/mysys.dir/queues.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/queues.c.o: mysys/queues.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_97)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/queues.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/queues.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/queues.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/queues.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/queues.c
 
 mysys/CMakeFiles/mysys.dir/queues.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/queues.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/queues.c > CMakeFiles/mysys.dir/queues.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/queues.c > CMakeFiles/mysys.dir/queues.c.i
 
 mysys/CMakeFiles/mysys.dir/queues.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/queues.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/queues.c -o CMakeFiles/mysys.dir/queues.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/queues.c -o CMakeFiles/mysys.dir/queues.c.s
 
 mysys/CMakeFiles/mysys.dir/queues.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/queues.c.o.requires
@@ -2281,15 +2281,15 @@ mysys/CMakeFiles/mysys.dir/stacktrace.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/stacktrace.c.o: mysys/stacktrace.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_98)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/stacktrace.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/stacktrace.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/stacktrace.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/stacktrace.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/stacktrace.c
 
 mysys/CMakeFiles/mysys.dir/stacktrace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/stacktrace.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/stacktrace.c > CMakeFiles/mysys.dir/stacktrace.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/stacktrace.c > CMakeFiles/mysys.dir/stacktrace.c.i
 
 mysys/CMakeFiles/mysys.dir/stacktrace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/stacktrace.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/stacktrace.c -o CMakeFiles/mysys.dir/stacktrace.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/stacktrace.c -o CMakeFiles/mysys.dir/stacktrace.c.s
 
 mysys/CMakeFiles/mysys.dir/stacktrace.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/stacktrace.c.o.requires
@@ -2304,15 +2304,15 @@ mysys/CMakeFiles/mysys.dir/rijndael.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/rijndael.c.o: mysys/rijndael.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_99)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/rijndael.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/rijndael.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/rijndael.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/rijndael.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/rijndael.c
 
 mysys/CMakeFiles/mysys.dir/rijndael.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/rijndael.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/rijndael.c > CMakeFiles/mysys.dir/rijndael.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/rijndael.c > CMakeFiles/mysys.dir/rijndael.c.i
 
 mysys/CMakeFiles/mysys.dir/rijndael.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/rijndael.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/rijndael.c -o CMakeFiles/mysys.dir/rijndael.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/rijndael.c -o CMakeFiles/mysys.dir/rijndael.c.s
 
 mysys/CMakeFiles/mysys.dir/rijndael.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/rijndael.c.o.requires
@@ -2327,15 +2327,15 @@ mysys/CMakeFiles/mysys.dir/safemalloc.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/safemalloc.c.o: mysys/safemalloc.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_100)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/safemalloc.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/safemalloc.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/safemalloc.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/safemalloc.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/safemalloc.c
 
 mysys/CMakeFiles/mysys.dir/safemalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/safemalloc.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/safemalloc.c > CMakeFiles/mysys.dir/safemalloc.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/safemalloc.c > CMakeFiles/mysys.dir/safemalloc.c.i
 
 mysys/CMakeFiles/mysys.dir/safemalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/safemalloc.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/safemalloc.c -o CMakeFiles/mysys.dir/safemalloc.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/safemalloc.c -o CMakeFiles/mysys.dir/safemalloc.c.s
 
 mysys/CMakeFiles/mysys.dir/safemalloc.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/safemalloc.c.o.requires
@@ -2350,15 +2350,15 @@ mysys/CMakeFiles/mysys.dir/sha1.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/sha1.c.o: mysys/sha1.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_101)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/sha1.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/sha1.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/sha1.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/sha1.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/sha1.c
 
 mysys/CMakeFiles/mysys.dir/sha1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/sha1.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/sha1.c > CMakeFiles/mysys.dir/sha1.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/sha1.c > CMakeFiles/mysys.dir/sha1.c.i
 
 mysys/CMakeFiles/mysys.dir/sha1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/sha1.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/sha1.c -o CMakeFiles/mysys.dir/sha1.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/sha1.c -o CMakeFiles/mysys.dir/sha1.c.s
 
 mysys/CMakeFiles/mysys.dir/sha1.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/sha1.c.o.requires
@@ -2373,15 +2373,15 @@ mysys/CMakeFiles/mysys.dir/string.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/string.c.o: mysys/string.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_102)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/string.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/string.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/string.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/string.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/string.c
 
 mysys/CMakeFiles/mysys.dir/string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/string.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/string.c > CMakeFiles/mysys.dir/string.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/string.c > CMakeFiles/mysys.dir/string.c.i
 
 mysys/CMakeFiles/mysys.dir/string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/string.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/string.c -o CMakeFiles/mysys.dir/string.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/string.c -o CMakeFiles/mysys.dir/string.c.s
 
 mysys/CMakeFiles/mysys.dir/string.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/string.c.o.requires
@@ -2396,15 +2396,15 @@ mysys/CMakeFiles/mysys.dir/thr_alarm.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/thr_alarm.c.o: mysys/thr_alarm.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_103)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/thr_alarm.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/thr_alarm.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_alarm.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/thr_alarm.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_alarm.c
 
 mysys/CMakeFiles/mysys.dir/thr_alarm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/thr_alarm.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_alarm.c > CMakeFiles/mysys.dir/thr_alarm.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_alarm.c > CMakeFiles/mysys.dir/thr_alarm.c.i
 
 mysys/CMakeFiles/mysys.dir/thr_alarm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/thr_alarm.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_alarm.c -o CMakeFiles/mysys.dir/thr_alarm.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_alarm.c -o CMakeFiles/mysys.dir/thr_alarm.c.s
 
 mysys/CMakeFiles/mysys.dir/thr_alarm.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/thr_alarm.c.o.requires
@@ -2419,15 +2419,15 @@ mysys/CMakeFiles/mysys.dir/thr_lock.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/thr_lock.c.o: mysys/thr_lock.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_104)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/thr_lock.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/thr_lock.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_lock.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/thr_lock.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_lock.c
 
 mysys/CMakeFiles/mysys.dir/thr_lock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/thr_lock.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_lock.c > CMakeFiles/mysys.dir/thr_lock.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_lock.c > CMakeFiles/mysys.dir/thr_lock.c.i
 
 mysys/CMakeFiles/mysys.dir/thr_lock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/thr_lock.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_lock.c -o CMakeFiles/mysys.dir/thr_lock.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_lock.c -o CMakeFiles/mysys.dir/thr_lock.c.s
 
 mysys/CMakeFiles/mysys.dir/thr_lock.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/thr_lock.c.o.requires
@@ -2442,15 +2442,15 @@ mysys/CMakeFiles/mysys.dir/thr_mutex.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/thr_mutex.c.o: mysys/thr_mutex.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_105)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/thr_mutex.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/thr_mutex.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_mutex.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/thr_mutex.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_mutex.c
 
 mysys/CMakeFiles/mysys.dir/thr_mutex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/thr_mutex.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_mutex.c > CMakeFiles/mysys.dir/thr_mutex.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_mutex.c > CMakeFiles/mysys.dir/thr_mutex.c.i
 
 mysys/CMakeFiles/mysys.dir/thr_mutex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/thr_mutex.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_mutex.c -o CMakeFiles/mysys.dir/thr_mutex.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_mutex.c -o CMakeFiles/mysys.dir/thr_mutex.c.s
 
 mysys/CMakeFiles/mysys.dir/thr_mutex.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/thr_mutex.c.o.requires
@@ -2465,15 +2465,15 @@ mysys/CMakeFiles/mysys.dir/thr_rwlock.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/thr_rwlock.c.o: mysys/thr_rwlock.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_106)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/thr_rwlock.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/thr_rwlock.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_rwlock.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/thr_rwlock.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_rwlock.c
 
 mysys/CMakeFiles/mysys.dir/thr_rwlock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/thr_rwlock.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_rwlock.c > CMakeFiles/mysys.dir/thr_rwlock.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_rwlock.c > CMakeFiles/mysys.dir/thr_rwlock.c.i
 
 mysys/CMakeFiles/mysys.dir/thr_rwlock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/thr_rwlock.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_rwlock.c -o CMakeFiles/mysys.dir/thr_rwlock.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/thr_rwlock.c -o CMakeFiles/mysys.dir/thr_rwlock.c.s
 
 mysys/CMakeFiles/mysys.dir/thr_rwlock.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/thr_rwlock.c.o.requires
@@ -2488,15 +2488,15 @@ mysys/CMakeFiles/mysys.dir/tree.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/tree.c.o: mysys/tree.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_107)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/tree.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/tree.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/tree.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/tree.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/tree.c
 
 mysys/CMakeFiles/mysys.dir/tree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/tree.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/tree.c > CMakeFiles/mysys.dir/tree.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/tree.c > CMakeFiles/mysys.dir/tree.c.i
 
 mysys/CMakeFiles/mysys.dir/tree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/tree.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/tree.c -o CMakeFiles/mysys.dir/tree.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/tree.c -o CMakeFiles/mysys.dir/tree.c.s
 
 mysys/CMakeFiles/mysys.dir/tree.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/tree.c.o.requires
@@ -2511,15 +2511,15 @@ mysys/CMakeFiles/mysys.dir/typelib.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/typelib.c.o: mysys/typelib.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_108)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/typelib.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/typelib.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/typelib.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/typelib.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/typelib.c
 
 mysys/CMakeFiles/mysys.dir/typelib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/typelib.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/typelib.c > CMakeFiles/mysys.dir/typelib.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/typelib.c > CMakeFiles/mysys.dir/typelib.c.i
 
 mysys/CMakeFiles/mysys.dir/typelib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/typelib.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/typelib.c -o CMakeFiles/mysys.dir/typelib.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/typelib.c -o CMakeFiles/mysys.dir/typelib.c.s
 
 mysys/CMakeFiles/mysys.dir/typelib.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/typelib.c.o.requires
@@ -2534,15 +2534,15 @@ mysys/CMakeFiles/mysys.dir/my_vle.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_vle.c.o: mysys/my_vle.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_109)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_vle.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_vle.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_vle.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_vle.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_vle.c
 
 mysys/CMakeFiles/mysys.dir/my_vle.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_vle.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_vle.c > CMakeFiles/mysys.dir/my_vle.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_vle.c > CMakeFiles/mysys.dir/my_vle.c.i
 
 mysys/CMakeFiles/mysys.dir/my_vle.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_vle.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_vle.c -o CMakeFiles/mysys.dir/my_vle.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_vle.c -o CMakeFiles/mysys.dir/my_vle.c.s
 
 mysys/CMakeFiles/mysys.dir/my_vle.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_vle.c.o.requires
@@ -2557,15 +2557,15 @@ mysys/CMakeFiles/mysys.dir/base64.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/base64.c.o: mysys/base64.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_110)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/base64.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/base64.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/base64.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/base64.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/base64.c
 
 mysys/CMakeFiles/mysys.dir/base64.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/base64.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/base64.c > CMakeFiles/mysys.dir/base64.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/base64.c > CMakeFiles/mysys.dir/base64.c.i
 
 mysys/CMakeFiles/mysys.dir/base64.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/base64.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/base64.c -o CMakeFiles/mysys.dir/base64.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/base64.c -o CMakeFiles/mysys.dir/base64.c.s
 
 mysys/CMakeFiles/mysys.dir/base64.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/base64.c.o.requires
@@ -2580,15 +2580,15 @@ mysys/CMakeFiles/mysys.dir/my_memmem.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_memmem.c.o: mysys/my_memmem.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_111)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_memmem.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_memmem.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_memmem.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_memmem.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_memmem.c
 
 mysys/CMakeFiles/mysys.dir/my_memmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_memmem.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_memmem.c > CMakeFiles/mysys.dir/my_memmem.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_memmem.c > CMakeFiles/mysys.dir/my_memmem.c.i
 
 mysys/CMakeFiles/mysys.dir/my_memmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_memmem.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_memmem.c -o CMakeFiles/mysys.dir/my_memmem.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_memmem.c -o CMakeFiles/mysys.dir/my_memmem.c.s
 
 mysys/CMakeFiles/mysys.dir/my_memmem.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_memmem.c.o.requires
@@ -2603,15 +2603,15 @@ mysys/CMakeFiles/mysys.dir/my_getpagesize.c.o: mysys/CMakeFiles/mysys.dir/flags.
 mysys/CMakeFiles/mysys.dir/my_getpagesize.c.o: mysys/my_getpagesize.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_112)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_getpagesize.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_getpagesize.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getpagesize.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_getpagesize.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getpagesize.c
 
 mysys/CMakeFiles/mysys.dir/my_getpagesize.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_getpagesize.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getpagesize.c > CMakeFiles/mysys.dir/my_getpagesize.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getpagesize.c > CMakeFiles/mysys.dir/my_getpagesize.c.i
 
 mysys/CMakeFiles/mysys.dir/my_getpagesize.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_getpagesize.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getpagesize.c -o CMakeFiles/mysys.dir/my_getpagesize.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getpagesize.c -o CMakeFiles/mysys.dir/my_getpagesize.c.s
 
 mysys/CMakeFiles/mysys.dir/my_getpagesize.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_getpagesize.c.o.requires
@@ -2626,15 +2626,15 @@ mysys/CMakeFiles/mysys.dir/lf_alloc-pin.c.o: mysys/CMakeFiles/mysys.dir/flags.ma
 mysys/CMakeFiles/mysys.dir/lf_alloc-pin.c.o: mysys/lf_alloc-pin.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_113)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/lf_alloc-pin.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/lf_alloc-pin.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/lf_alloc-pin.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/lf_alloc-pin.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/lf_alloc-pin.c
 
 mysys/CMakeFiles/mysys.dir/lf_alloc-pin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/lf_alloc-pin.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/lf_alloc-pin.c > CMakeFiles/mysys.dir/lf_alloc-pin.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/lf_alloc-pin.c > CMakeFiles/mysys.dir/lf_alloc-pin.c.i
 
 mysys/CMakeFiles/mysys.dir/lf_alloc-pin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/lf_alloc-pin.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/lf_alloc-pin.c -o CMakeFiles/mysys.dir/lf_alloc-pin.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/lf_alloc-pin.c -o CMakeFiles/mysys.dir/lf_alloc-pin.c.s
 
 mysys/CMakeFiles/mysys.dir/lf_alloc-pin.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/lf_alloc-pin.c.o.requires
@@ -2649,15 +2649,15 @@ mysys/CMakeFiles/mysys.dir/lf_dynarray.c.o: mysys/CMakeFiles/mysys.dir/flags.mak
 mysys/CMakeFiles/mysys.dir/lf_dynarray.c.o: mysys/lf_dynarray.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_114)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/lf_dynarray.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/lf_dynarray.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/lf_dynarray.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/lf_dynarray.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/lf_dynarray.c
 
 mysys/CMakeFiles/mysys.dir/lf_dynarray.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/lf_dynarray.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/lf_dynarray.c > CMakeFiles/mysys.dir/lf_dynarray.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/lf_dynarray.c > CMakeFiles/mysys.dir/lf_dynarray.c.i
 
 mysys/CMakeFiles/mysys.dir/lf_dynarray.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/lf_dynarray.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/lf_dynarray.c -o CMakeFiles/mysys.dir/lf_dynarray.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/lf_dynarray.c -o CMakeFiles/mysys.dir/lf_dynarray.c.s
 
 mysys/CMakeFiles/mysys.dir/lf_dynarray.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/lf_dynarray.c.o.requires
@@ -2672,15 +2672,15 @@ mysys/CMakeFiles/mysys.dir/lf_hash.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/lf_hash.c.o: mysys/lf_hash.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_115)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/lf_hash.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/lf_hash.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/lf_hash.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/lf_hash.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/lf_hash.c
 
 mysys/CMakeFiles/mysys.dir/lf_hash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/lf_hash.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/lf_hash.c > CMakeFiles/mysys.dir/lf_hash.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/lf_hash.c > CMakeFiles/mysys.dir/lf_hash.c.i
 
 mysys/CMakeFiles/mysys.dir/lf_hash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/lf_hash.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/lf_hash.c -o CMakeFiles/mysys.dir/lf_hash.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/lf_hash.c -o CMakeFiles/mysys.dir/lf_hash.c.s
 
 mysys/CMakeFiles/mysys.dir/lf_hash.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/lf_hash.c.o.requires
@@ -2695,15 +2695,15 @@ mysys/CMakeFiles/mysys.dir/my_atomic.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_atomic.c.o: mysys/my_atomic.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_116)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_atomic.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_atomic.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_atomic.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_atomic.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_atomic.c
 
 mysys/CMakeFiles/mysys.dir/my_atomic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_atomic.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_atomic.c > CMakeFiles/mysys.dir/my_atomic.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_atomic.c > CMakeFiles/mysys.dir/my_atomic.c.i
 
 mysys/CMakeFiles/mysys.dir/my_atomic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_atomic.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_atomic.c -o CMakeFiles/mysys.dir/my_atomic.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_atomic.c -o CMakeFiles/mysys.dir/my_atomic.c.s
 
 mysys/CMakeFiles/mysys.dir/my_atomic.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_atomic.c.o.requires
@@ -2718,15 +2718,15 @@ mysys/CMakeFiles/mysys.dir/my_getncpus.c.o: mysys/CMakeFiles/mysys.dir/flags.mak
 mysys/CMakeFiles/mysys.dir/my_getncpus.c.o: mysys/my_getncpus.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_117)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_getncpus.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_getncpus.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getncpus.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_getncpus.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getncpus.c
 
 mysys/CMakeFiles/mysys.dir/my_getncpus.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_getncpus.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getncpus.c > CMakeFiles/mysys.dir/my_getncpus.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getncpus.c > CMakeFiles/mysys.dir/my_getncpus.c.i
 
 mysys/CMakeFiles/mysys.dir/my_getncpus.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_getncpus.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getncpus.c -o CMakeFiles/mysys.dir/my_getncpus.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_getncpus.c -o CMakeFiles/mysys.dir/my_getncpus.c.s
 
 mysys/CMakeFiles/mysys.dir/my_getncpus.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_getncpus.c.o.requires
@@ -2741,15 +2741,15 @@ mysys/CMakeFiles/mysys.dir/my_rnd.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_rnd.c.o: mysys/my_rnd.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_118)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_rnd.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_rnd.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_rnd.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_rnd.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_rnd.c
 
 mysys/CMakeFiles/mysys.dir/my_rnd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_rnd.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_rnd.c > CMakeFiles/mysys.dir/my_rnd.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_rnd.c > CMakeFiles/mysys.dir/my_rnd.c.i
 
 mysys/CMakeFiles/mysys.dir/my_rnd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_rnd.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_rnd.c -o CMakeFiles/mysys.dir/my_rnd.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_rnd.c -o CMakeFiles/mysys.dir/my_rnd.c.s
 
 mysys/CMakeFiles/mysys.dir/my_rnd.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_rnd.c.o.requires
@@ -2764,15 +2764,15 @@ mysys/CMakeFiles/mysys.dir/my_uuid.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_uuid.c.o: mysys/my_uuid.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_119)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_uuid.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_uuid.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_uuid.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_uuid.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_uuid.c
 
 mysys/CMakeFiles/mysys.dir/my_uuid.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_uuid.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_uuid.c > CMakeFiles/mysys.dir/my_uuid.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_uuid.c > CMakeFiles/mysys.dir/my_uuid.c.i
 
 mysys/CMakeFiles/mysys.dir/my_uuid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_uuid.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_uuid.c -o CMakeFiles/mysys.dir/my_uuid.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_uuid.c -o CMakeFiles/mysys.dir/my_uuid.c.s
 
 mysys/CMakeFiles/mysys.dir/my_uuid.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_uuid.c.o.requires
@@ -2787,15 +2787,15 @@ mysys/CMakeFiles/mysys.dir/wqueue.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/wqueue.c.o: mysys/wqueue.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_120)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/wqueue.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/wqueue.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/wqueue.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/wqueue.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/wqueue.c
 
 mysys/CMakeFiles/mysys.dir/wqueue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/wqueue.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/wqueue.c > CMakeFiles/mysys.dir/wqueue.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/wqueue.c > CMakeFiles/mysys.dir/wqueue.c.i
 
 mysys/CMakeFiles/mysys.dir/wqueue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/wqueue.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/wqueue.c -o CMakeFiles/mysys.dir/wqueue.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/wqueue.c -o CMakeFiles/mysys.dir/wqueue.c.s
 
 mysys/CMakeFiles/mysys.dir/wqueue.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/wqueue.c.o.requires
@@ -2810,15 +2810,15 @@ mysys/CMakeFiles/mysys.dir/waiting_threads.c.o: mysys/CMakeFiles/mysys.dir/flags
 mysys/CMakeFiles/mysys.dir/waiting_threads.c.o: mysys/waiting_threads.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_121)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/waiting_threads.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/waiting_threads.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/waiting_threads.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/waiting_threads.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/waiting_threads.c
 
 mysys/CMakeFiles/mysys.dir/waiting_threads.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/waiting_threads.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/waiting_threads.c > CMakeFiles/mysys.dir/waiting_threads.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/waiting_threads.c > CMakeFiles/mysys.dir/waiting_threads.c.i
 
 mysys/CMakeFiles/mysys.dir/waiting_threads.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/waiting_threads.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/waiting_threads.c -o CMakeFiles/mysys.dir/waiting_threads.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/waiting_threads.c -o CMakeFiles/mysys.dir/waiting_threads.c.s
 
 mysys/CMakeFiles/mysys.dir/waiting_threads.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/waiting_threads.c.o.requires
@@ -2833,15 +2833,15 @@ mysys/CMakeFiles/mysys.dir/my_port.c.o: mysys/CMakeFiles/mysys.dir/flags.make
 mysys/CMakeFiles/mysys.dir/my_port.c.o: mysys/my_port.c
 	$(CMAKE_COMMAND) -E cmake_progress_report /media/pavel/projects/libmysql-android/libmysqlclient/CMakeFiles $(CMAKE_PROGRESS_122)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object mysys/CMakeFiles/mysys.dir/my_port.c.o"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_port.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_port.c
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/mysys.dir/my_port.c.o   -c /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_port.c
 
 mysys/CMakeFiles/mysys.dir/my_port.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysys.dir/my_port.c.i"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_port.c > CMakeFiles/mysys.dir/my_port.c.i
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_port.c > CMakeFiles/mysys.dir/my_port.c.i
 
 mysys/CMakeFiles/mysys.dir/my_port.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysys.dir/my_port.c.s"
-	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /media/pavel/android/standalone-toolchains/android-14/arm/bin/arm-linux-androideabi-gcc-4.6.3  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_port.c -o CMakeFiles/mysys.dir/my_port.c.s
+	cd /media/pavel/projects/libmysql-android/libmysqlclient/mysys && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /media/pavel/projects/libmysql-android/libmysqlclient/mysys/my_port.c -o CMakeFiles/mysys.dir/my_port.c.s
 
 mysys/CMakeFiles/mysys.dir/my_port.c.o.requires:
 .PHONY : mysys/CMakeFiles/mysys.dir/my_port.c.o.requires
