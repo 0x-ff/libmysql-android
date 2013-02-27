@@ -62,6 +62,28 @@ cmake 2.8.x:
 make libmysql
 make mysqlclient
 ```
+
+Важное замечание, если собираете для нескольких разных тулчейнов, перед тем как запускать команду `cmake`
+ОБЯЗАТЕЛЬНО удалите старый `CMakeCache.txt` руками иначе соберете для неверной архитектуры.
+
+```
+cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX=`pwd`/install -DCMAKE_TOOLCHAIN_FILE=<api level><arch>.cmake
+make libmysql
+make mysqlclient
+cp libmysql/libmysqlclient.a <install dir>/libmysqlclient.a
+cp libmysql/libmysql.so <install dir>/libmysql.so
+make clean
+
+unlink CMakeCache.txt
+
+cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX=`pwd`/install -DCMAKE_TOOLCHAIN_FILE=<other api level><other arch>.cmake
+make libmysql
+make mysqlclient
+cp libmysql/libmysqlclient.a <install dir>/libmysqlclient.a
+cp libmysql/libmysql.so <install dir>/libmysql.so
+make clean
+```
+
 6.
 Смотрим в каталог libmysql/ 
 там будет libmysql.so и mysqlclient.a
